@@ -26,6 +26,8 @@ const Bio = () => {
           author
           social {
             twitter
+            linkedin
+            github
           }
         }
       }
@@ -37,7 +39,7 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(1),
       }}
     >
       <Image
@@ -54,11 +56,19 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
         {` `}
+        Software Architect. Web Platform. JavaScript. Cloud. Information Security. Speaker. 
+        <br></br>
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          Twitter
+        </a>
+        {` | `}
+        <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
+          LinkedIn
+        </a>
+        {` | `}
+        <a href={`https://github.com/${social.github}`}>
+          GitHub
         </a>
       </p>
     </div>

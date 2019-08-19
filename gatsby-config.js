@@ -1,19 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `kevinhakanson.com`,
+    author: `Kevin Hakanson`,
+    description: `Kevin Hakanson's Blog`,
+    siteUrl: `https://kevinhakanson.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `hakanson`,
+      linkedin: `kevinhakanson`,
+      github: `hakanson`,
     },
   },
   plugins: [
     {
+      // https://www.gatsbyjs.org/packages/gatsby-source-filesystem/
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content/blog-posts-markdown/`,
         name: `blog`,
+        ignore: [`**/\.js`, `**/README\.md`],
       },
     },
     {
@@ -39,7 +43,24 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          // TODO: look at https://www.gatsbyjs.org/packages/gatsby-remark-vscode/ instad
+          {
+            // https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: { console: "bash" },
+              showLineNumbers: false,
+              noInlineHighlight: false,
+              languageExtensions: [],
+              prompt: {
+                user: "root",
+                host: "localhost",
+                global: false,
+              },
+            }
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -63,7 +84,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.jpg`,
       },
     },
     `gatsby-plugin-offline`,

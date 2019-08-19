@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hashtags from "../components/hashtags"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
@@ -36,6 +37,7 @@ class BlogPostTemplate extends React.Component {
               }}
             >
               {post.frontmatter.date}
+              <Hashtags tags={post.frontmatter.tags} />
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -62,14 +64,14 @@ class BlogPostTemplate extends React.Component {
             <li>
               {previous && (
                 <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
+                  ← previous
                 </Link>
               )}
             </li>
             <li>
               {next && (
                 <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
+                  next →
                 </Link>
               )}
             </li>
@@ -97,7 +99,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
+        tags
       }
     }
   }

@@ -1,0 +1,3 @@
+[submodule "content/blog-posts-markdown"]
+	path = content/blog-posts-markdown
+	url = https://github.com/hakanson/blog-posts-markdown.git

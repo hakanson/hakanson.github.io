@@ -19,7 +19,26 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <Layout location={`/tags/${tag}`} title={title}>
-    <SEO title="All posts" />
+    <SEO title={`#${tag}`} />
+    <nav>
+      <ul
+        style={{
+          display: `flex`,
+          flexWrap: `wrap`,
+          justifyContent: `space-between`,
+          listStyle: `none`,
+          padding: 0,
+          marginBottom: 0,
+        }}
+      >
+        <li>
+        <Link to="/">← All Posts</Link>
+        </li>
+        <li>
+        <Link to="/tags">All Tags →</Link>
+        </li>
+      </ul>
+    </nav>
     <div>
       <h1>{tagHeader}</h1>
       <ol>
@@ -36,11 +55,6 @@ const Tags = ({ pageContext, data }) => {
           )
         })}
       </ol>
-      {/*
-              This links to a page that does not yet exist.
-              We'll come back to it!
-            */}
-
     </div>
       <hr
         style={{
@@ -51,21 +65,7 @@ const Tags = ({ pageContext, data }) => {
         <Bio />
       </footer>
 
-      <nav>
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
-            <li>
-            <Link to="/tags">← All Tags</Link>
-            </li>
-          </ul>
-        </nav>
+
     </Layout>
   )
 }

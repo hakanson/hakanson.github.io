@@ -22,7 +22,23 @@ const TagsPage = ({
   },
 }) => (
     <Layout location="/tags" title={title}>
-        <SEO title="All tags" />
+        <SEO title="All Tags" />
+        <nav>
+          <ul
+            style={{
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
+              marginBottom: 0,
+            }}
+          >
+            <li>
+            <Link to="/">← All Posts</Link>
+            </li>
+          </ul>
+        </nav>
         <div>
         <h1>All Tags</h1>
         <ul>
@@ -43,6 +59,7 @@ const TagsPage = ({
         <footer>
             <Bio />
         </footer>
+
     </Layout>
 )
 

@@ -70,6 +70,11 @@ const Bio = () => {
         <a href={`https://github.com/${social.github}`}>
           GitHub
         </a>
+        {` | `}
+        <a href={`https://stackoverflow.com/users/22514/kevin-hakanson`}>
+          Stack Overflow
+        </a>
+        
       </p>
     </div>
   )

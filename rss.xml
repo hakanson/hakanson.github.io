@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Aug 2019 05:04:30 GMT</lastBuildDate><item><title><![CDATA[UML Sequence Diagrams using PlantUML]]></title><description><![CDATA[I’ve blogged before about text notation for UML Sequence Diagrams in WebSequenceDiagrams notation, but since we standardize on Lucidchart…]]></description><link>https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</link><guid isPermaLink="false">https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</guid><pubDate>Sun, 09 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve blogged before about text notation for UML Sequence Diagrams in &lt;a href=&quot;../2016-03-01-websequencediagrams-notation&quot;&gt;WebSequenceDiagrams notation&lt;/a&gt;, but since we standardize on Lucidchart for diagrams, I found they have &lt;a href=&quot;https://lucidchart.zendesk.com/hc/en-us/articles/208029986&quot;&gt;UML Sequence Markup&lt;/a&gt; support as well.  However, Lucidchart’s dialect looks to be based on &lt;a href=&quot;http://plantuml.com/index&quot;&gt;PlantUML&lt;/a&gt;.  For a better summary that I can provide, take please read &lt;a href=&quot;https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/&quot;&gt;Markdown native diagrams with PlantUML&lt;/a&gt;.  I decided to spin up the PlantUML docker image and take a look:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 20 Aug 2019 02:15:11 GMT</lastBuildDate><item><title><![CDATA[UML Sequence Diagrams using PlantUML]]></title><description><![CDATA[I’ve blogged before about text notation for UML Sequence Diagrams in WebSequenceDiagrams notation, but since we standardize on Lucidchart…]]></description><link>https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</link><guid isPermaLink="false">https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</guid><pubDate>Sun, 09 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve blogged before about text notation for UML Sequence Diagrams in &lt;a href=&quot;../2016-03-01-websequencediagrams-notation&quot;&gt;WebSequenceDiagrams notation&lt;/a&gt;, but since we standardize on Lucidchart for diagrams, I found they have &lt;a href=&quot;https://lucidchart.zendesk.com/hc/en-us/articles/208029986&quot;&gt;UML Sequence Markup&lt;/a&gt; support as well.  However, Lucidchart’s dialect looks to be based on &lt;a href=&quot;http://plantuml.com/index&quot;&gt;PlantUML&lt;/a&gt;.  For a better summary that I can provide, take please read &lt;a href=&quot;https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/&quot;&gt;Markdown native diagrams with PlantUML&lt;/a&gt;.  I decided to spin up the PlantUML docker image and take a look:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -d -p 8080:8080 plantuml/plantuml-server:jetty&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Because I love serverless, I used my ”&lt;a href=&quot;https://en.wiktionary.org/wiki/Google-fu&quot;&gt;google-fu&lt;/a&gt;” and found &lt;a href=&quot;https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:293246570391:applications~plantuml-render&quot;&gt;plantuml-render&lt;/a&gt; in the AWS Serverless Application Repository.  You can also try this interactively at &lt;a href=&quot;https://plantuml.nitorio.us/&quot;&gt;https://plantuml.nitorio.us/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Even more exciting to me was that since I have Visual Studio Code support for both Markdown and &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml&quot;&gt;PlantUML&lt;/a&gt;, this fenced code block rendered an image as expected.&lt;/p&gt;
@@ -79,8 +79,8 @@ arn:aws:sts::123456789012:assumed-role/REDACTED-ReadOnly/kevin.hakanson@example.
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 3&quot;
-        title=&quot;pastedImage 3&quot;
+        alt=&quot;Install Java 8 Update 211&quot;
+        title=&quot;Install Java 8 Update 211&quot;
         src=&quot;/static/d1dc67f3da39fe1be4de1000be1781ff/9488f/pastedImage_3.png&quot;
         srcset=&quot;/static/d1dc67f3da39fe1be4de1000be1781ff/cf440/pastedImage_3.png 148w,
 /static/d1dc67f3da39fe1be4de1000be1781ff/d2d38/pastedImage_3.png 295w,
@@ -108,8 +108,8 @@ arn:aws:sts::123456789012:assumed-role/REDACTED-ReadOnly/kevin.hakanson@example.
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 2&quot;
-        title=&quot;pastedImage 2&quot;
+        alt=&quot;Install Amazon Corretto 8&quot;
+        title=&quot;Install Amazon Corretto 8&quot;
         src=&quot;/static/2fa23a345b2cc1cc4be51bc9d4a54b73/c7805/pastedImage_2.png&quot;
         srcset=&quot;/static/2fa23a345b2cc1cc4be51bc9d4a54b73/cf440/pastedImage_2.png 148w,
 /static/2fa23a345b2cc1cc4be51bc9d4a54b73/d2d38/pastedImage_2.png 295w,
@@ -343,8 +343,8 @@ ARN &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 2&quot;
-        title=&quot;pastedImage 2&quot;
+        alt=&quot;DynamoDB Table Schema&quot;
+        title=&quot;DynamoDB Table Schema&quot;
         src=&quot;/static/d30867cc331fc8a4744ca37e7ea1f65f/b9e4f/pastedImage_2.png&quot;
         srcset=&quot;/static/d30867cc331fc8a4744ca37e7ea1f65f/cf440/pastedImage_2.png 148w,
 /static/d30867cc331fc8a4744ca37e7ea1f65f/d2d38/pastedImage_2.png 295w,
@@ -379,8 +379,8 @@ ARN &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 3&quot;
-        title=&quot;pastedImage 3&quot;
+        alt=&quot;Query Conditions&quot;
+        title=&quot;Query Conditions&quot;
         src=&quot;/static/46b99c2b941445dc8b0f0ec789157fed/b9e4f/pastedImage_3.png&quot;
         srcset=&quot;/static/46b99c2b941445dc8b0f0ec789157fed/cf440/pastedImage_3.png 148w,
 /static/46b99c2b941445dc8b0f0ec789157fed/d2d38/pastedImage_3.png 295w,
@@ -405,7 +405,11 @@ ARN &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html&quot;&gt;https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Cloud9 and Sharing with Role Issue]]></title><description><![CDATA[A co-worker and I were investigating AWS Cloud9 and the ability to share environments.  However, when you do a Window - Share… from inside…]]></description><link>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</link><guid isPermaLink="false">https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</guid><pubDate>Wed, 21 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A co-worker and I were investigating &lt;a href=&quot;https://aws.amazon.com/cloud9/&quot;&gt;AWS Cloud9&lt;/a&gt; and the ability to share environments.  However, when you do a &lt;strong&gt;Window - Share…&lt;/strong&gt; from inside the environment, you get this dialog:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html&quot;&gt;https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFront and Disaster Recovery: Part 2]]></title><description><![CDATA[Last year I wrote CloudFront and Disaster Recovery based on the ability to use Lambda@Edge to “generate HTTP responses when CloudFront…]]></description><link>https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</link><guid isPermaLink="false">https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</guid><pubDate>Wed, 21 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last year I wrote &lt;a href=&quot;../2017-12-12-cloudfront-and-disaster-recovery&quot;&gt;CloudFront and Disaster Recovery&lt;/a&gt; based on the ability to use Lambda@Edge to “generate HTTP responses when CloudFront viewer request or origin request events occur.”&lt;/p&gt;
+&lt;p&gt;This year &lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-cloudfront-announces-support-for-origin-failover/&quot;&gt;Amazon CloudFront announces support for Origin Failover&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;With CloudFront’s Origin Failover capability, you can setup two origins for your distributions - primary and secondary, such that your content is served from your secondary origin if CloudFront detects that your primary origin is unavailable. CloudFront already allows you to configure custom error pages or generate redirects with Lambda@Edge if your origin is unavailable. Now with Origin Failover, you can easily setup failover logic between combinations of AWS origins or non-AWS custom HTTP origins such that there is minimal interruption to your viewer’s experience. &lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[AWS Cloud9 and Sharing with Role Issue]]></title><description><![CDATA[A co-worker and I were investigating AWS Cloud9 and the ability to share environments.  However, when you do a Window - Share… from inside…]]></description><link>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</link><guid isPermaLink="false">https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</guid><pubDate>Wed, 21 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A co-worker and I were investigating &lt;a href=&quot;https://aws.amazon.com/cloud9/&quot;&gt;AWS Cloud9&lt;/a&gt; and the ability to share environments.  However, when you do a &lt;strong&gt;Window - Share…&lt;/strong&gt; from inside the environment, you get this dialog:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 379px;&quot;
@@ -514,11 +518,7 @@ $ aws cloud9 create-environment-membership &lt;span class=&quot;token punctuatio
 &lt;p&gt;All IAM actions that interact with roles are allowed only for role names starting with Cloud9-.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This looks like an AWS Enterprise Support question - but a lower priority because I have a workaround (and it is Thanksgiving tomorrow and re:Invent next week).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt;  Working with AWS Support, we realized I could add a role using the full arn via the UI. I closed my case with the suggestion that the “help text” on that “share this environment” screen should  be updated not just to reference “IAM username” but give an indication that a full ARN (include role) could be used.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFront and Disaster Recovery: Part 2]]></title><description><![CDATA[Last year I wrote CloudFront and Disaster Recovery based on the ability to use Lambda@Edge to “generate HTTP responses when CloudFront…]]></description><link>https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</link><guid isPermaLink="false">https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</guid><pubDate>Wed, 21 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last year I wrote &lt;a href=&quot;../2017-12-12-cloudfront-and-disaster-recovery&quot;&gt;CloudFront and Disaster Recovery&lt;/a&gt; based on the ability to use Lambda@Edge to “generate HTTP responses when CloudFront viewer request or origin request events occur.”&lt;/p&gt;
-&lt;p&gt;This year &lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-cloudfront-announces-support-for-origin-failover/&quot;&gt;Amazon CloudFront announces support for Origin Failover&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;With CloudFront’s Origin Failover capability, you can setup two origins for your distributions - primary and secondary, such that your content is served from your secondary origin if CloudFront detects that your primary origin is unavailable. CloudFront already allows you to configure custom error pages or generate redirects with Lambda@Edge if your origin is unavailable. Now with Origin Failover, you can easily setup failover logic between combinations of AWS origins or non-AWS custom HTTP origins such that there is minimal interruption to your viewer’s experience. &lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Excited about Azure SignalR Service/ASP.NET Core SignalR]]></title><description><![CDATA[I hadn’t been paying much attention to SignalR lately, but recently listened to .NET Rocks! SignalR with Anthony Chu and got excited.  I had…]]></description><link>https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</link><guid isPermaLink="false">https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</guid><pubDate>Thu, 08 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I hadn’t been paying much attention to SignalR lately, but recently listened to &lt;a href=&quot;https://dotnetrocks.com/?show=1583&quot;&gt;.NET Rocks! SignalR with Anthony Chu&lt;/a&gt; and got excited.  I had always liked the idea of SignalR, and it worked great for .NET based web applications, but I saw gaps for a distributed, multi-language, microservice model and the proprietary protocol.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt;  Working with AWS Support, we realized I could add a role using the full arn via the UI. I closed my case with the suggestion that the “help text” on that “share this environment” screen should  be updated not just to reference “IAM username” but give an indication that a full ARN (include role) could be used.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Excited about Azure SignalR Service/ASP.NET Core SignalR]]></title><description><![CDATA[I hadn’t been paying much attention to SignalR lately, but recently listened to .NET Rocks! SignalR with Anthony Chu and got excited.  I had…]]></description><link>https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</link><guid isPermaLink="false">https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</guid><pubDate>Thu, 08 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I hadn’t been paying much attention to SignalR lately, but recently listened to &lt;a href=&quot;https://dotnetrocks.com/?show=1583&quot;&gt;.NET Rocks! SignalR with Anthony Chu&lt;/a&gt; and got excited.  I had always liked the idea of SignalR, and it worked great for .NET based web applications, but I saw gaps for a distributed, multi-language, microservice model and the proprietary protocol.&lt;/p&gt;
 &lt;p&gt;However, with the re-write to .NET Core and the Microsoft Azure hosted &lt;a href=&quot;https://azure.microsoft.com/en-us/services/signalr-service/&quot;&gt;SignalR Service&lt;/a&gt;, it is worth taking another look.  The binary protocol has been written and open sourced, the service can run independent of your ASP.NET app, and the hosted model takes care of all the scaling and integrates with either your REST endpoints or Azure Functions.&lt;/p&gt;
 &lt;p&gt;Additional Links:&lt;/p&gt;
 &lt;ul&gt;
@@ -547,8 +547,8 @@ $ aws cloud9 create-environment-membership &lt;span class=&quot;token punctuatio
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 5&quot;
-        title=&quot;pastedImage 5&quot;
+        alt=&quot;full stack caching&quot;
+        title=&quot;full stack caching&quot;
         src=&quot;/static/060abe886d7de5d435e5ba957a004142/b9e4f/pastedImage_5.png&quot;
         srcset=&quot;/static/060abe886d7de5d435e5ba957a004142/cf440/pastedImage_5.png 148w,
 /static/060abe886d7de5d435e5ba957a004142/d2d38/pastedImage_5.png 295w,
@@ -600,10 +600,10 @@ $ aws cloud9 create-environment-membership &lt;span class=&quot;token punctuatio
 &lt;p&gt;“The XSS Filter is supposed to be on by default,” Heyes explained. “However, it is now off by default, and even if you try to turn it on with &lt;code class=&quot;language-text&quot;&gt;X-XSS-Protection: 1&lt;/code&gt; it remains off.”&lt;/p&gt;
 &lt;p&gt;“The only way to actually turn it on now is when you have the header &lt;code class=&quot;language-text&quot;&gt;X-XSS-Protection: 1; mode=block&lt;/code&gt;.”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;So, unless you are targeting IE11 (see &lt;a href=&quot;https://caniuse.com/#feat=contentsecuritypolicy&quot;&gt;https://caniuse.com/#feat=contentsecuritypolicy&lt;/a&gt;), it seems like it is time to embrace the &lt;a href=&quot;https://thehub.thomsonreuters.com/docs/DOC-2501378&quot;&gt;Content-Security-Policy HTTP Header&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Shield, ReadOnly, and "not authorized to perform: shield:GetSubscriptionState" work-around]]></title><description><![CDATA[As a “ReadOnly” user, if you go to try and look at https://console.aws.amazon.com/waf/home#/ddp/onboard/info, you may get blocked with this…]]></description><link>https://kevinhakanson.com/2018-09-06-aws-shield-readonly-and-not-authorized-to-perform-shieldgetsubscriptionstate-work-around</link><guid isPermaLink="false">https://kevinhakanson.com/2018-09-06-aws-shield-readonly-and-not-authorized-to-perform-shieldgetsubscriptionstate-work-around</guid><pubDate>Thu, 06 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;As a “ReadOnly” user, if you go to try and look at &lt;a href=&quot;https://console.aws.amazon.com/waf/home#/ddp/onboard/info&quot;&gt;https://console.aws.amazon.com/waf/home#/ddp/onboard/info&lt;/a&gt;, you may get blocked with this message:&lt;/p&gt;
+&lt;p&gt;So, unless you are targeting IE11 (see &lt;a href=&quot;https://caniuse.com/#feat=contentsecuritypolicy&quot;&gt;https://caniuse.com/#feat=contentsecuritypolicy&lt;/a&gt;), it seems like it is time to embrace the &lt;a href=&quot;../2018-04-27-content-security-policy-http-header-braindump&quot;&gt;Content-Security-Policy HTTP Header Braindump&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Shield, ReadOnly, and "not authorized to perform: shield:GetSubscriptionState" work-around]]></title><description><![CDATA[As a “ReadOnly” user, if you go to try and look at https://console.aws.amazon.com/waf/home#/ddp/onboard/info, you may get blocked with this…]]></description><link>https://kevinhakanson.com/2018-09-06-aws-shield-readonly-and-not-authorized-to-perform-shieldgetsubscriptionstate-work-around</link><guid isPermaLink="false">https://kevinhakanson.com/2018-09-06-aws-shield-readonly-and-not-authorized-to-perform-shieldgetsubscriptionstate-work-around</guid><pubDate>Thu, 06 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;As a “ReadOnly” user, if you go to try and look at &lt;a href=&quot;https://console.aws.amazon.com/waf/home#/ddp/onboard/info&quot;&gt;https://console.aws.amazon.com/waf/home#/ddp/onboard/info&lt;/a&gt;, you may get blocked with this message:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Identity and Access Management (IAM) policies currently restrict your access to the console. Contact your AWS administrator if you need help. If you are an AWS administrator, see the &lt;a href=&quot;http://docs.aws.amazon.com/waf/latest/developerguide/waf-iam.html&quot;&gt;AWS WAF documentation&lt;/a&gt;.  &lt;/p&gt;
-&lt;p&gt;User: arn:aws:sts::123456789012:assumed-role/projectID-ReadOnly/kevin.hakanson@example.com is not authorized to perform: shield:GetSubscriptionState on resource: arn:aws:shield::829215188275:subscription/*&lt;/p&gt;
+&lt;p&gt;User: arn:aws:sts::123456789012:assumed-role/projectID-ReadOnly/kevin.hakanson@example.com is not authorized to perform: shield:GetSubscriptionState on resource: arn:aws:shield::123456789012:subscription/*&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Jump directly to the summary page with &lt;a href=&quot;https://console.aws.amazon.com/waf/home#/ddp/summary&quot;&gt;https://console.aws.amazon.com/waf/home#/ddp/summary&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;You can also verify the AWS Shield subscription using the AWS CLI, but make sure to target the &lt;code class=&quot;language-text&quot;&gt;us-east-1&lt;/code&gt; region (see &lt;a href=&quot;https://docs.aws.amazon.com/general/latest/gr/rande.html#shield_region&quot;&gt;AWS Regions and Endpoints&lt;/a&gt;).&lt;/p&gt;
@@ -794,8 +794,8 @@ specifically detect, scale to absorb, and block malicious requests.”  &lt;a h
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 3&quot;
-        title=&quot;pastedImage 3&quot;
+        alt=&quot;Security Group Inbound rules&quot;
+        title=&quot;Security Group Inbound rules&quot;
         src=&quot;/static/4663d487b8153911103496908d6b4bc6/b9e4f/pastedImage_3.png&quot;
         srcset=&quot;/static/4663d487b8153911103496908d6b4bc6/cf440/pastedImage_3.png 148w,
 /static/4663d487b8153911103496908d6b4bc6/d2d38/pastedImage_3.png 295w,
@@ -830,8 +830,8 @@ specifically detect, scale to absorb, and block malicious requests.”  &lt;a h
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 4&quot;
-        title=&quot;pastedImage 4&quot;
+        alt=&quot;Security Group Inbound rules&quot;
+        title=&quot;Security Group Inbound rules&quot;
         src=&quot;/static/f5f1777a0001ecf7d99fc69879f0563f/b9e4f/pastedImage_4.png&quot;
         srcset=&quot;/static/f5f1777a0001ecf7d99fc69879f0563f/cf440/pastedImage_4.png 148w,
 /static/f5f1777a0001ecf7d99fc69879f0563f/d2d38/pastedImage_4.png 295w,
@@ -875,43 +875,38 @@ aws-cli/1.14.9 Python/2.7.14 Linux/4.14.47-56.37.amzn1.x86_64 botocore/1.8.13&lt
     &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;json&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dumps&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;caller_identity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; indent&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; __name__ &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    sys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Selecting an ElastiCache (Redis) AUTH token]]></title><description><![CDATA[Redis Security highlights some items about selecting an AUTH token (password). It should be long enough to prevent brute force attacks for…]]></description><link>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security&lt;/a&gt; highlights some items about selecting an AUTH token (password).&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It should be long enough to prevent brute force attacks for two reasons:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Redis is very fast at serving queries. Many passwords per second can be tested by an external client.&lt;/li&gt;
-&lt;li&gt;The Redis password is stored inside the &lt;code class=&quot;language-text&quot;&gt;redis.conf&lt;/code&gt; file and inside the client configuration, so it does not need to be remembered by the system administrator, and thus it can be very long.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;From &lt;a href=&quot;https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html&quot;&gt;Authenticating Users with Redis AUTH - Amazon ElastiCache for Redis&lt;/a&gt; we see some additional AUTH constraints.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;AUTH Token Constraints when using with ElastiCache&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Passwords must be at least 16 and a maximum of 128 printable characters.&lt;/li&gt;
-&lt;li&gt;The only permitted printable special characters are !, &amp;#x26;, #, $, ^, &amp;#x3C;, &gt;, and -. Other printable special characters cannot be used in the AUTH token.&lt;/li&gt;
-&lt;li&gt;AUTH can only be enabled when creating clusters where in-transit encryption is enabled.&lt;/li&gt;
-&lt;li&gt;The password set at cluster creation cannot be changed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Since the special character set is limited, it makes sense to avoid them but generate a very long password.  This also has the side benefit of allowing a “double click” on the string to select it (which is usually hard with interior punctuation).  Below is an AWS CLI command that uses &lt;a href=&quot;https://aws.amazon.com/secrets-manager/&quot;&gt;AWS Secrets Manager&lt;/a&gt; to generate that random string.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws secretsmanager get-random-password --password-length &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt; --exclude-punctuation 
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;RandomPassword&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;FiXWVSsPAJmA1y4c6E63pc9p4YgM4m0lJzTVeRZD0hyJTiYPqZD5YkToDxBHX9N2APQqhnqVXYNipIkErKByFD9Gx38rbF5vE80z28u2v9NGD9vZz6GtgnElS1yqAfMk&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This secret is needed in plaintext during ElasticCache creation.  It should then be KMS encrypted and stored  in Secrets Manager, the microservice needing access to Redis can retrieve it.&lt;/p&gt;
-&lt;p&gt;Note: I was glad to see the usage of &lt;code class=&quot;language-text&quot;&gt;time_independent_strcmp&lt;/code&gt; to avoid timing attacks in &lt;a href=&quot;https://github.com/antirez/redis/blob/3.2/src/server.c#L2683&quot;&gt;redis/server.c&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;authCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;client &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Client sent AUTH, but no password is set&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;time_independent_strcmp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;ptr&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;token function&quot;&gt;addReply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;shared&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;invalid password&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Making a secure connection to ElastiCache (Redis)]]></title><description><![CDATA[In Redis Security Investigation, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I…]]></description><link>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In &lt;a href=&quot;../2018-06-22-redis-security-investigation&quot;&gt;Redis Security Investigation&lt;/a&gt;, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I created to test against.  Note that instead of port 6379, I specified 6380 (which seems to be the common Redis “SSL” port).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;Redis%20Cluster%20Information&quot;&gt;&lt;/p&gt;
+    sys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Making a secure connection to ElastiCache (Redis)]]></title><description><![CDATA[In Redis Security Investigation, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I…]]></description><link>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In &lt;a href=&quot;../2018-06-22-redis-security-investigation&quot;&gt;Redis Security Investigation&lt;/a&gt;, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I created to test against.  Note that instead of port 6379, I specified 6380 (which seems to be the common Redis “SSL” port).&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0bace684c26c851bf3763ce568a6eeff/a987b/pastedImage_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.4375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABIUlEQVQoz11S2bKFIAzz///PXURBR9z35a2XdAbHcx8KTAlpmuKVSpEfRFQqTcYYquua0jQlrTUJISjPc44oiqgoChJFTkorvgNOSsl7HMfUti15jelIaEOZVNQ0DSe7rqNlWTjGcaS+7zmvbfFQxCR1Yc+aiyMcft938joLlDK31SUTArCuKx3HwYD7vjme56Hzusg0tovqF3PZPAIYDyRaV0ykrAK0DUXDMPB+nucbIIAVUDvP80vk7pkQl77vsw84u0pOmXuAHWqcvyBE/othQiwwNssyVjVN048qR7ZtG5MlSfLiy7Jk/9D+2zKqhWHIAEwTD7+qnAoowiSDIOBpwyI3CFjxKqyqir8EvgEU4vF/hY4USuA5ukAx1+635T+1L1h/F8lrCgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Redis Cluster Information&quot;
+        title=&quot;Redis Cluster Information&quot;
+        src=&quot;/static/0bace684c26c851bf3763ce568a6eeff/b9e4f/pastedImage_2.png&quot;
+        srcset=&quot;/static/0bace684c26c851bf3763ce568a6eeff/cf440/pastedImage_2.png 148w,
+/static/0bace684c26c851bf3763ce568a6eeff/d2d38/pastedImage_2.png 295w,
+/static/0bace684c26c851bf3763ce568a6eeff/b9e4f/pastedImage_2.png 590w,
+/static/0bace684c26c851bf3763ce568a6eeff/f9b6a/pastedImage_2.png 885w,
+/static/0bace684c26c851bf3763ce568a6eeff/2d849/pastedImage_2.png 1180w,
+/static/0bace684c26c851bf3763ce568a6eeff/a987b/pastedImage_2.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;However, the &lt;code class=&quot;language-text&quot;&gt;redis-cli&lt;/code&gt; doesn’t support encrypted connections so I had to install &lt;code class=&quot;language-text&quot;&gt;stunnel&lt;/code&gt; with help from &lt;a href=&quot;https://help.compose.com/docs/redis-and-redis-cli#section-using-redis-cli-with-ssltls&quot;&gt;Using redis-cli with SSL/TLS | Compose Help&lt;/a&gt; and &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/redis-cache/cache-how-to-redis-cli-tool&quot;&gt;How to use redis-cli with Azure Redis Cache | Microsoft Docs&lt;/a&gt; to create my &lt;code class=&quot;language-text&quot;&gt;stunnel.conf&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /etc/stunnel/stunnel.conf
 pid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /run/stunnel-redis.pid
@@ -966,7 +961,42 @@ value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; r&lt;span clas
     &lt;span class=&quot;token comment&quot;&gt;// Endpoints without an explicit port will use 6379 if ssl is not enabled, and 6380 if ssl is enabled&lt;/span&gt;
     Password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;[Redacted]&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     Ssl &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; True
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Redis Security Investigation]]></title><description><![CDATA[The Securing Redis section from the Redis Quick Start stresses applying network level security (firewalls), the  option (AUTH command), and…]]></description><link>https://kevinhakanson.com/2018-06-22-redis-security-investigation</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-22-redis-security-investigation</guid><pubDate>Fri, 22 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Securing Redis section from the &lt;a href=&quot;https://redis.io/topics/quickstart#securing-redis&quot;&gt;Redis Quick Start&lt;/a&gt; stresses applying network level security (firewalls), the &lt;code class=&quot;language-text&quot;&gt;requirepass&lt;/code&gt; option (&lt;a href=&quot;https://redis.io/commands/auth&quot;&gt;AUTH&lt;/a&gt; command), and SSL tunneling.  Additional details can be found by reading &lt;a href=&quot;http://antirez.com/news/96&quot;&gt;A few things about Redis security&lt;/a&gt; and &lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security – Redis&lt;/a&gt;.&lt;/p&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Selecting an ElastiCache (Redis) AUTH token]]></title><description><![CDATA[Redis Security highlights some items about selecting an AUTH token (password). It should be long enough to prevent brute force attacks for…]]></description><link>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security&lt;/a&gt; highlights some items about selecting an AUTH token (password).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It should be long enough to prevent brute force attacks for two reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redis is very fast at serving queries. Many passwords per second can be tested by an external client.&lt;/li&gt;
+&lt;li&gt;The Redis password is stored inside the &lt;code class=&quot;language-text&quot;&gt;redis.conf&lt;/code&gt; file and inside the client configuration, so it does not need to be remembered by the system administrator, and thus it can be very long.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From &lt;a href=&quot;https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html&quot;&gt;Authenticating Users with Redis AUTH - Amazon ElastiCache for Redis&lt;/a&gt; we see some additional AUTH constraints.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AUTH Token Constraints when using with ElastiCache&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Passwords must be at least 16 and a maximum of 128 printable characters.&lt;/li&gt;
+&lt;li&gt;The only permitted printable special characters are !, &amp;#x26;, #, $, ^, &amp;#x3C;, &gt;, and -. Other printable special characters cannot be used in the AUTH token.&lt;/li&gt;
+&lt;li&gt;AUTH can only be enabled when creating clusters where in-transit encryption is enabled.&lt;/li&gt;
+&lt;li&gt;The password set at cluster creation cannot be changed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since the special character set is limited, it makes sense to avoid them but generate a very long password.  This also has the side benefit of allowing a “double click” on the string to select it (which is usually hard with interior punctuation).  Below is an AWS CLI command that uses &lt;a href=&quot;https://aws.amazon.com/secrets-manager/&quot;&gt;AWS Secrets Manager&lt;/a&gt; to generate that random string.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws secretsmanager get-random-password --password-length &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt; --exclude-punctuation 
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;RandomPassword&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;FiXWVSsPAJmA1y4c6E63pc9p4YgM4m0lJzTVeRZD0hyJTiYPqZD5YkToDxBHX9N2APQqhnqVXYNipIkErKByFD9Gx38rbF5vE80z28u2v9NGD9vZz6GtgnElS1yqAfMk&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This secret is needed in plaintext during ElasticCache creation.  It should then be KMS encrypted and stored  in Secrets Manager, the microservice needing access to Redis can retrieve it.&lt;/p&gt;
+&lt;p&gt;Note: I was glad to see the usage of &lt;code class=&quot;language-text&quot;&gt;time_independent_strcmp&lt;/code&gt; to avoid timing attacks in &lt;a href=&quot;https://github.com/antirez/redis/blob/3.2/src/server.c#L2683&quot;&gt;redis/server.c&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;authCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;client &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Client sent AUTH, but no password is set&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;time_independent_strcmp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;ptr&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;addReply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;shared&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;invalid password&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Redis Security Investigation]]></title><description><![CDATA[The Securing Redis section from the Redis Quick Start stresses applying network level security (firewalls), the  option (AUTH command), and…]]></description><link>https://kevinhakanson.com/2018-06-22-redis-security-investigation</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-22-redis-security-investigation</guid><pubDate>Fri, 22 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Securing Redis section from the &lt;a href=&quot;https://redis.io/topics/quickstart#securing-redis&quot;&gt;Redis Quick Start&lt;/a&gt; stresses applying network level security (firewalls), the &lt;code class=&quot;language-text&quot;&gt;requirepass&lt;/code&gt; option (&lt;a href=&quot;https://redis.io/commands/auth&quot;&gt;AUTH&lt;/a&gt; command), and SSL tunneling.  Additional details can be found by reading &lt;a href=&quot;http://antirez.com/news/96&quot;&gt;A few things about Redis security&lt;/a&gt; and &lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security – Redis&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Amazon VPC Security Groups and the ElastiCache Subnet Groups provide network security.  For data security, Amazon ElastiCache for Redis supports each of In-Transit Encryption (TLS), At-Rest Encryption, and AUTH for clusters running Redis version 3.2.6.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/security/amazon-elasticache-now-supports-encryption-for-elasticache-for-redis/&quot;&gt;Now You Can Use Amazon ElastiCache for Redis with In-Transit and At-Rest Encryption to Help Protect Sensitive Information&lt;/a&gt;&lt;/li&gt;
@@ -1245,8 +1275,8 @@ Application Load Balancers and Classic Load Balancers support X-Forwarded-For, X
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 27&quot;
-        title=&quot;pastedImage 27&quot;
+        alt=&quot;Viewer Protocol Policy&quot;
+        title=&quot;Viewer Protocol Policy&quot;
         src=&quot;/static/85a127e5b9286ea7408fb16ea1f38f72/04e89/pastedImage_27.png&quot;
         srcset=&quot;/static/85a127e5b9286ea7408fb16ea1f38f72/cf440/pastedImage_27.png 148w,
 /static/85a127e5b9286ea7408fb16ea1f38f72/d2d38/pastedImage_27.png 295w,
@@ -1274,8 +1304,8 @@ Application Load Balancers and Classic Load Balancers support X-Forwarded-For, X
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 65&quot;
-        title=&quot;pastedImage 65&quot;
+        alt=&quot;ALB HTTP Listener settings&quot;
+        title=&quot;ALB HTTP Listener settings&quot;
         src=&quot;/static/5e9e4808e35ace6fe1f2819653449735/b9e4f/pastedImage_65.png&quot;
         srcset=&quot;/static/5e9e4808e35ace6fe1f2819653449735/cf440/pastedImage_65.png 148w,
 /static/5e9e4808e35ace6fe1f2819653449735/d2d38/pastedImage_65.png 295w,
@@ -1356,8 +1386,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
 &lt;/blockquote&gt;
 &lt;p&gt;For additional reading, take a look at:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://thehub.thomsonreuters.com/docs/DOC-2501378&quot;&gt;Content-Security-Policy HTTP Header&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://thehub.thomsonreuters.com/docs/DOC-2501375&quot;&gt;Referrer-Policy HTTP header&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../2018-04-27-content-security-policy-http-header-braindump&quot;&gt;Content-Security-Policy HTTP Header Braindump&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../2018-02-07-referrer-policy-http-header&quot;&gt;Referrer-Policy HTTP header&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Marking HTTP Pages as "Not Secure"]]></title><description><![CDATA[Chromium Blog: A secure web is here to stay put a deadline for marking HTTP as “Not Secure”: Beginning in July 2018 with the release of…]]></description><link>https://kevinhakanson.com/2018-02-09-marking-http-pages-as-not-secure</link><guid isPermaLink="false">https://kevinhakanson.com/2018-02-09-marking-http-pages-as-not-secure</guid><pubDate>Fri, 09 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://blog.chromium.org/2018/02/a-secure-web-is-here-to-stay.html&quot;&gt;Chromium Blog: A secure web is here to stay&lt;/a&gt; put a deadline for marking HTTP as “Not Secure”:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Beginning in July 2018 with the release of Chrome 68, Chrome will mark all HTTP sites as “not secure”.&lt;/p&gt;
@@ -1381,8 +1411,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 4&quot;
-        title=&quot;pastedImage 4&quot;
+        alt=&quot;Chrome settings&quot;
+        title=&quot;Chrome settings&quot;
         src=&quot;/static/0a7c028d84673a82740d81dfb2f46f14/b9e4f/pastedImage_4.png&quot;
         srcset=&quot;/static/0a7c028d84673a82740d81dfb2f46f14/cf440/pastedImage_4.png 148w,
 /static/0a7c028d84673a82740d81dfb2f46f14/d2d38/pastedImage_4.png 295w,
@@ -1410,8 +1440,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 6&quot;
-        title=&quot;pastedImage 6&quot;
+        alt=&quot;Chrome &amp;quot;Not Secure&amp;quot;&quot;
+        title=&quot;Chrome &amp;quot;Not Secure&amp;quot;&quot;
         src=&quot;/static/634a76ae560682624647c1146f064423/3e757/pastedImage_6.png&quot;
         srcset=&quot;/static/634a76ae560682624647c1146f064423/cf440/pastedImage_6.png 148w,
 /static/634a76ae560682624647c1146f064423/d2d38/pastedImage_6.png 295w,
@@ -1439,8 +1469,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 5&quot;
-        title=&quot;pastedImage 5&quot;
+        alt=&quot;Firefox settings&quot;
+        title=&quot;Firefox settings&quot;
         src=&quot;/static/cf178e7ce775a771f866b4f5fb91f10c/b9e4f/pastedImage_5.png&quot;
         srcset=&quot;/static/cf178e7ce775a771f866b4f5fb91f10c/cf440/pastedImage_5.png 148w,
 /static/cf178e7ce775a771f866b4f5fb91f10c/d2d38/pastedImage_5.png 295w,
@@ -1470,8 +1500,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 7&quot;
-        title=&quot;pastedImage 7&quot;
+        alt=&quot;Firefox &amp;quot;Not Secure&amp;quot;&quot;
+        title=&quot;Firefox &amp;quot;Not Secure&amp;quot;&quot;
         src=&quot;/static/f992e38f9c128dab4b030308a7f54c05/b9e4f/pastedImage_7.png&quot;
         srcset=&quot;/static/f992e38f9c128dab4b030308a7f54c05/cf440/pastedImage_7.png 148w,
 /static/f992e38f9c128dab4b030308a7f54c05/d2d38/pastedImage_7.png 295w,
@@ -1481,7 +1511,7 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What defines a known open source vulnerability?]]></title><description><![CDATA[What defines a known open source vulnerability? is an excerpt from Securing Open Source Libraries by Guy Podjarny that contains some…]]></description><link>https://kevinhakanson.com/2018-02-08-what-defines-a-known-open-source-vulnerability</link><guid isPermaLink="false">https://kevinhakanson.com/2018-02-08-what-defines-a-known-open-source-vulnerability</guid><pubDate>Thu, 08 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.oreilly.com/ideas/what-defines-a-known-open-source-vulnerability&quot;&gt;What defines a known open source vulnerability?&lt;/a&gt; is an excerpt from &lt;a href=&quot;https://thehub.thomsonreuters.com/people/0038137/blog/2018/01/16/securing-open-source-libraries-by-guy-podjarny&quot;&gt;Securing Open Source Libraries by Guy Podjarny&lt;/a&gt; that contains some interesting points I would like to highlight:&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What defines a known open source vulnerability?]]></title><description><![CDATA[What defines a known open source vulnerability? is an excerpt from Securing Open Source Libraries by Guy Podjarny that contains some…]]></description><link>https://kevinhakanson.com/2018-02-08-what-defines-a-known-open-source-vulnerability</link><guid isPermaLink="false">https://kevinhakanson.com/2018-02-08-what-defines-a-known-open-source-vulnerability</guid><pubDate>Thu, 08 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.oreilly.com/ideas/what-defines-a-known-open-source-vulnerability&quot;&gt;What defines a known open source vulnerability?&lt;/a&gt; is an excerpt from &lt;a href=&quot;https://learning.oreilly.com/library/view/securing-open-source/9781491996980/&quot;&gt;Securing Open Source Libraries by Guy Podjarny&lt;/a&gt; that contains some interesting points I would like to highlight:&lt;/p&gt;
 &lt;p&gt;A “known vulnerability” seems obvious…&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;At the most basic level, a vulnerability is deemed known as soon as it’s publicly posted in a reasonably easy to find location.&lt;/p&gt;
@@ -1508,7 +1538,9 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
 &lt;blockquote&gt;
 &lt;p&gt;Known vulnerabilities are not as simple as they initially appear. The definition of what’s considered known and the management of the vulnerability metadata are very hard to do well.&lt;/p&gt;
 &lt;p&gt;CVE and NVD work well for curating vulnerabilities in commercial products, but do not scale to the volume and ownership model of open source projects. Over time, these standards may evolve to meet this demand, but right now their coverage and detail level are not enough to protect your libraries.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[YAHOO! "Will be right back..." page]]></title><description><![CDATA[Today in an Architecture Strategy and Planning meeting, we were talking about a “Maintenance Mode” page that would indicate when our…]]></description><link>https://kevinhakanson.com/2018-02-05-yahoo-will-be-right-back-page</link><guid isPermaLink="false">https://kevinhakanson.com/2018-02-05-yahoo-will-be-right-back-page</guid><pubDate>Mon, 05 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today in an Architecture Strategy and Planning meeting, we were talking about a “Maintenance Mode” page that would indicate when our application was down (for planned or unplanned outages).  As fate would have it, I happened to see the YAHOO! version of this page moments later and was able to take a screenshot.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Referrer-Policy HTTP header]]></title><description><![CDATA[Referrer-Policy is one the security focused HTTP headers checked during Observatory by Mozilla scans.  Scott Helme talks about this in A new…]]></description><link>https://kevinhakanson.com/2018-02-07-referrer-policy-http-header</link><guid isPermaLink="false">https://kevinhakanson.com/2018-02-07-referrer-policy-http-header</guid><pubDate>Wed, 07 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy&quot;&gt;Referrer-Policy&lt;/a&gt; is one the security focused HTTP headers checked during &lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;Observatory by Mozilla&lt;/a&gt; scans.  Scott Helme talks about this in &lt;a href=&quot;https://scotthelme.co.uk/a-new-security-header-referrer-policy/&quot;&gt;A new security header: Referrer Policy&lt;/a&gt;, but his comment that you can set &lt;a href=&quot;https://scotthelme.co.uk/csp-cheat-sheet/#referrer&quot;&gt;Referrer Policy via the Content Security Policy&lt;/a&gt; is based on a &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/referrer&quot;&gt;CSP: referrer&lt;/a&gt; feature that had been deprecated.&lt;/p&gt;
+&lt;p&gt;Using &lt;code class=&quot;language-text&quot;&gt;Referrer-Policy: no-referrer&lt;/code&gt; is effectively setting &lt;a href=&quot;https://blog.whatwg.org/tag/rel#rel-noreferrer&quot;&gt;rel=noreferrer&lt;/a&gt; on every link and protects the most against information leakage.&lt;/p&gt;
+&lt;p&gt;Applications that need &lt;code class=&quot;language-text&quot;&gt;Referer&lt;/code&gt; header values sent to themselves should consider &lt;code class=&quot;language-text&quot;&gt;Referrer-Policy: same-origin&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[YAHOO! "Will be right back..." page]]></title><description><![CDATA[Today in an Architecture Strategy and Planning meeting, we were talking about a “Maintenance Mode” page that would indicate when our…]]></description><link>https://kevinhakanson.com/2018-02-05-yahoo-will-be-right-back-page</link><guid isPermaLink="false">https://kevinhakanson.com/2018-02-05-yahoo-will-be-right-back-page</guid><pubDate>Mon, 05 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today in an Architecture Strategy and Planning meeting, we were talking about a “Maintenance Mode” page that would indicate when our application was down (for planned or unplanned outages).  As fate would have it, I happened to see the YAHOO! version of this page moments later and was able to take a screenshot.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
@@ -1662,8 +1694,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 1&quot;
-        title=&quot;pastedImage 1&quot;
+        alt=&quot;AWS multi-region diagram&quot;
+        title=&quot;AWS multi-region diagram&quot;
         src=&quot;/static/a775e4d7d0e7c90e30e55b98670a98b0/b9e4f/pastedImage_1.png&quot;
         srcset=&quot;/static/a775e4d7d0e7c90e30e55b98670a98b0/cf440/pastedImage_1.png 148w,
 /static/a775e4d7d0e7c90e30e55b98670a98b0/d2d38/pastedImage_1.png 295w,
@@ -1701,8 +1733,8 @@ Content-Security-Policy: upgrade-insecure-requests;&lt;/code&gt;&lt;/pre&gt;&lt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 3&quot;
-        title=&quot;pastedImage 3&quot;
+        alt=&quot;Amazon SNS topic data flow&quot;
+        title=&quot;Amazon SNS topic data flow&quot;
         src=&quot;/static/de57a5e00e2055c8372f8d725f904190/b9e4f/pastedImage_3.png&quot;
         srcset=&quot;/static/de57a5e00e2055c8372f8d725f904190/cf440/pastedImage_3.png 148w,
 /static/de57a5e00e2055c8372f8d725f904190/d2d38/pastedImage_3.png 295w,
@@ -2119,7 +2151,7 @@ LOCATION &lt;span class=&quot;token string&quot;&gt;&apos;s3://123456789012-clou
 &lt;h2&gt;Customer Specific, Customer Managed Keys&lt;/h2&gt;
 &lt;p&gt;Similar to Managed Keys, the customer manages these keys in their AWS account (e.g., &lt;a href=&quot;https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html&quot;&gt;How to Use an External ID When Granting Access to Your AWS Resources to a Third Party&lt;/a&gt;).  This also introduces an operational dependency between our application the customer managed key, which could result in loss of functionality or data and would affect support and contractual agreements like service level agreement (SLA).  Customers would also need to understand that the application has access to the unencrypted data, and this does not imply separate application servers or processing engines.&lt;/p&gt;
 &lt;h2&gt;Pre Encryption&lt;/h2&gt;
-&lt;p&gt;With this option, Thomson Reuters never sees unencrypted versions of data. However, this results in significant functionality loss and treats applications like a raw data store.  Since no processing nor business value can be applied to the data, this has limited customer value as well.  This is an unlikely option.&lt;/p&gt;
+&lt;p&gt;With this option, applications never sees unencrypted versions of data. However, this results in significant functionality loss and treats applications like a raw data store.  Since no processing nor business value can be applied to the data, this has limited customer value as well.  This is an unlikely option.&lt;/p&gt;
 &lt;h2&gt;Diagram&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -2351,8 +2383,8 @@ Deleting role name helloworld-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 5&quot;
-        title=&quot;pastedImage 5&quot;
+        alt=&quot;knowledge pyramid&quot;
+        title=&quot;knowledge pyramid&quot;
         src=&quot;/static/2200bc78dda47d73e5987a2fc66a1b2c/e82b9/pastedImage_5.png&quot;
         srcset=&quot;/static/2200bc78dda47d73e5987a2fc66a1b2c/cf440/pastedImage_5.png 148w,
 /static/2200bc78dda47d73e5987a2fc66a1b2c/d2d38/pastedImage_5.png 295w,
@@ -2433,8 +2465,8 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 3&quot;
-        title=&quot;pastedImage 3&quot;
+        alt=&quot;Bitcoin fork&quot;
+        title=&quot;Bitcoin fork&quot;
         src=&quot;/static/13a9d6f499cd7ba2c271390af8413cf9/b9e4f/pastedImage_3.png&quot;
         srcset=&quot;/static/13a9d6f499cd7ba2c271390af8413cf9/cf440/pastedImage_3.png 148w,
 /static/13a9d6f499cd7ba2c271390af8413cf9/d2d38/pastedImage_3.png 295w,
@@ -2463,8 +2495,8 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 2&quot;
-        title=&quot;pastedImage 2&quot;
+        alt=&quot;RIP&quot;
+        title=&quot;RIP&quot;
         src=&quot;/static/63978a0418d57ebb74899a06d046fada/b9e4f/pastedImage_2.png&quot;
         srcset=&quot;/static/63978a0418d57ebb74899a06d046fada/cf440/pastedImage_2.png 148w,
 /static/63978a0418d57ebb74899a06d046fada/d2d38/pastedImage_2.png 295w,
@@ -2513,7 +2545,29 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://blog.parity.io/the-multi-sig-hack-a-postmortem/&quot;&gt;The developers here&lt;/a&gt; were a cross-collaboration between the Ethereum foundation (literally the creators of Ethereum), the Parity core team, and members of the open-source community. It underwent extensive peer review. This is basically the highest standard of [programming] that exists in the Ethereum ecosystem.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Not sure the takeaway here, other than to be cautious about over-committing on any blockchain / smart contract initiatives.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Penetration Testing, Secure Code Review, and Secure Design Review (Threat Modeling)]]></title><description><![CDATA[Software Security Initiative Capabilities: Getting Started mentions three common security capabilities: Penetration testing Code review Some…]]></description><link>https://kevinhakanson.com/2017-07-20-penetration-testing-secure-code-review-and-secure-design-review-threat-modeling</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-20-penetration-testing-secure-code-review-and-secure-design-review-threat-modeling</guid><pubDate>Thu, 20 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.synopsys.com/blogs/software-security/software-security-initiative-capabilities/&quot;&gt;Software Security Initiative Capabilities: Getting Started&lt;/a&gt; mentions three common security capabilities:&lt;/p&gt;
+&lt;p&gt;Not sure the takeaway here, other than to be cautious about over-committing on any blockchain / smart contract initiatives.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Application Security Testing: SAST, DAST, and IAST]]></title><description><![CDATA[Definitions from Magic Quadrant for Application Security Testing  Gartner defines the application security testing (AST) market as the…]]></description><link>https://kevinhakanson.com/2017-07-20-application-security-testing-sast-dast-and-iast</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-20-application-security-testing-sast-dast-and-iast</guid><pubDate>Thu, 20 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Definitions from &lt;a href=&quot;https://www.utest.com/articles/magic-quadrant-for-application-security-testing&quot;&gt;Magic Quadrant for Application Security Testing&lt;/a&gt; &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gartner defines the application security testing (AST) market as the buyers and sellers of products and services designed to analyze and test applications for security vulnerabilities. Gartner identifies three main styles of AST:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Static AST (SAST) technology analyzes an application’s source, bytecode or binary code for security vulnerabilities, typically at the programming and/or testing phases of the software development life cycle (SDLC).&lt;/li&gt;
+&lt;li&gt;Dynamic AST (DAST) technology analyzes applications in their dynamic running state during testing or operational phases. It simulates attacks against an application (typically web-enabled applications and services) and analyzes the application’s reactions to determine whether it is vulnerable.&lt;/li&gt;
+&lt;li&gt;Interactive AST (IAST) technology combines inside-out observation of a running application being tested with DAST simultaneously. It is typically implemented as an agent within the test runtime environment (for example, instrumenting the Java Virtual Machine [JVM] or .NET CLR) that observes operation or attacks from within the application and identifies vulnerabilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;How is Veracode?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Veracode is a well-established global AST provider with a strong presence in the North American market as well as presence in the European market. Veracode’s offering includes SAST, DAST and SCA cloud services, as well as IAST (and RASP).&lt;br&gt;
+In the last 12 months, Veracode launched Greenlight, a SAST service to be used early on in the development process by integrating into the IDE to scan an individual class or file. In addition to Greenlight, Veracode provides the Developer Sandbox, which can statically scan an application or component and measure results without impacting or penalizing developer metrics. Veracode focused some of its recent efforts on extending its language and framework support, as well as SDLC integration, and most recently it announced a single instrumentation agent to provide IAST and RASP capabilities.&lt;br&gt;
+Veracode will meet the requirements of organizations looking for a broad set of AST services and that want support for their AST and SCA from a third-party expert with a comprehensive AST solution.&lt;/p&gt;
+&lt;p&gt;STRENGTHS&lt;br&gt;
+Gartner clients highly rate the ease of use of the solution, as well as the vendor’s support and willingness to work with customer requirements.&lt;br&gt;
+Veracode provides a comprehensive AST-as-a-cloud service. The results of all types of testing can be integrated into a single dashboard to simplify vulnerability management and remediation.&lt;br&gt;
+For integration into SDLC processes, Veracode offers built-in integration with multiple IDEs, bug-tracking systems and build servers, as well as APIs for integration, Greenlight and the Developer Sandbox.&lt;/p&gt;
+&lt;p&gt;CAUTIONS&lt;br&gt;
+Veracode does not offer AST tools, only AST as a service, though it provides a virtual scan appliance that can be located on the client’s network to support discovery and testing of internal applications, with scanning configured and controlled via the cloud service.&lt;br&gt;
+Veracode SAST requires byte/binary code for analysis of compiled languages, such as Java, C/C# and Objective-C. This requires the application to be compiled before being shipped to Veracode for analysis.&lt;br&gt;
+Veracode’s IAST is still on early availability and needs to establish itself in the market.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Penetration Testing, Secure Code Review, and Secure Design Review (Threat Modeling)]]></title><description><![CDATA[Software Security Initiative Capabilities: Getting Started mentions three common security capabilities: Penetration testing Code review Some…]]></description><link>https://kevinhakanson.com/2017-07-20-penetration-testing-secure-code-review-and-secure-design-review-threat-modeling</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-20-penetration-testing-secure-code-review-and-secure-design-review-threat-modeling</guid><pubDate>Thu, 20 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.synopsys.com/blogs/software-security/software-security-initiative-capabilities/&quot;&gt;Software Security Initiative Capabilities: Getting Started&lt;/a&gt; mentions three common security capabilities:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Penetration testing&lt;/li&gt;
@@ -2539,8 +2593,8 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 12&quot;
-        title=&quot;pastedImage 12&quot;
+        alt=&quot;SAST vs DAST&quot;
+        title=&quot;SAST vs DAST&quot;
         src=&quot;/static/63436e44aa7881034a56e05efc83b43d/c739e/pastedImage_12.jpg&quot;
         srcset=&quot;/static/63436e44aa7881034a56e05efc83b43d/8ee9c/pastedImage_12.jpg 148w,
 /static/63436e44aa7881034a56e05efc83b43d/ebbe7/pastedImage_12.jpg 295w,
@@ -2550,7 +2604,8 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;](imagespastedImage_12.jpg)[&lt;span
+    &lt;/span&gt;
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -2567,8 +2622,8 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;6 most common threat modeling misconceptions 4 638&quot;
-        title=&quot;6 most common threat modeling misconceptions 4 638&quot;
+        alt=&quot;Security Defects Uncovered in Practice&quot;
+        title=&quot;Security Defects Uncovered in Practice&quot;
         src=&quot;/static/82d16e58557a5e252de1e0fb339376d5/c739e/6-most-common-threat-modeling-misconceptions-4-638.jpg&quot;
         srcset=&quot;/static/82d16e58557a5e252de1e0fb339376d5/8ee9c/6-most-common-threat-modeling-misconceptions-4-638.jpg 148w,
 /static/82d16e58557a5e252de1e0fb339376d5/ebbe7/6-most-common-threat-modeling-misconceptions-4-638.jpg 295w,
@@ -2586,29 +2641,7 @@ parent_span_id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reque
 &lt;li&gt;&lt;a href=&quot;https://www.safaribooksonline.com/library/view/threat-modeling-designing/9781118810057/&quot;&gt;Threat Modeling: Designing for Security [Book]&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/cisoplatform7/application-security-architecture-and-threat-modelling&quot;&gt;Application Security Architecture and Threat Modelling&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/Cigital/6-most-common-threat-modeling-misconceptions&quot;&gt;Shedding Light Onto the 6 Top Threat Modeling Misconceptions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Application Security Testing: SAST, DAST, and IAST]]></title><description><![CDATA[Definitions from Magic Quadrant for Application Security Testing  Gartner defines the application security testing (AST) market as the…]]></description><link>https://kevinhakanson.com/2017-07-20-application-security-testing-sast-dast-and-iast</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-20-application-security-testing-sast-dast-and-iast</guid><pubDate>Thu, 20 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Definitions from &lt;a href=&quot;https://www.utest.com/articles/magic-quadrant-for-application-security-testing&quot;&gt;Magic Quadrant for Application Security Testing&lt;/a&gt; &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Gartner defines the application security testing (AST) market as the buyers and sellers of products and services designed to analyze and test applications for security vulnerabilities. Gartner identifies three main styles of AST:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Static AST (SAST) technology analyzes an application’s source, bytecode or binary code for security vulnerabilities, typically at the programming and/or testing phases of the software development life cycle (SDLC).&lt;/li&gt;
-&lt;li&gt;Dynamic AST (DAST) technology analyzes applications in their dynamic running state during testing or operational phases. It simulates attacks against an application (typically web-enabled applications and services) and analyzes the application’s reactions to determine whether it is vulnerable.&lt;/li&gt;
-&lt;li&gt;Interactive AST (IAST) technology combines inside-out observation of a running application being tested with DAST simultaneously. It is typically implemented as an agent within the test runtime environment (for example, instrumenting the Java Virtual Machine [JVM] or .NET CLR) that observes operation or attacks from within the application and identifies vulnerabilities.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;How is Veracode?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Veracode is a well-established global AST provider with a strong presence in the North American market as well as presence in the European market. Veracode’s offering includes SAST, DAST and SCA cloud services, as well as IAST (and RASP).&lt;br&gt;
-In the last 12 months, Veracode launched Greenlight, a SAST service to be used early on in the development process by integrating into the IDE to scan an individual class or file. In addition to Greenlight, Veracode provides the Developer Sandbox, which can statically scan an application or component and measure results without impacting or penalizing developer metrics. Veracode focused some of its recent efforts on extending its language and framework support, as well as SDLC integration, and most recently it announced a single instrumentation agent to provide IAST and RASP capabilities.&lt;br&gt;
-Veracode will meet the requirements of organizations looking for a broad set of AST services and that want support for their AST and SCA from a third-party expert with a comprehensive AST solution.&lt;/p&gt;
-&lt;p&gt;STRENGTHS&lt;br&gt;
-Gartner clients highly rate the ease of use of the solution, as well as the vendor’s support and willingness to work with customer requirements.&lt;br&gt;
-Veracode provides a comprehensive AST-as-a-cloud service. The results of all types of testing can be integrated into a single dashboard to simplify vulnerability management and remediation.&lt;br&gt;
-For integration into SDLC processes, Veracode offers built-in integration with multiple IDEs, bug-tracking systems and build servers, as well as APIs for integration, Greenlight and the Developer Sandbox.&lt;/p&gt;
-&lt;p&gt;CAUTIONS&lt;br&gt;
-Veracode does not offer AST tools, only AST as a service, though it provides a virtual scan appliance that can be located on the client’s network to support discovery and testing of internal applications, with scanning configured and controlled via the cloud service.&lt;br&gt;
-Veracode SAST requires byte/binary code for analysis of compiled languages, such as Java, C/C# and Objective-C. This requires the application to be compiled before being shipped to Veracode for analysis.&lt;br&gt;
-Veracode’s IAST is still on early availability and needs to establish itself in the market.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Finding Publicly Exposed Amazon S3 Buckets]]></title><description><![CDATA[You may have read recent news about millions of Verizon customers having their data exposed (see Experts Warn Too Often AWS S3 Buckets Are…]]></description><link>https://kevinhakanson.com/2017-07-19-finding-publicly-exposed-amazon-s3-buckets</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-19-finding-publicly-exposed-amazon-s3-buckets</guid><pubDate>Wed, 19 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;You may have read recent news about millions of Verizon customers having their data exposed (see &lt;a href=&quot;https://threatpost.com/experts-warn-too-often-aws-s3-buckets-are-misconfigured-leak-data/126826/&quot;&gt;Experts Warn Too Often AWS S3 Buckets Are Misconfigured, Leak Data&lt;/a&gt;).&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Finding Publicly Exposed Amazon S3 Buckets]]></title><description><![CDATA[You may have read recent news about millions of Verizon customers having their data exposed (see Experts Warn Too Often AWS S3 Buckets Are…]]></description><link>https://kevinhakanson.com/2017-07-19-finding-publicly-exposed-amazon-s3-buckets</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-19-finding-publicly-exposed-amazon-s3-buckets</guid><pubDate>Wed, 19 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;You may have read recent news about millions of Verizon customers having their data exposed (see &lt;a href=&quot;https://threatpost.com/experts-warn-too-often-aws-s3-buckets-are-misconfigured-leak-data/126826/&quot;&gt;Experts Warn Too Often AWS S3 Buckets Are Misconfigured, Leak Data&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Possibly, people are confused about what the &lt;strong&gt;Authenticated Users group&lt;/strong&gt; means. From &lt;a href=&quot;http://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html&quot;&gt;Access Control List (ACL) Overview - Amazon Simple Storage Service&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Represented by &lt;a href=&quot;http://acs.amazonaws.com/groups/global/AuthenticatedUsers&quot;&gt;http://acs.amazonaws.com/groups/global/AuthenticatedUsers&lt;/a&gt;.&lt;br&gt;
@@ -2637,7 +2670,34 @@ $ jq &lt;span class=&quot;token string&quot;&gt;&apos;.[].Name&apos;&lt;/span&gt
     &lt;span class=&quot;token string&quot;&gt;&quot;project1-test-bucket1&quot;&lt;/span&gt;,
 &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;However, that list has 2 items vs. the 1 which Cloud Custodian found using its global-grants filter.  It appears that Cloud Custodian is filtering out buckets set up for website hosting (see &lt;a href=&quot;https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html&quot;&gt;Hosting a Static Website on Amazon S3&lt;/a&gt;), which seems like a valid result.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;images/pastedImage_140.png&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Geographical Center of the United States and IP Addresses]]></title><description><![CDATA[Do you remember Internet mapping turned a remote farm into a digital hell | Fusion? Some summary points from the article: When MaxMind was…]]></description><link>https://kevinhakanson.com/2017-07-06-the-geographical-center-of-the-united-states-and-ip-addresses</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-06-the-geographical-center-of-the-united-states-and-ip-addresses</guid><pubDate>Thu, 06 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you remember &lt;a href=&quot;http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/&quot;&gt;Internet mapping turned a remote farm into a digital hell | Fusion&lt;/a&gt;? Some summary points from the article:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 309px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c00af066905dc9e6e25efbdc3e7f3902/002e9/pastedImage_140.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.75728155339807%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACOklEQVQ4y51U23aaUBD19/srfepTH3tZiSYWVJSIgBqjiEgQUEDlvjtzbI0mvaz2rLU5hznDnpk9s2gEYYgkSQTiOEa43WK72wnwOYqi8138w0+8X3zD++FwwJb8G/zR71aNf1tBEKCxoQcvSZZxe9tEt9uFqj7AWlro9BTcNFvo9xXI0jd0lQE0bUTQMBiokCQZKu3zhSU4fN9Hw6MHL3ZqtVpot9voEKk5meDzl6/4RGiSXZYltKUOJmTv0X2zdQ9tqOGe7m6ady+EnOExy65SL+saeVWJkuv/KZkJdyRuxCCBQ2pIwM2hhvjctH2CNE2RkR+Lz+fj8SjAtizLLwgpzaws8bRYYKAOMCM9DMOApo/w+DTHw3Ao5JjOZljaK2h0t7QWGI+nME2TtLaF/Vwyj82BoxcFETwJ/XRjAt0ciwBj0sykszYyiGQszjoRjUYaetQkPwivS+Y5qkizI5HG+72YPd4TKq2kIGVZIM9zFMUJeV7QXpxLLqm6uq6vCcXMkbG+agwwXCXQnD3sMIVqJ3Cj/NfzekUYUYZVLSJdoihKRIcMyTFHmhVIUtrzknyrN2D/s4Zxcsqwqss/z0RdifK53NdgSTjL0xw++3j/7iPc+YaGWaeO6lCUPh4nU+q0gb6iwNB1Gp39izSvwFmeM9yFEe4+KEj8AzUkwHrtYrVyxE/B22zguvRu29SA9K+DLX4OztrBNg7x7LnYEEFAUVhcz/MoIr0HvojMxI7jUMD1G/y0W5aF78yvcluWQ5PnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;S3 Static website hosting&quot;
+        title=&quot;S3 Static website hosting&quot;
+        src=&quot;/static/c00af066905dc9e6e25efbdc3e7f3902/002e9/pastedImage_140.png&quot;
+        srcset=&quot;/static/c00af066905dc9e6e25efbdc3e7f3902/cf440/pastedImage_140.png 148w,
+/static/c00af066905dc9e6e25efbdc3e7f3902/d2d38/pastedImage_140.png 295w,
+/static/c00af066905dc9e6e25efbdc3e7f3902/002e9/pastedImage_140.png 309w&quot;
+        sizes=&quot;(max-width: 309px) 100vw, 309px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Geographical Center of the United States and IP Addresses]]></title><description><![CDATA[Do you remember Internet mapping turned a remote farm into a digital hell | Fusion? Some summary points from the article: When MaxMind was…]]></description><link>https://kevinhakanson.com/2017-07-06-the-geographical-center-of-the-united-states-and-ip-addresses</link><guid isPermaLink="false">https://kevinhakanson.com/2017-07-06-the-geographical-center-of-the-united-states-and-ip-addresses</guid><pubDate>Thu, 06 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you remember &lt;a href=&quot;http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/&quot;&gt;Internet mapping turned a remote farm into a digital hell | Fusion&lt;/a&gt;? Some summary points from the article:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;When MaxMind was first choosing the default point on its digital map for the center of the U.S., it decided to clean up the measurements and go with a simpler, nearby latitude and longitude: 38°N 97°W or 38.0000,-97.0000.&lt;/li&gt;
@@ -2664,8 +2724,8 @@ $ jq &lt;span class=&quot;token string&quot;&gt;&apos;.[].Name&apos;&lt;/span&gt
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 4&quot;
-        title=&quot;pastedImage 4&quot;
+        alt=&quot;Geolocation map&quot;
+        title=&quot;Geolocation map&quot;
         src=&quot;/static/4b7dfa19c42bf7009539d97111812f2b/8b59c/pastedImage_4.png&quot;
         srcset=&quot;/static/4b7dfa19c42bf7009539d97111812f2b/cf440/pastedImage_4.png 148w,
 /static/4b7dfa19c42bf7009539d97111812f2b/d2d38/pastedImage_4.png 295w,
@@ -3413,8 +3473,8 @@ $ aws iam get-policy-version &lt;span class=&quot;token punctuation&quot;&gt;\&l
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 1&quot;
-        title=&quot;pastedImage 1&quot;
+        alt=&quot;Chrome Developer Tools network requests&quot;
+        title=&quot;Chrome Developer Tools network requests&quot;
         src=&quot;/static/d7793201a9c07bc0f0474f84018d176a/b9e4f/pastedImage_1.png&quot;
         srcset=&quot;/static/d7793201a9c07bc0f0474f84018d176a/cf440/pastedImage_1.png 148w,
 /static/d7793201a9c07bc0f0474f84018d176a/d2d38/pastedImage_1.png 295w,
@@ -3446,8 +3506,8 @@ $ aws iam get-policy-version &lt;span class=&quot;token punctuation&quot;&gt;\&l
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 3&quot;
-        title=&quot;pastedImage 3&quot;
+        alt=&quot;Chrome Developer Tools&quot;
+        title=&quot;Chrome Developer Tools&quot;
         src=&quot;/static/0950e5b348f17c9d1ba4eff481d42f0f/10448/pastedImage_3.png&quot;
         srcset=&quot;/static/0950e5b348f17c9d1ba4eff481d42f0f/cf440/pastedImage_3.png 148w,
 /static/0950e5b348f17c9d1ba4eff481d42f0f/d2d38/pastedImage_3.png 295w,
@@ -3475,8 +3535,8 @@ $ aws iam get-policy-version &lt;span class=&quot;token punctuation&quot;&gt;\&l
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 2&quot;
-        title=&quot;pastedImage 2&quot;
+        alt=&quot;Chrome Developer Tools&quot;
+        title=&quot;Chrome Developer Tools&quot;
         src=&quot;/static/034cec88132160c2c967e417f1be88e2/308c1/pastedImage_2.png&quot;
         srcset=&quot;/static/034cec88132160c2c967e417f1be88e2/cf440/pastedImage_2.png 148w,
 /static/034cec88132160c2c967e417f1be88e2/d2d38/pastedImage_2.png 295w,
@@ -3653,7 +3713,7 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;“Alexa, enable Mars Rover Mission”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Alternatively, enable Mars Rover Mission via the Alexa app or at &lt;a href=&quot;https://www.amazon.com/dp/B01N002EZY&quot;&gt;Amazon.com: Mars Rover Mission: Alexa Skills&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/71k2KOc15YL.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/71k2KOc15YL.png&quot; alt=&quot;Mars Rover&quot;&gt;&lt;/p&gt;
 &lt;p&gt;If you want more of the technical details (including links to the JavaScript &lt;a href=&quot;https://github.com/kjhsoftware/mars-rover-mission&quot;&gt;code&lt;/a&gt;, how to cheat, and the &lt;a href=&quot;https://youtu.be/P4A-EMxqtuk&quot;&gt;demo video&lt;/a&gt; I recorded at 4 am), take a look at the project writeup:  &lt;a href=&quot;https://www.hackster.io/kevin-hakanson/mars-rover-mission-a-slow-paced-adventure-game-971ae2&quot;&gt;Mars Rover Mission: A slow paced adventure game. - Hackster.io&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;If you don’t own an Amazon Echo, and can’t buy one because they are out of stock, try out the browser based &lt;a href=&quot;https://echosim.io/&quot;&gt;Alexa Skill Testing Tool - Echosim.io&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -3702,8 +3762,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 6&quot;
-        title=&quot;pastedImage 6&quot;
+        alt=&quot;Input Interpretation: Zigzagoon&quot;
+        title=&quot;Input Interpretation: Zigzagoon&quot;
         src=&quot;/static/03dd1b11447860ddc0de24a04dd2a714/1bae2/pastedImage_6.png&quot;
         srcset=&quot;/static/03dd1b11447860ddc0de24a04dd2a714/cf440/pastedImage_6.png 148w,
 /static/03dd1b11447860ddc0de24a04dd2a714/d2d38/pastedImage_6.png 295w,
@@ -3731,8 +3791,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 4&quot;
-        title=&quot;pastedImage 4&quot;
+        alt=&quot;average height of generation iii pokemon&quot;
+        title=&quot;average height of generation iii pokemon&quot;
         src=&quot;/static/b55710b47e53c748d3c5c2577b1f2b9d/b9e4f/pastedImage_4.png&quot;
         srcset=&quot;/static/b55710b47e53c748d3c5c2577b1f2b9d/cf440/pastedImage_4.png 148w,
 /static/b55710b47e53c748d3c5c2577b1f2b9d/d2d38/pastedImage_4.png 295w,
@@ -3761,8 +3821,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 5&quot;
-        title=&quot;pastedImage 5&quot;
+        alt=&quot;Input Interpretation: Generation III Pokémon height&quot;
+        title=&quot;Input Interpretation: Generation III Pokémon height&quot;
         src=&quot;/static/bf0a345159bf4130edf866d768e6b1c0/0ac15/pastedImage_5.png&quot;
         srcset=&quot;/static/bf0a345159bf4130edf866d768e6b1c0/cf440/pastedImage_5.png 148w,
 /static/bf0a345159bf4130edf866d768e6b1c0/0ac15/pastedImage_5.png 283w&quot;
@@ -3793,8 +3853,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 4&quot;
-        title=&quot;pastedImage 4&quot;
+        alt=&quot;TOTP QR code&quot;
+        title=&quot;TOTP QR code&quot;
         src=&quot;/static/5c703823188a0b4a7cb9c4f8d3835a28/b8261/pastedImage_4.png&quot;
         srcset=&quot;/static/5c703823188a0b4a7cb9c4f8d3835a28/cf440/pastedImage_4.png 148w,
 /static/5c703823188a0b4a7cb9c4f8d3835a28/b8261/pastedImage_4.png 166w&quot;
@@ -3823,8 +3883,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 7&quot;
-        title=&quot;pastedImage 7&quot;
+        alt=&quot;Authy iOS app&quot;
+        title=&quot;Authy iOS app&quot;
         src=&quot;/static/8a9345888636dd331c9a14aa6c35d5a5/9ec3c/pastedImage_7.png&quot;
         srcset=&quot;/static/8a9345888636dd331c9a14aa6c35d5a5/cf440/pastedImage_7.png 148w,
 /static/8a9345888636dd331c9a14aa6c35d5a5/9ec3c/pastedImage_7.png 200w&quot;
@@ -3851,8 +3911,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 10&quot;
-        title=&quot;pastedImage 10&quot;
+        alt=&quot;Microsoft Authenticator iOS app&quot;
+        title=&quot;Microsoft Authenticator iOS app&quot;
         src=&quot;/static/addcba2ec2ff3c4530c534b40413585e/9ec3c/pastedImage_10.png&quot;
         srcset=&quot;/static/addcba2ec2ff3c4530c534b40413585e/cf440/pastedImage_10.png 148w,
 /static/addcba2ec2ff3c4530c534b40413585e/9ec3c/pastedImage_10.png 200w&quot;
@@ -3879,8 +3939,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 1&quot;
-        title=&quot;pastedImage 1&quot;
+        alt=&quot;LastPass Authenticator iOS app&quot;
+        title=&quot;LastPass Authenticator iOS app&quot;
         src=&quot;/static/0d077cf0d1c7e5b05023241c903d1189/9ec3c/pastedImage_1.png&quot;
         srcset=&quot;/static/0d077cf0d1c7e5b05023241c903d1189/cf440/pastedImage_1.png 148w,
 /static/0d077cf0d1c7e5b05023241c903d1189/9ec3c/pastedImage_1.png 200w&quot;
@@ -3907,8 +3967,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 14&quot;
-        title=&quot;pastedImage 14&quot;
+        alt=&quot;Google Authenticator iOS app&quot;
+        title=&quot;Google Authenticator iOS app&quot;
         src=&quot;/static/95e5673c1e7363a7a73368edf6a1dc94/9ec3c/pastedImage_14.png&quot;
         srcset=&quot;/static/95e5673c1e7363a7a73368edf6a1dc94/cf440/pastedImage_14.png 148w,
 /static/95e5673c1e7363a7a73368edf6a1dc94/9ec3c/pastedImage_14.png 200w&quot;
@@ -3936,8 +3996,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 13&quot;
-        title=&quot;pastedImage 13&quot;
+        alt=&quot;Office Space meme&quot;
+        title=&quot;Office Space meme&quot;
         src=&quot;/static/ac67cc127ccc27e091eb7e726eb91016/b9e4f/pastedImage_13.png&quot;
         srcset=&quot;/static/ac67cc127ccc27e091eb7e726eb91016/cf440/pastedImage_13.png 148w,
 /static/ac67cc127ccc27e091eb7e726eb91016/d2d38/pastedImage_13.png 295w,
@@ -3973,8 +4033,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 5&quot;
-        title=&quot;pastedImage 5&quot;
+        alt=&quot;Knowledge Worker sketch&quot;
+        title=&quot;Knowledge Worker sketch&quot;
         src=&quot;/static/d59da9986d2eefb8437940f4e673210e/b9e4f/pastedImage_5.png&quot;
         srcset=&quot;/static/d59da9986d2eefb8437940f4e673210e/cf440/pastedImage_5.png 148w,
 /static/d59da9986d2eefb8437940f4e673210e/d2d38/pastedImage_5.png 295w,
@@ -4097,8 +4157,8 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 2&quot;
-        title=&quot;pastedImage 2&quot;
+        alt=&quot;IAM role and Key pair name&quot;
+        title=&quot;IAM role and Key pair name&quot;
         src=&quot;/static/39b7f5e5d755fe4bf85cec837cb0618c/bb113/pastedImage_2.png&quot;
         srcset=&quot;/static/39b7f5e5d755fe4bf85cec837cb0618c/cf440/pastedImage_2.png 148w,
 /static/39b7f5e5d755fe4bf85cec837cb0618c/bb113/pastedImage_2.png 290w&quot;
@@ -4376,7 +4436,80 @@ Hello World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;  
     &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;  
-&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Categorizing Information Security Topics]]></title><description><![CDATA[“Security” as a topic or category can be confusing without additional context. This document attempts to categorize information security…]]></description><link>https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</link><guid isPermaLink="false">https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</guid><pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;“Security” as a topic or category can be confusing without additional context. This document attempts to categorize information security topics using industry standard groupings.&lt;/p&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Zipkin JS Investigation (Part 2)]]></title><description><![CDATA[The continuing story from my Zipkin JS Investigation My zipkin-js issue was fixed a couple days ago when zipkin-js/packages/zipkin-transport…]]></description><link>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</link><guid isPermaLink="false">https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</guid><pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The continuing story from my &lt;a href=&quot;../2016-06-10-zipkin-js-investigation&quot;&gt;Zipkin JS Investigation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My zipkin-js &lt;a href=&quot;https://github.com/openzipkin/zipkin-js/issues/15&quot;&gt;issue&lt;/a&gt; was fixed a couple days ago when &lt;a href=&quot;https://github.com/openzipkin/zipkin-js/tree/master/packages/zipkin-transport-http&quot;&gt;zipkin-js/packages/zipkin-transport-http&lt;/a&gt; landed, so I decided to revisit my test project and see how it works.&lt;/p&gt;
+&lt;p&gt;I updated my &lt;code class=&quot;language-text&quot;&gt;app.js&lt;/code&gt; to use &lt;code class=&quot;language-text&quot;&gt;BatchRecorder&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;HttpLogger&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Tracer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ExplicitContext&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; BatchRecorder&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;zipkin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;HttpLogger&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;zipkin-transport-http&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+  
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ctxImpl &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ExplicitContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; recorder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BatchRecorder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+  logger&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;HttpLogger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
+    endpoint&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;http://localhost:9411/api/v1/spans&apos;&lt;/span&gt;  
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; tracer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Tracer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;ctxImpl&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; recorder&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then using instructions from &lt;a href=&quot;http://zipkin.io/pages/quickstart.html&quot;&gt;Quickstart · OpenZipkin&lt;/a&gt;, I ran a docker command to get started, …&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d -p &lt;span class=&quot;token number&quot;&gt;9411&lt;/span&gt;:9411 openzipkin/zipkin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;… ran my recursive service code, …&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 343px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/97a0de583cde0bb7d4a2f0bbb764e199/f2ae8/pastedImage_24.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.24198250728863%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQY0z2Q226DMAyGef83o8vWUSHCISEJOdCuQl0nDkJ0+ufkYheWLfv350PWdR2apkmW5zmcc7jfv2CMBuccbdtCCAGlFKTsMQwDvPdJN4aA5/MHy7Jgnufks7rmKMsSVVWBMZaE0zQRoEdRFCkvhIR1NkHHccRgLeksAoG3bcNxHNj3Heu6Ioti7x3ipnGyJ2AUxpzRBtfb7X+zK8GiOarFvhB88kLKdNHj8Y3sdGLUqFHzCpfiQgVDAAnZS7A3ho5g8R2f5zO00hA0WBLknX3QOxoo0sdLYvx6/eIPA74iJB+VlTEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;browser screenshot&quot;
+        title=&quot;browser screenshot&quot;
+        src=&quot;/static/97a0de583cde0bb7d4a2f0bbb764e199/f2ae8/pastedImage_24.png&quot;
+        srcset=&quot;/static/97a0de583cde0bb7d4a2f0bbb764e199/cf440/pastedImage_24.png 148w,
+/static/97a0de583cde0bb7d4a2f0bbb764e199/d2d38/pastedImage_24.png 295w,
+/static/97a0de583cde0bb7d4a2f0bbb764e199/f2ae8/pastedImage_24.png 343w&quot;
+        sizes=&quot;(max-width: 343px) 100vw, 343px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;… and looked in zipkin to see the result:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0c58787a957cd5b96305f3f20441aec8/b5f89/pastedImage_0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 12.895662368112543%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQI1z2OQU7DMBBFcxbOyI5bgMQpEAdAcAAQYoXS0kKEoDRO08TUsXEzsf0wWTDS18z8J/2Z4qZquVrUvDTfGDNgnMdLQLUdzo9IhF3XZ2nyiEyBfa+xP37ezWBp9j3HKWXvSHFycUdxds3l/StMQvles/xo+Ows28PIRvu5KyOslOF5o/Nxy2rnWKiBdetmrp0gIVGcP1Sc3pY81Qf+SkJgFGHKn8SUiDExhTizN6V5XH/l0J5lDitrQ9Xafw6JX46q35nQqEhgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Zipkin trace&quot;
+        title=&quot;Zipkin trace&quot;
+        src=&quot;/static/0c58787a957cd5b96305f3f20441aec8/b9e4f/pastedImage_0.png&quot;
+        srcset=&quot;/static/0c58787a957cd5b96305f3f20441aec8/cf440/pastedImage_0.png 148w,
+/static/0c58787a957cd5b96305f3f20441aec8/d2d38/pastedImage_0.png 295w,
+/static/0c58787a957cd5b96305f3f20441aec8/b9e4f/pastedImage_0.png 590w,
+/static/0c58787a957cd5b96305f3f20441aec8/b5f89/pastedImage_0.png 853w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Categorizing Information Security Topics]]></title><description><![CDATA[“Security” as a topic or category can be confusing without additional context. This document attempts to categorize information security…]]></description><link>https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</link><guid isPermaLink="false">https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</guid><pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;“Security” as a topic or category can be confusing without additional context. This document attempts to categorize information security topics using industry standard groupings.&lt;/p&gt;
 &lt;p&gt;My internal cloud security group has created a plan which lists cloud security controls required, along with their ISO 27001 mappings. &lt;a href=&quot;http://www.iso27001security.com/html/27002.html&quot;&gt;ISO 27001&lt;/a&gt; groups security controls into various sections that we use in our policy framework as categories.  This list appears more Enterprise IT focused and includes:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;5: Information security policies&lt;br&gt;
@@ -4417,80 +4550,7 @@ Hello World!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;Operations (Issue Management; Environment Hardening; Operational Enablement)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The SAMM groupings might be the best mental modal for product teams.  However, these is still work in understanding how ISO 27001 controls fit into the responsibility matrix.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Zipkin JS Investigation (Part 2)]]></title><description><![CDATA[The continuing story from my Zipkin JS Investigation My zipkin-js issue was fixed a couple days ago when zipkin-js/packages/zipkin-transport…]]></description><link>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</link><guid isPermaLink="false">https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</guid><pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The continuing story from my &lt;a href=&quot;../2016-06-10-zipkin-js-investigation&quot;&gt;Zipkin JS Investigation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My zipkin-js &lt;a href=&quot;https://github.com/openzipkin/zipkin-js/issues/15&quot;&gt;issue&lt;/a&gt; was fixed a couple days ago when &lt;a href=&quot;https://github.com/openzipkin/zipkin-js/tree/master/packages/zipkin-transport-http&quot;&gt;zipkin-js/packages/zipkin-transport-http&lt;/a&gt; landed, so I decided to revisit my test project and see how it works.&lt;/p&gt;
-&lt;p&gt;I updated my &lt;code class=&quot;language-text&quot;&gt;app.js&lt;/code&gt; to use &lt;code class=&quot;language-text&quot;&gt;BatchRecorder&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;HttpLogger&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Tracer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ExplicitContext&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; BatchRecorder&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;zipkin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;HttpLogger&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;zipkin-transport-http&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
-  
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ctxImpl &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ExplicitContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; recorder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BatchRecorder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
-  logger&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;HttpLogger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;  
-    endpoint&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;http://localhost:9411/api/v1/spans&apos;&lt;/span&gt;  
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; tracer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Tracer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;ctxImpl&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; recorder&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Then using instructions from &lt;a href=&quot;http://zipkin.io/pages/quickstart.html&quot;&gt;Quickstart · OpenZipkin&lt;/a&gt;, I ran a docker command to get started, …&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d -p &lt;span class=&quot;token number&quot;&gt;9411&lt;/span&gt;:9411 openzipkin/zipkin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;… ran my recursive service code, …&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 343px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/97a0de583cde0bb7d4a2f0bbb764e199/f2ae8/pastedImage_24.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 19.24198250728863%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQY0z2Q226DMAyGef83o8vWUSHCISEJOdCuQl0nDkJ0+ufkYheWLfv350PWdR2apkmW5zmcc7jfv2CMBuccbdtCCAGlFKTsMQwDvPdJN4aA5/MHy7Jgnufks7rmKMsSVVWBMZaE0zQRoEdRFCkvhIR1NkHHccRgLeksAoG3bcNxHNj3Heu6Ioti7x3ipnGyJ2AUxpzRBtfb7X+zK8GiOarFvhB88kLKdNHj8Y3sdGLUqFHzCpfiQgVDAAnZS7A3ho5g8R2f5zO00hA0WBLknX3QOxoo0sdLYvx6/eIPA74iJB+VlTEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 24&quot;
-        title=&quot;pastedImage 24&quot;
-        src=&quot;/static/97a0de583cde0bb7d4a2f0bbb764e199/f2ae8/pastedImage_24.png&quot;
-        srcset=&quot;/static/97a0de583cde0bb7d4a2f0bbb764e199/cf440/pastedImage_24.png 148w,
-/static/97a0de583cde0bb7d4a2f0bbb764e199/d2d38/pastedImage_24.png 295w,
-/static/97a0de583cde0bb7d4a2f0bbb764e199/f2ae8/pastedImage_24.png 343w&quot;
-        sizes=&quot;(max-width: 343px) 100vw, 343px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;… and looked in zipkin to see the result:&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0c58787a957cd5b96305f3f20441aec8/b5f89/pastedImage_0.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 12.895662368112543%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQI1z2OQU7DMBBFcxbOyI5bgMQpEAdAcAAQYoXS0kKEoDRO08TUsXEzsf0wWTDS18z8J/2Z4qZquVrUvDTfGDNgnMdLQLUdzo9IhF3XZ2nyiEyBfa+xP37ezWBp9j3HKWXvSHFycUdxds3l/StMQvles/xo+Ows28PIRvu5KyOslOF5o/Nxy2rnWKiBdetmrp0gIVGcP1Sc3pY81Qf+SkJgFGHKn8SUiDExhTizN6V5XH/l0J5lDitrQ9Xafw6JX46q35nQqEhgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 0&quot;
-        title=&quot;pastedImage 0&quot;
-        src=&quot;/static/0c58787a957cd5b96305f3f20441aec8/b9e4f/pastedImage_0.png&quot;
-        srcset=&quot;/static/0c58787a957cd5b96305f3f20441aec8/cf440/pastedImage_0.png 148w,
-/static/0c58787a957cd5b96305f3f20441aec8/d2d38/pastedImage_0.png 295w,
-/static/0c58787a957cd5b96305f3f20441aec8/b9e4f/pastedImage_0.png 590w,
-/static/0c58787a957cd5b96305f3f20441aec8/b5f89/pastedImage_0.png 853w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pokemon Go vs. Certificate Pinning]]></title><description><![CDATA[Saw this Tweet from @notdan about the Pokémon Go video game and their lack of certificate pinning:  At first, I thought “duh, of course…]]></description><link>https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</link><guid isPermaLink="false">https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</guid><pubDate>Mon, 11 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Saw this Tweet from &lt;a href=&quot;https://twitter.com/notdan&quot;&gt;@notdan&lt;/a&gt; about the &lt;a href=&quot;http://www.pokemon.com/us/pokemon-video-games/pokemon-go/&quot;&gt;Pokémon Go&lt;/a&gt; video game and their lack of certificate pinning:&lt;/p&gt;
+&lt;p&gt;The SAMM groupings might be the best mental modal for product teams.  However, these is still work in understanding how ISO 27001 controls fit into the responsibility matrix.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pokemon Go vs. Certificate Pinning]]></title><description><![CDATA[Saw this Tweet from @notdan about the Pokémon Go video game and their lack of certificate pinning:  At first, I thought “duh, of course…]]></description><link>https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</link><guid isPermaLink="false">https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</guid><pubDate>Mon, 11 Jul 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Saw this Tweet from &lt;a href=&quot;https://twitter.com/notdan&quot;&gt;@notdan&lt;/a&gt; about the &lt;a href=&quot;http://www.pokemon.com/us/pokemon-video-games/pokemon-go/&quot;&gt;Pokémon Go&lt;/a&gt; video game and their lack of certificate pinning:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 576px;&quot;
@@ -4853,8 +4913,8 @@ d--&amp;gt;-c:  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><i
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;pastedImage 2&quot;
-        title=&quot;pastedImage 2&quot;
+        alt=&quot;Cross Region Replication&quot;
+        title=&quot;Cross Region Replication&quot;
         src=&quot;/static/76f096d6e958e2d2202568554d56a253/37e1f/pastedImage_2.png&quot;
         srcset=&quot;/static/76f096d6e958e2d2202568554d56a253/cf440/pastedImage_2.png 148w,
 /static/76f096d6e958e2d2202568554d56a253/d2d38/pastedImage_2.png 295w,
@@ -5687,7 +5747,7 @@ Object &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;locale&lt;s
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Intl&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;NumberFormat&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hi&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;num&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;token string&quot;&gt;&quot;१,२३,४५,६७,८९०&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The formatting mystery has been solved.  If I continued, I would look at how to parse these same formatted numbers and dates in JavaScript.  I am less confident about that.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I was a victim of internet plagiarism]]></title><description><![CDATA[I often present at developer-focused conferences and user groups on JavaScript and web platform topics.  One presentation I give is on…]]></description><link>https://kevinhakanson.com/2014-09-23-i-was-a-victim-of-internet-plagiarism</link><guid isPermaLink="false">https://kevinhakanson.com/2014-09-23-i-was-a-victim-of-internet-plagiarism</guid><pubDate>Tue, 23 Sep 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I often present at developer-focused conferences and user groups on JavaScript and web platform topics.  One presentation I give is on JavaScript Internationalization (initially at the 2013 &lt;a href=&quot;https://thehub.thomsonreuters.com/groups/eagan-technology-unconference&quot;&gt;MSP Technology Unconference&lt;/a&gt; and most recently this summer at &lt;a href=&quot;https://www.thatconference.com/sessions/session/2235&quot;&gt;That Conference&lt;/a&gt;).  My title and abstract are below.&lt;/p&gt;
+&lt;p&gt;The formatting mystery has been solved.  If I continued, I would look at how to parse these same formatted numbers and dates in JavaScript.  I am less confident about that.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I was a victim of internet plagiarism]]></title><description><![CDATA[I often present at developer-focused conferences and user groups on JavaScript and web platform topics.  One presentation I give is on…]]></description><link>https://kevinhakanson.com/2014-09-23-i-was-a-victim-of-internet-plagiarism</link><guid isPermaLink="false">https://kevinhakanson.com/2014-09-23-i-was-a-victim-of-internet-plagiarism</guid><pubDate>Tue, 23 Sep 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I often present at developer-focused conferences and user groups on JavaScript and web platform topics.  One presentation I give is on JavaScript Internationalization (initially at the 2013 internal Technology Unconference and most recently this summer at &lt;a href=&quot;https://www.thatconference.com/sessions/session/2235&quot;&gt;That Conference&lt;/a&gt;).  My title and abstract are below.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Internationalize your JavaScript Application: Prepare for “the next billion” internet users.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Are you prepared for “the next billion” internet users, most of whom don’t use English as their primary language?&lt;/p&gt;
@@ -5773,7 +5833,23 @@ Object &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;locale&lt;s
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Why the trip down memory lane?  Also, why am I showing UML diagrams instead of code snippets?  I’m thinking about good software engineering patterns and practices in the browser and how to best communicate those across teams.  I like the UML notation of filled arrowheads for synchronous and stick arrowheads for asynchronous calls.  I like how UML shows the grouping for optional and alternate flows.  I mostly like that the reader needs to look at and understand the diagram concepts, and not just copy/paste the code and “debug” their way into understanding.  Since UML is a representation and not the code, it lets the reader map to any language (or any &lt;a href=&quot;https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS&quot;&gt;compile to JavaScript language&lt;/a&gt; in this case). Maybe I just like pulling out my copy of Martin Fowler’s &lt;a href=&quot;http://martinfowler.com/books/uml.html&quot;&gt;UML Distilled&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aside from critiques on my diagraming skills, what are your thoughts on UML vs. code snippets to communicate with other developers?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CDN Hosting of JavaScript and Information Security Aspects]]></title><description><![CDATA[During the last Front-End group call, we were discussing JavaScript combination/minification when the topic of using a Content Delivery…]]></description><link>https://kevinhakanson.com/2014-07-03-cdn-hosting-of-javascript-and-information-security-aspects</link><guid isPermaLink="false">https://kevinhakanson.com/2014-07-03-cdn-hosting-of-javascript-and-information-security-aspects</guid><pubDate>Thu, 03 Jul 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;During the last Front-End group call, we were discussing JavaScript combination/minification when the topic of using a &lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content Delivery Network&lt;/a&gt; (CDN) came up.  This is a well-known performance “best practice” on the internet, but I mentioned it comes with some interesting information security concerns.  It looks something like this:&lt;/p&gt;
+&lt;p&gt;Aside from critiques on my diagraming skills, what are your thoughts on UML vs. code snippets to communicate with other developers?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Page Visibility API]]></title><description><![CDATA[I am taking an online Leadership & Influence for Architects training series with about 20 architects across the company.  The facilitator…]]></description><link>https://kevinhakanson.com/2014-07-03-page-visibility-api</link><guid isPermaLink="false">https://kevinhakanson.com/2014-07-03-page-visibility-api</guid><pubDate>Thu, 03 Jul 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I am taking an online &lt;strong&gt;Leadership &amp;#x26; Influence for Architects&lt;/strong&gt; training series with about 20 architects across the company.  The facilitator requested full attention and to avoid the temptation to multi-task.  Of course, I complied, but I wondered if they could detect infractions from the other attendees.  Then I remembered the &lt;a href=&quot;http://www.w3.org/TR/page-visibility/&quot;&gt;Page Visibility API&lt;/a&gt; and realized that they could tell if anyone was switching browser tabs to check email or Twitter.  I’m sure that some advertisers use this to force you to watch that 30-second lead-in video ad before consuming the content you came to watch.&lt;/p&gt;
+&lt;p&gt;I wanted to code something up and give it a try.  The MDN &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/User_experience/Using_the_Page_Visibility_API&quot;&gt;Using the Page Visibility API&lt;/a&gt; document got me started, but I wanted to hook this DOM event into an AngularJS based application.  The following snippet of code will &lt;code class=&quot;language-text&quot;&gt;$broadcast&lt;/code&gt; the values of &lt;code class=&quot;language-text&quot;&gt;document.hidden&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;document.visibilityState&lt;/code&gt; whenever &lt;code class=&quot;language-text&quot;&gt;visibilitychange&lt;/code&gt; fires.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;    app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;$log&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$rootScope&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$document&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;$log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $rootScope&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $document&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        $log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;listen for visibilitychange event&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        $document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;visibilitychange&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            $log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hidden=&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hidden &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; / visibilityState=&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;visibilityState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            $rootScope&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;$broadcast&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;visibilityChange&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;visibilityState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To listen for this event, I hooked up to &lt;code class=&quot;language-text&quot;&gt;$rootScope&lt;/code&gt;, but could have also hooked to a &lt;code class=&quot;language-text&quot;&gt;$scope&lt;/code&gt; from inside a controller.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;    app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;$log&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$rootScope&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;$log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $rootScope&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        $rootScope&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;$on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;visibilityChange&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; visibilityState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            $log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;hidden &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; / &apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; visibilityState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As I switched tabs, I could see the change between &lt;code class=&quot;language-text&quot;&gt;hidden=true / visibilityState=hidden&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;hidden=false / visibilityState=visible&lt;/code&gt;  However, in Chrome if the tab is on top of its own window, you can switch to a tab on another Chrome window without firing the event.&lt;/p&gt;
+&lt;p&gt;You may ask why am I spending time on this and how is this relevant to building web applications?  Imagine if your app was using websockets or long polling to communicate with the server.  You may make an app decision to throttle back those requests after a tab goes hidden in order to save the user’s resources (e.g. battery or bandwidth). If the application has collaboration features like chat or online presence awareness, the visibility state could provide useful information.  Additionally, if the user has multiple tabs open and their session times out, you might only want to redirect the visible tab back to the login page.  Those are just a few ideas for using the Page Visibility API.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CDN Hosting of JavaScript and Information Security Aspects]]></title><description><![CDATA[During the last Front-End group call, we were discussing JavaScript combination/minification when the topic of using a Content Delivery…]]></description><link>https://kevinhakanson.com/2014-07-03-cdn-hosting-of-javascript-and-information-security-aspects</link><guid isPermaLink="false">https://kevinhakanson.com/2014-07-03-cdn-hosting-of-javascript-and-information-security-aspects</guid><pubDate>Thu, 03 Jul 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;During the last Front-End group call, we were discussing JavaScript combination/minification when the topic of using a &lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content Delivery Network&lt;/a&gt; (CDN) came up.  This is a well-known performance “best practice” on the internet, but I mentioned it comes with some interesting information security concerns.  It looks something like this:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;script src=&amp;quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -5800,23 +5876,7 @@ Object &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;locale&lt;s
 &lt;li&gt;The &lt;a href=&quot;http://jquery.com/download/#other-cdns&quot;&gt;Other CDNs&lt;/a&gt; section on the jQuery site states “there may be delays between a jQuery release and its availability there”, which means if you have to push out a security fix, you need to wait for the CDN to deploy.&lt;/li&gt;
 &lt;li&gt;The &lt;a href=&quot;https://plus.google.com/+IlyaGrigorik/posts/N8dDov8vWcM&quot;&gt;jQuery CDN HTTPS certificate expired on July 31&lt;/a&gt; and caused a short outage.  So, in addition to not being in control of the code that is hosted, you don’t have control over if the site is functional or not.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;In general, I like the idea of free hosting.  For a personal blog, where users may quickly pop in to read a post and maybe never come back, they serve an important purpose.  In fact, many of these CDNs have excellent operational and security characteristics.  However, for a paid product where we are trusted with the privacy of their data, these are essential points to consider.  I wouldn’t recommend a free CDN for the projects I am working on, but “your mileage may vary” so understand the risks vs. the rewards before taking general advice from the internet.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Page Visibility API]]></title><description><![CDATA[I am taking an online Leadership & Influence for Architects training series with about 20 architects across the company.  The facilitator…]]></description><link>https://kevinhakanson.com/2014-07-03-page-visibility-api</link><guid isPermaLink="false">https://kevinhakanson.com/2014-07-03-page-visibility-api</guid><pubDate>Thu, 03 Jul 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I am taking an online &lt;strong&gt;Leadership &amp;#x26; Influence for Architects&lt;/strong&gt; training series with about 20 architects across the company.  The facilitator requested full attention and to avoid the temptation to multi-task.  Of course, I complied, but I wondered if they could detect infractions from the other attendees.  Then I remembered the &lt;a href=&quot;http://www.w3.org/TR/page-visibility/&quot;&gt;Page Visibility API&lt;/a&gt; and realized that they could tell if anyone was switching browser tabs to check email or Twitter.  I’m sure that some advertisers use this to force you to watch that 30-second lead-in video ad before consuming the content you came to watch.&lt;/p&gt;
-&lt;p&gt;I wanted to code something up and give it a try.  The MDN &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/User_experience/Using_the_Page_Visibility_API&quot;&gt;Using the Page Visibility API&lt;/a&gt; document got me started, but I wanted to hook this DOM event into an AngularJS based application.  The following snippet of code will &lt;code class=&quot;language-text&quot;&gt;$broadcast&lt;/code&gt; the values of &lt;code class=&quot;language-text&quot;&gt;document.hidden&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;document.visibilityState&lt;/code&gt; whenever &lt;code class=&quot;language-text&quot;&gt;visibilitychange&lt;/code&gt; fires.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;    app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;$log&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$rootScope&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$document&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;$log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $rootScope&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $document&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        $log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;listen for visibilitychange event&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        $document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;visibilitychange&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            $log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hidden=&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hidden &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; / visibilityState=&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;visibilityState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            $rootScope&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;$broadcast&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;visibilityChange&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;visibilityState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;To listen for this event, I hooked up to &lt;code class=&quot;language-text&quot;&gt;$rootScope&lt;/code&gt;, but could have also hooked to a &lt;code class=&quot;language-text&quot;&gt;$scope&lt;/code&gt; from inside a controller.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;    app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;$log&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;$rootScope&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;$log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $rootScope&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        $rootScope&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;$on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;visibilityChange&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hidden&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; visibilityState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            $log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;hidden &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; / &apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; visibilityState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;As I switched tabs, I could see the change between &lt;code class=&quot;language-text&quot;&gt;hidden=true / visibilityState=hidden&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;hidden=false / visibilityState=visible&lt;/code&gt;  However, in Chrome if the tab is on top of its own window, you can switch to a tab on another Chrome window without firing the event.&lt;/p&gt;
-&lt;p&gt;You may ask why am I spending time on this and how is this relevant to building web applications?  Imagine if your app was using websockets or long polling to communicate with the server.  You may make an app decision to throttle back those requests after a tab goes hidden in order to save the user’s resources (e.g. battery or bandwidth). If the application has collaboration features like chat or online presence awareness, the visibility state could provide useful information.  Additionally, if the user has multiple tabs open and their session times out, you might only want to redirect the visible tab back to the login page.  Those are just a few ideas for using the Page Visibility API.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Architecture of Open Source Applications]]></title><description><![CDATA[I was reading through my latest Dr. Dobbs Update email, and saw an interesting article on Firefox Release Engineering. The article talks…]]></description><link>https://kevinhakanson.com/2014-06-24-the-architecture-of-open-source-applications</link><guid isPermaLink="false">https://kevinhakanson.com/2014-06-24-the-architecture-of-open-source-applications</guid><pubDate>Tue, 24 Jun 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I was reading through my latest &lt;a href=&quot;http://www.drdobbs.com/&quot;&gt;Dr. Dobbs&lt;/a&gt; Update email, and saw an interesting article on &lt;a href=&quot;http://www.drdobbs.com/article/print?articleId=240168409&amp;#x26;siteSectionName=architecture-and-design&quot;&gt;Firefox Release Engineering&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In general, I like the idea of free hosting.  For a personal blog, where users may quickly pop in to read a post and maybe never come back, they serve an important purpose.  In fact, many of these CDNs have excellent operational and security characteristics.  However, for a paid product where we are trusted with the privacy of their data, these are essential points to consider.  I wouldn’t recommend a free CDN for the projects I am working on, but “your mileage may vary” so understand the risks vs. the rewards before taking general advice from the internet.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Architecture of Open Source Applications]]></title><description><![CDATA[I was reading through my latest Dr. Dobbs Update email, and saw an interesting article on Firefox Release Engineering. The article talks…]]></description><link>https://kevinhakanson.com/2014-06-24-the-architecture-of-open-source-applications</link><guid isPermaLink="false">https://kevinhakanson.com/2014-06-24-the-architecture-of-open-source-applications</guid><pubDate>Tue, 24 Jun 2014 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I was reading through my latest &lt;a href=&quot;http://www.drdobbs.com/&quot;&gt;Dr. Dobbs&lt;/a&gt; Update email, and saw an interesting article on &lt;a href=&quot;http://www.drdobbs.com/article/print?articleId=240168409&amp;#x26;siteSectionName=architecture-and-design&quot;&gt;Firefox Release Engineering&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The article talks about their release mindset, including the importance of release automation and a “Release Coordinator,” who is the one person who is designated to assume responsibility for coordinating the entire release.  I like the terminology of “calm precision” from the quote below.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;When we do have a chemspill release, the more robust the release automation, the less stressed the humans in Release Engineering are. We’re used to the idea of going as fast as possible with calm precision, and we’ve built tools to do this as safely and robustly as we know how. Less stress means more calm and precise work within a well-rehearsed process, which in turn helps chemspill releases go smoothly.&lt;/p&gt;
@@ -6075,10 +6135,8 @@ Marcin traveled from Australia where he works at &lt;a href=&quot;https://www.at
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript vs. JSON encoding]]></title><description><![CDATA[In the process of converting some JavaScript code which creates an object from a JSON string from using (the evil) eval to using JSON.parse…]]></description><link>https://kevinhakanson.com/2009-08-03-javascript-vs-json-encoding</link><guid isPermaLink="false">https://kevinhakanson.com/2009-08-03-javascript-vs-json-encoding</guid><pubDate>Mon, 03 Aug 2009 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In the process of converting some JavaScript code which creates an object from a JSON string from using (the evil) eval to using JSON.parse (which is native in &lt;a href=&quot;http://blogs.msdn.com/ie/archive/2008/09/10/native-json-in-ie8.aspx&quot;&gt;IE8&lt;/a&gt; and &lt;a href=&quot;https://developer.mozilla.org/En/Using_JSON_in_Firefox&quot;&gt;Firefox 3.5&lt;/a&gt;), a strange bug was encountered.  Take the following JavaScript snippet, which can be validated using &lt;a href=&quot;http://www.jslint.com/&quot;&gt;JSLint&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;var x = { “name” : “Kevin\’s Folder” };&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;However, if you take { “name” : “Kevin\’s Folder” } and try and validate with &lt;a href=&quot;http://www.jsonlint.com/&quot;&gt;JSONLint&lt;/a&gt;, it fails parsing.  Why is that?  Look at the definition for string at &lt;a href=&quot;http://www.json.org/&quot;&gt;JSON.org&lt;/a&gt;, and you see that it’s not valid to escape the single quote character.  This appears to be because only double quotes are a valid wrapper for a string in JSON, where either single quotes or double quotes are allowed for JavaScript strings.  The JavaScript escape utility used wouldn’t know how the consumer would wrap the string, so it played it safe and escaped both.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;name&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Kevin\\&apos;s Folder&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;However, if you take &lt;code class=&quot;language-text&quot;&gt;{ &amp;quot;name&amp;quot; : &amp;quot;Kevin\\&amp;#39;s Folder&amp;quot; }&lt;/code&gt; and try and validate with &lt;a href=&quot;http://www.jsonlint.com/&quot;&gt;JSONLint&lt;/a&gt;, it fails parsing.  Why is that?  Look at the definition for string at &lt;a href=&quot;http://www.json.org/&quot;&gt;JSON.org&lt;/a&gt;, and you see that it’s not valid to escape the single quote character.  This appears to be because only double quotes are a valid wrapper for a string in JSON, where either single quotes or double quotes are allowed for JavaScript strings.  The JavaScript escape utility used wouldn’t know how the consumer would wrap the string, so it played it safe and escaped both.&lt;/p&gt;
 &lt;p&gt;The moral of this story?  JSON is a proper subset of pure JavaScript object literals.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[You can’t escape encoding]]></title><description><![CDATA[Recently I have run across several items where the solution to the problem was a proper understanding of encoding and escaping.  One issue…]]></description><link>https://kevinhakanson.com/2009-07-06-you-cant-escape-encoding</link><guid isPermaLink="false">https://kevinhakanson.com/2009-07-06-you-cant-escape-encoding</guid><pubDate>Mon, 06 Jul 2009 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently I have run across several items where the solution to the problem was a proper understanding of encoding and escaping.  One issue was with the &lt;a href=&quot;http://developer.yahoo.com/yui/compressor/&quot;&gt;YUICompressor&lt;/a&gt; having problems with some of our JavaScript files.  The core issue was that it couldn’t handle files saved in UTF-8 with the Byte Order Mark (which is the Visual Studio 2008 default).  Lucky for someone, I was able to answer a &lt;a href=&quot;http://stackoverflow.com/questions/1036201/errors-using-yuicompressor/1047143#1047143&quot;&gt;Stack Overflow question&lt;/a&gt; with my new found knowledge.&lt;/p&gt;
 &lt;p&gt;A short while later, I saw a bug where the subject line of delivery emails looked like:&lt;/p&gt;
 &lt;blockquote&gt;

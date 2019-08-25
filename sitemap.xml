@@ -10,8 +10,8 @@
 <url> <loc>https://kevinhakanson.com/2019-01-11-finding-all-aws-services-my-team-is-using</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-12-18-architecture-decision-records-adrs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-10-17-full-stack-caching-strategy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-10-11-x-xss-protection-is-dead-long-live-content-security-policy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

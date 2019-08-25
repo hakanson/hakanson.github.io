@@ -1,9 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-// Utilities
-import kebabCase from "lodash/kebabCase"
-
 // Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -44,7 +41,7 @@ const TagsPage = ({
         <ul>
             {group.map(tag => (
             <li key={tag.fieldValue}>
-                <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                <Link to={`/tags/${tag.fieldValue}/`}>
                 {tag.fieldValue} ({tag.totalCount})
                 </Link>
             </li>

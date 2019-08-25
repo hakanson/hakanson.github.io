@@ -75,6 +75,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
+    // https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap/
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

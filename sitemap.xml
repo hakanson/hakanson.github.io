@@ -25,6 +25,7 @@
 <url> <loc>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-22-redis-security-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-02-side-channel-attacking-browsers-through-css3-features</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-05-15-categorizing-backlog-items-using-the-owasp-samm-security-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-04-27-content-security-policy-http-header-braindump</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-04-10-secrets-management</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-03-20-aws-options-for-blocking-ip-addresses</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -40,8 +41,8 @@
 <url> <loc>https://kevinhakanson.com/2017-12-12-cloudfront-and-disaster-recovery</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-30-aws-certificate-manager-and-certificate-pinning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-22-using-the-virtual-mfa-device-with-the-aws-cli</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-12-interesting-speculation-about-blockchain-and-future-society</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-05-comparing-brandon-sandersons-legion-and-mixed-reality</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -128,10 +129,12 @@
 <url> <loc>https://kevinhakanson.com/2013-07-08-ecmascript-internationalization-api-specification</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2013-05-13-saturn-2013-software-architecture-conference</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2012-02-01-customer-upload-speeds</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2012-01-09-evolving-web-presentation-layer-technologies</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2009-08-03-javascript-vs-json-encoding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2009-07-06-you-cant-escape-encoding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2008-10-27-debugging-javascript-in-ie</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2008-10-06-ajax-experience-2008-summary</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/presentations</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/agile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/alexa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/angularjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -174,6 +177,7 @@
 <url> <loc>https://kevinhakanson.com/tags/nlp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/nosql/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/opensource/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/tags/owasp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/podcast/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/pokemon/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/powershell/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

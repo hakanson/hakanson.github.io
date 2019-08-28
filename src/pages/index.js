@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
               &nbsp;
             </li>
             <li>
-            <Link to="/tags">All Tags →</Link>
+            <Link to="/presentations">Presentations →</Link>
             </li>
           </ul>
         </nav>
@@ -100,7 +100,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fields: {sourceName: {eq: "blog"}}}
+    ) {
       edges {
         node {
           excerpt(pruneLength: 240)

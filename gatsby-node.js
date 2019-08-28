@@ -5,12 +5,14 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const pageTemplate = path.resolve(`./src/templates/page.js`)
   const tagTemplate = path.resolve(`./src/templates/tags.js`)
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 2000
+        filter: {fields: {sourceName: {eq: "blog"}}}
       ) {
         edges {
           node {
@@ -19,6 +21,21 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               tags
+            }
+          }
+        }
+      }
+      pagesRemark: allMarkdownRemark(
+        limit: 2000
+        filter: {fields: {sourceName: {eq: "pages"}}}
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
             }
           }
         }
@@ -52,6 +69,20 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  // Create pages.
+  const pages = result.data.pagesRemark.edges
+  pages.forEach((page, index) => {
+
+    createPage({
+      path: page.node.fields.slug,
+      component: pageTemplate,
+      context: {
+        slug: page.node.fields.slug,
+      },
+    })
+  })
+
   // Extract tag data from query
   const tags = result.data.tagsGroup.group
   // Make tag pages

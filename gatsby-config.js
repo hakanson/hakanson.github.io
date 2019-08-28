@@ -23,10 +23,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/pages-markdown/`,
+        name: `pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
       },
     },
+    `gatsby-remark-source-name`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -102,8 +110,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `kevinhakanson.com`,
+        short_name: `kevinhakanson.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

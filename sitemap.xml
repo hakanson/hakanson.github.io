@@ -28,6 +28,7 @@
 <url> <loc>https://kevinhakanson.com/2018-05-15-categorizing-backlog-items-using-the-owasp-samm-security-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-04-27-content-security-policy-http-header-braindump</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-04-10-secrets-management</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-04-09-database-credential-rotation-in-postgresql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-03-20-aws-options-for-blocking-ip-addresses</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-03-15-amazon-load-balancers-x-forwarded-headers-and-proxy-protocol-support</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-03-13-http-to-https-redirection-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -62,6 +63,7 @@
 <url> <loc>https://kevinhakanson.com/2017-07-06-the-geographical-center-of-the-united-states-and-ip-addresses</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-05-capital-one-cloud-custodian-test-drive</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-06-28-authenticated-encryption-with-the-aws-cli</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2017-06-26-encrypted-properties-and-aws-iam-roles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-06-25-amazon-elasticsearch-service-and-iam-policies-on-http-methods</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-05-15-creating-an-aws-iam-role-for-stsassumedrole</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-04-27-amazon-rds-and-tag-based-permissions</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

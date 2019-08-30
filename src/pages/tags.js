@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 // Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hashtags from "../components/hashtags"
 import Bio from "../components/bio"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
@@ -41,9 +42,8 @@ const TagsPage = ({
         <ul>
             {group.map(tag => (
             <li key={tag.fieldValue}>
-                <Link to={`/tags/${tag.fieldValue}/`}>
-                {tag.fieldValue} ({tag.totalCount})
-                </Link>
+                <Hashtags tags={[tag.fieldValue]} />
+                &nbsp;× {tag.totalCount}
             </li>
             ))}
         </ul>

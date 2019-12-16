@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 Dec 2019 03:00:13 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is a Sr. Software Architect for…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 Dec 2019 03:08:00 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is a Sr. Software Architect for…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is a Sr. Software Architect for Thomson Reuters where he is focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
@@ -193,7 +193,36 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Pluralsight didn’t have an AZ-900 course, but if you have access to LinkedIn Learning (maybe through an MSDN offer), they have a &lt;a href=&quot;https://www.linkedin.com/learning/paths/prepare-for-azure-fundamentals-certification-az-900&quot;&gt;Prepare for Azure Fundamentals Certification (AZ-900)&lt;/a&gt; learning path as well. O’Reilly Learning (a.k.a Safari Books Online) also has both a book (&lt;a href=&quot;https://learning.oreilly.com/library/view/exam-ref-az-900/9780135732199/&quot;&gt;Exam Ref AZ-900: Microsoft Azure Fundamentals, First Edition&lt;/a&gt;) and video (&lt;a href=&quot;https://learning.oreilly.com/videos/microsoft-az-900-certification/10009AZ900454545&quot;&gt;Microsoft AZ-900 Certification Course: Azure Fundamentals&lt;/a&gt;) resource.&lt;/p&gt;
 &lt;p&gt;I passed the exam on November 26 and have the &lt;a href=&quot;https://www.youracclaim.com/badges/a97b0278-c588-4711-9c03-e869ad9bb60e/linked_in&quot;&gt;badge&lt;/a&gt; to prove it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://media.licdn.com/dms/image/sync/C4E27AQFqxLi9uhTbvg/articleshare-shrink_1280_800/0?e=1575651600&amp;#x26;v=beta&amp;#x26;t=d5ogHlgXcjnuKnc7oiPLFQeolOvpty6JNR6Xnfj3aYE&quot; alt=&quot;Azure Fundamentals badge&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0d98176d283f8a6f4ec9ec49f05b69ba/b8c5a/0.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.38095238095239%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAe2ZoEX2xX//xAAZEAACAwEAAAAAAAAAAAAAAAABAgMEEBH/2gAIAQEAAQUCkPFR0LZWAz//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8BNX//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8BEX//xAAbEAABBAMAAAAAAAAAAAAAAAABAhARIQAxQf/aAAgBAQAGPwKTrISbdddb/8QAGxABAAICAwAAAAAAAAAAAAAAARExABBBUWH/2gAIAQEAAT8hB0gW4bB47NJJDWEWCSNca//aAAwDAQACAAMAAAAQ1w//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBICf/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAKZ/8QAHhABAAAFBQAAAAAAAAAAAAAAAQAQESFRMXGB0fD/2gAIAQEAAT8Qsw44j1ovqioBMnfEgQBRRHRgyFBQVMNpf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Azure Fundamentals badge&quot;
+        title=&quot;Azure Fundamentals badge&quot;
+        src=&quot;/static/0d98176d283f8a6f4ec9ec49f05b69ba/88218/0.jpg&quot;
+        srcset=&quot;/static/0d98176d283f8a6f4ec9ec49f05b69ba/7237a/0.jpg 148w,
+/static/0d98176d283f8a6f4ec9ec49f05b69ba/0cfdf/0.jpg 295w,
+/static/0d98176d283f8a6f4ec9ec49f05b69ba/88218/0.jpg 590w,
+/static/0d98176d283f8a6f4ec9ec49f05b69ba/b8c5a/0.jpg 672w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I won’t share my score but I did exceeding well on Understand Cloud Concepts, Understand Core Azure Services, and Understand Security, Privacy, Compliance, and Trust.  I also did embarrassingly horrible on Understand Azure Pricing and Support.  I attribute this to the fact I had spent my time on solutions architecture but leveraged efforts from the Cloud Center of Excellence related to account / subscription setup.  For those of you with similar backstories, I recommend doubling-down on studying for that Pricing and Support section.&lt;/p&gt;
 &lt;p&gt;Overall, I thought this was a valuable set of knowledge and would agree with any recommendation that passing this should be a baseline requirement for those building solutions in Azure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS ALB, Lambda Function Targets, and Multi-Value Headers]]></title><description><![CDATA[I finally took the time experiment with the ability of an AWS Application Load Balancer (ALB) to target a Lambda function for HTTP requests…]]></description><link>https://kevinhakanson.com/2019-10-25-aws-alb-lambda-function-targets-and-multi-value-headers</link><guid isPermaLink="false">https://kevinhakanson.com/2019-10-25-aws-alb-lambda-function-targets-and-multi-value-headers</guid><pubDate>Fri, 25 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I finally took the time experiment with the ability of an AWS Application Load Balancer (ALB) to &lt;a href=&quot;https://docs.aws.amazon.com/en_pv/elasticloadbalancing/latest/application/lambda-functions.html&quot;&gt;target a Lambda function&lt;/a&gt; for HTTP requests.&lt;/p&gt;
 &lt;p&gt;I decided to start with some Python code based on the &lt;a href=&quot;https://github.com/aws/elastic-load-balancing-tools/tree/master/application-load-balancer-serverless-app/whatismyip&quot;&gt;whatismyip&lt;/a&gt; example.  I mapped the &lt;code class=&quot;language-text&quot;&gt;/whatismyip&lt;/code&gt; path to return the caller’s IP address and defaulted other paths to returning the event as JSON.&lt;/p&gt;

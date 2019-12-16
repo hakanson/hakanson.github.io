@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://kevinhakanson.com/2019-12-05-exam-az-900-microsoft-azure-fundamentals</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2019-10-25-aws-alb-lambda-function-targets-and-multi-value-headers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2019-09-06-veracode-api-hmac-authentication-in-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-08-21-using-the-jfrog-artifactory-cli-with-api-keys-or-access-tokens</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-08-12-scanning-for-ows-sql-injection-protection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-07-07-aws-signature-authorization-using-postman</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2019-06-14-programmatically-adding-ip-restrictions-to-an-azure-app-service</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-04-22-goodbye-oracle-java-8-hello-amazon-corretto-8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -42,8 +46,8 @@
 <url> <loc>https://kevinhakanson.com/2017-12-12-cloudfront-and-disaster-recovery</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-30-aws-certificate-manager-and-certificate-pinning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-22-using-the-virtual-mfa-device-with-the-aws-cli</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-12-interesting-speculation-about-blockchain-and-future-society</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-05-comparing-brandon-sandersons-legion-and-mixed-reality</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -89,8 +93,8 @@
 <url> <loc>https://kevinhakanson.com/2016-08-22-investigating-cloudtrail-for-s3-putbucketnotification</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-08-15-how-iam-roles-become-credentials-on-ec2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-29-net-zipkin-investigation-medidatazipkintracermodule</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-06-10-zipkin-js-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-05-03-introduction-to-speech-interfaces-for-web-applications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

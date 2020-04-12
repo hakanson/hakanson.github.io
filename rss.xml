@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jan 2020 04:39:57 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is a Sr. Software Architect for…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Apr 2020 19:33:12 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is a Sr. Software Architect for Thomson Reuters where he is focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Introduction to Speech Interfaces for Web Applications&lt;/h3&gt;
 &lt;p&gt;Speaking with your computing device is becoming commonplace.  Most of us have used Apple’s Siri, Google Now, Microsoft’s Cortana, or Amazon’s Alexa - but how can you speak with your web application?  The Web Speech API can enable a voice interface by adding both Speech Synthesis (Text to Speech) and Speech Recognition (Speech to Text) functionality.&lt;/p&gt;
@@ -97,7 +97,112 @@
 &lt;p&gt;In this session, you will learn the ins-and-outs of building an eCommerce site with Domino, and how you can build a site faster and easier with Domino than with other technologies.  We will explain how to set up customer registration, build a product catalog, and manage the shopping cart.  Tips on how to implement effective application security and get the best site performance will also be included.  Finally, this session will describe the different ways to integrate you eCommerce applications with existing ERP applications.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lotus Developers’ Conference 1999 (20-23 June 1999)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Using AWS X-Ray with Lambda@Edge]]></title><description><![CDATA[One of my original Lambda@Edge functions was still running on an old Node.js runtime, which I needed to update.  That function dynamically…]]></description><link>https://kevinhakanson.com/2020-01-20-using-aws-x-ray-with-lambdaedge</link><guid isPermaLink="false">https://kevinhakanson.com/2020-01-20-using-aws-x-ray-with-lambdaedge</guid><pubDate>Mon, 20 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One of my original Lambda@Edge functions was still running on an old Node.js runtime, which I needed to update.  That function dynamically generated images of a United States map with various states shaded based on the filename.  &lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[AWS UX Issues when Under Load]]></title><description><![CDATA[Last week, I attended an Architecting for Machine Learning on AWS event at their Minneapolis office along with about 40 people. This three…]]></description><link>https://kevinhakanson.com/2020-02-03-aws-ux-issues-when-under-load</link><guid isPermaLink="false">https://kevinhakanson.com/2020-02-03-aws-ux-issues-when-under-load</guid><pubDate>Mon, 03 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last week, I attended an &lt;strong&gt;Architecting for Machine Learning on AWS&lt;/strong&gt; event at their Minneapolis office along with about 40 people.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This three-day technical workshop is designed to provide architects and developers hands-on training for designing production machine learning and deep learning systems using Amazon SageMaker. AWS Solutions Architects will provide training through lecture and hands-on labs with Amazon SageMaker and go over proven approaches to successfully train, and deploy machine learning models for enterprise applications. Attendees will design and implement a completely new machine learning solution using Amazon SageMaker and their own Python code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As a group, we walked through labs and exercises using credentials provisioned into an AWS owned account.  The instructor warned us that we would hit “throtting” exceptions when we all all tried to create resources at the same time.  However, I did not expect to see errors when trying to view documenation.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/efe4acdd64943344bfbd04c84242974f/6bbcc/AWS-Documentation-Server-Busy.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 91.9501133786848%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABJ0AAASdAHeZh94AAAB5UlEQVQ4y51Ua4vaQBT1/3cpC/3S/9EPFVz6bQttoTZS+lDJ2t1oXppk8n6Zs/dMjKxQSuzAYSZ37hzPfTmxthbs3Q6e6yJJEqREmsK2bczncywWCxiGMRoTpRSyLEMcx+C5LEt9DsMQvu9reL6Hw+GAIAi0PYoiDQqo6/qMqqowOR6PGNC27Xkf0DQNmra5sGl7S7/+Xdd1Z0zwH8v49hWz9+/wYTbFfr/XNpJxTV6y/w3iKio6VHUjYFg1YhUhdk3EUaBtfSQ9/qlw+FU+cKMEtudju93CcRzEaY6iKHUBmXPmMy+KcYSNENKZ4ZmmifV6heXvX1gul3Jea9tBClZIQUcT0pnKNpuNrrzjuHCl1dgB3EOp+mjCVirJ8KiSjyrdJqecnsD7km0zNoeFkOV53uPUt8wfv3lXa9JiPCEbnhNlPjzoKeIwkIzh80xXfl+lkGu1WmE6nWrc3c3w8f4eSvLHdRUhFXIqWJidKLWsJ2z+PCKR9mELtdKrV4cc6HnuZ5qrboEgKREKkrwSn9GEjVSwvrgTQegufHGNwiPyVKFIPI1UuWdkMW0+ckFRjMlhJ/8qsiX2Z6jvN4h/vIE7fw3ryw2ePr2Cb9yK7Rbq51tpJzU+h3mWIhOVBB8OGGwEQ34GbH9v3zCBx7kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Amazon Server Busy&quot;
+        title=&quot;Amazon Server Busy&quot;
+        src=&quot;/static/efe4acdd64943344bfbd04c84242974f/799d3/AWS-Documentation-Server-Busy.png&quot;
+        srcset=&quot;/static/efe4acdd64943344bfbd04c84242974f/00d96/AWS-Documentation-Server-Busy.png 148w,
+/static/efe4acdd64943344bfbd04c84242974f/0b23c/AWS-Documentation-Server-Busy.png 295w,
+/static/efe4acdd64943344bfbd04c84242974f/799d3/AWS-Documentation-Server-Busy.png 590w,
+/static/efe4acdd64943344bfbd04c84242974f/6bbcc/AWS-Documentation-Server-Busy.png 882w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A couple of observations related to that screen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shouldn’t this be “static HTML” or something highly cachable and served from CloudFront?&lt;/li&gt;
+&lt;li&gt;The error message mentions “to continue shopping” indicating it is generic for all of Amazon.&lt;/li&gt;
+&lt;li&gt;Suprissing that so few people hitting a documentation page from inside an AWS network would trigger this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, I can understand this isn’t a page that often displays for legitmate users.  The next Amazon Sagemaker example is more bothersome because of the implication of a partially rendered UI.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/32b35/SageMaker-Git-Repo-Throttle-noresources.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.80286738351255%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAABgUlEQVQ4y5VSa2+DMAzM//99k6btw7SuGhAg4Q0hKfV8CY0C24e10tXkdfadLab3F8rfXqn6/CCnK0YdYXn9LITKcpJZQaqsSCtNg1bUVCV1qqapbZ6GuHxn9MW4Mj4uV8oKSd0wUNv3Pj4Loeqa8jynoiio6zpaloXWdaXVGB+ttWEd98zh7HDOECCY50By/jlnqeesONu2je73e8TtdvMFDONIxqwMw+RMOPJGx/LCRsjonPMPEBX7Ok3Tr2RIMHAyvLfWxTcCl9u29VUui6GZK57m2UsHOfaRDA8ckjywE3hswBYIUYEsS5JSUsGQ3G0pS/ZU+uoMy/W2/BMilD1FyesuO8IFOan59nTn0BT8gdnt5cfIJDNLN38QoIg2mYhHQkA07F/N0ioen1opUlr7GNaaRvYYnqZA59FI4HwumqYhzSRoDMag50tA+B4Os2gSyWcbomRvJjMfurZLXh4DnEgKnZ/9KJ2t8JLTMUmBfchBBHEK+KdZGST7cUvOfgDZ6Dv6a0RvjwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;no default associated notebook&quot;
+        title=&quot;no default associated notebook&quot;
+        src=&quot;/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/799d3/SageMaker-Git-Repo-Throttle-noresources.png&quot;
+        srcset=&quot;/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/00d96/SageMaker-Git-Repo-Throttle-noresources.png 148w,
+/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/0b23c/SageMaker-Git-Repo-Throttle-noresources.png 295w,
+/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/799d3/SageMaker-Git-Repo-Throttle-noresources.png 590w,
+/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/2a3d6/SageMaker-Git-Repo-Throttle-noresources.png 885w,
+/static/9fa8b8d53869cd62d0c1bc3760e8eb0a/32b35/SageMaker-Git-Repo-Throttle-noresources.png 1116w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Above you clearly see the &lt;code class=&quot;language-text&quot;&gt;ThrottlingException Rate exceeded&lt;/code&gt; error at the top as well as a &lt;code class=&quot;language-text&quot;&gt;There are currently no resources&lt;/code&gt; message.  Reloading the page later, you can see there are indeed reources listed.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3d8b1ef84baf06253e1ba28ac5273659/c0ee2/SageMaker-Git-Repo-Throttle-resources.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.85929648241206%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAAB0klEQVQ4y41Ti3KjMAzk/3/uHr27Jk2AFNrSECA1mGdCtloVN25mOnOe2bEtWeuVLAfRbof79Rqr1Rq/7/5gG0ZYyf7Hz1/4++8eb6ZG3TT/jcAYg+fnFyRpipcsQ5Kk2OcHnM9njOOIYRjQC4ZvcOsLbNvCWgtT12h4yzKfTicFied5VnDt7M53uVy++IJBVJCk73tM04RRwMGDHPQVRamX0sdg57O2RX44oChLNOKnPaBMY6jKol3U0nENsijLCtXxCGbjE9IWhjHS9ElLxiyVkCmSrOs6rRvlO5UkLIpCVdwSMjv6NVYyVIUkyLJXbDZbuS3C42OiilkPDi3DOOlMODIOVztXZ46g7wdVxltanTutB2vqHmNeCj/PF5zdAyxEuveIA/aOvrQHEnNmXUnOM40HPXMDZwtMbRBFsSJJEqylqeN4h802RCxNT9vDwxZRHIs9lsYPJaOlI6RcPmgLqIDsTJGp0+jkn/zUvLWr5yR1VnjkSvgh2X6+8vXA9SBrrXsvmK/Mn/KFkCSz3FpIr9XSqIMEEe43DMv3e833sJ1Vmwvmt93nua7deVXIW6qmQ1Y1ijfbLf/4Q2U3iO/4hMIUsu71EiplbFlV2tBO8TvGrTmxaSx+/QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;default associated notebook&quot;
+        title=&quot;default associated notebook&quot;
+        src=&quot;/static/3d8b1ef84baf06253e1ba28ac5273659/799d3/SageMaker-Git-Repo-Throttle-resources.png&quot;
+        srcset=&quot;/static/3d8b1ef84baf06253e1ba28ac5273659/00d96/SageMaker-Git-Repo-Throttle-resources.png 148w,
+/static/3d8b1ef84baf06253e1ba28ac5273659/0b23c/SageMaker-Git-Repo-Throttle-resources.png 295w,
+/static/3d8b1ef84baf06253e1ba28ac5273659/799d3/SageMaker-Git-Repo-Throttle-resources.png 590w,
+/static/3d8b1ef84baf06253e1ba28ac5273659/2a3d6/SageMaker-Git-Repo-Throttle-resources.png 885w,
+/static/3d8b1ef84baf06253e1ba28ac5273659/c0ee2/SageMaker-Git-Repo-Throttle-resources.png 995w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This UI architecture failed the user when it couldn’t load the assocated resouces.  The UI should have put error messages into the same areas of the screen where the data would load, or have started with a &lt;code class=&quot;language-text&quot;&gt;Loading resources...&lt;/code&gt; message and only replacing with &lt;code class=&quot;language-text&quot;&gt;There are currently no resources&lt;/code&gt; if that is a true fact.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using AWS X-Ray with Lambda@Edge]]></title><description><![CDATA[One of my original Lambda@Edge functions was still running on an old Node.js runtime, which I needed to update.  That function dynamically…]]></description><link>https://kevinhakanson.com/2020-01-20-using-aws-x-ray-with-lambdaedge</link><guid isPermaLink="false">https://kevinhakanson.com/2020-01-20-using-aws-x-ray-with-lambdaedge</guid><pubDate>Mon, 20 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One of my original Lambda@Edge functions was still running on an old Node.js runtime, which I needed to update.  That function dynamically generated images of a United States map with various states shaded based on the filename.  &lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;https://redacted.cloudfront.net/license-plate-zone/dynamic/usmap.MN.small.jpg&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -716,12 +821,12 @@ api_base &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span cl
         &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;json&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dumps&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;json&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; indent&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status_code&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now it’s time to explore some more Veracode APIs and add some security automation to my pipelines.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using the JFrog Artifactory CLI with API Keys or Access Tokens]]></title><description><![CDATA[I received early adopter access to our JFrog Artifactory instances located at https://tr1.jfrog.io.  After you log in via SSO you are…]]></description><link>https://kevinhakanson.com/2019-08-21-using-the-jfrog-artifactory-cli-with-api-keys-or-access-tokens</link><guid isPermaLink="false">https://kevinhakanson.com/2019-08-21-using-the-jfrog-artifactory-cli-with-api-keys-or-access-tokens</guid><pubDate>Wed, 21 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I received early adopter access to our &lt;a href=&quot;https://jfrog.com/artifactory/&quot;&gt;JFrog Artifactory&lt;/a&gt; instances located at &lt;a href=&quot;https://tr1.jfrog.io/&quot;&gt;https://tr1.jfrog.io&lt;/a&gt;.  After you log in via SSO you are redirected to &lt;a href=&quot;https://tr1.jfrog.io/tr1/webapp/#/home&quot;&gt;https://tr1.jfrog.io/tr1/webapp/#/home&lt;/a&gt; (note that &lt;code class=&quot;language-text&quot;&gt;/tr1/&lt;/code&gt; path segment as this is needed for API URLs).  I wanted to try CLI access so I started with a simple unauthenticated ”&lt;a href=&quot;https://www.jfrog.com/confluence/display/RTF/Artifactory+REST+API#ArtifactoryRESTAPI-SystemHealthPing&quot;&gt;ping&lt;/a&gt;” using &lt;code class=&quot;language-text&quot;&gt;curl&lt;/code&gt; against the REST API using &lt;a href=&quot;https://curl.haxx.se/docs/manpage.html#-s&quot;&gt;-s&lt;/a&gt; for “silent mode” and &lt;a href=&quot;https://curl.haxx.se/docs/manpage.html#-i&quot;&gt;-i&lt;/a&gt; to include HTTP response header is output, but limit to the first line by piping through &lt;code class=&quot;language-text&quot;&gt;head&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s -i https://tr1.jfrog.io/tr1/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;p&gt;Now it’s time to explore some more Veracode APIs and add some security automation to my pipelines.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using the JFrog Artifactory CLI with API Keys or Access Tokens]]></title><description><![CDATA[I received early adopter access to our JFrog Artifactory instances located at .  After you log in via SSO you are redirected to  (note that…]]></description><link>https://kevinhakanson.com/2019-08-21-using-the-jfrog-artifactory-cli-with-api-keys-or-access-tokens</link><guid isPermaLink="false">https://kevinhakanson.com/2019-08-21-using-the-jfrog-artifactory-cli-with-api-keys-or-access-tokens</guid><pubDate>Wed, 21 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I received early adopter access to our &lt;a href=&quot;https://jfrog.com/artifactory/&quot;&gt;JFrog Artifactory&lt;/a&gt; instances located at &lt;code class=&quot;language-text&quot;&gt;https://redacted.jfrog.io&lt;/code&gt;.  After you log in via SSO you are redirected to &lt;code class=&quot;language-text&quot;&gt;https://redacted.jfrog.io/redacted/webapp/#/home&lt;/code&gt; (note that &lt;code class=&quot;language-text&quot;&gt;/redacted/&lt;/code&gt; path segment as this is needed for API URLs).  I wanted to try CLI access so I started with a simple unauthenticated ”&lt;a href=&quot;https://www.jfrog.com/confluence/display/RTF/Artifactory+REST+API#ArtifactoryRESTAPI-SystemHealthPing&quot;&gt;ping&lt;/a&gt;” using &lt;code class=&quot;language-text&quot;&gt;curl&lt;/code&gt; against the REST API using &lt;a href=&quot;https://curl.haxx.se/docs/manpage.html#-s&quot;&gt;-s&lt;/a&gt; for “silent mode” and &lt;a href=&quot;https://curl.haxx.se/docs/manpage.html#-i&quot;&gt;-i&lt;/a&gt; to include HTTP response header is output, but limit to the first line by piping through &lt;code class=&quot;language-text&quot;&gt;head&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s -i https://redacted.jfrog.io/redacted/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 HTTP/1.1 &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Success. Let’s try some negative testing of my user but with an invalid API key.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s -i -u &lt;span class=&quot;token string&quot;&gt;&quot;0038137:INVALID_APIKEY&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-https://tr1.jfrog.io/tr1/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+https://redacted.jfrog.io/redacted/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 HTTP/1.1 &lt;span class=&quot;token number&quot;&gt;401&lt;/span&gt; Unauthorized&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now let’s grab my API key and try again.&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -753,15 +858,15 @@ HTTP/1.1 &lt;span class=&quot;token number&quot;&gt;401&lt;/span&gt; Unauthorize
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s -i -u &lt;span class=&quot;token string&quot;&gt;&quot;0038137:REDACTED_APIKEY&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-https://tr1.jfrog.io/tr1/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+https://redacted.jfrog.io/redacted/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 HTTP/1.1 &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Notice that I’ve replaced my real API Key with REDACTED_APIKEY above.  Using the real API Key works, but it is long, hard to type, and using it that way exposes it to someone looking in my &lt;code class=&quot;language-text&quot;&gt;.bash_history&lt;/code&gt; file.&lt;/p&gt;
 &lt;p&gt;Let’s switch to using the &lt;a href=&quot;https://www.jfrog.com/confluence/display/CLI/JFrog+CLI&quot;&gt;JFrog CLI&lt;/a&gt; and see how that works with my API Key.  Visit the documentation site for full install instructions, including auto-completion scripts.  This CLI works with multiple JFrog products, and &lt;code class=&quot;language-text&quot;&gt;rt&lt;/code&gt; is the target argument for JFrog Artifactory.  The &lt;a href=&quot;https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory#CLIforJFrogArtifactory-Configuration&quot;&gt;config&lt;/a&gt; command will create a &lt;code class=&quot;language-text&quot;&gt;~/.jfrog/jfrog-cli.conf&lt;/code&gt; file that is used for other CLI commands.  For the command history reason above, I recommend not to use the &lt;code class=&quot;language-text&quot;&gt;--apikey&lt;/code&gt; parameter and enter your API Key in interactive mode.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ jfrog --version
 jfrog version &lt;span class=&quot;token number&quot;&gt;1.27&lt;/span&gt;.0
 
-$ jfrog rt config --url https://tr1.jfrog.io/tr1/ --user 0038137
-Artifactory server ID: tr1
+$ jfrog rt config --url https://redacted.jfrog.io/redacted/ --user 0038137
+Artifactory server ID: redacted
 Access token &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Leave blank &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; username and password/API key&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 
 Password/API key: 
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Info&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Encrypting password&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -773,10 +878,10 @@ OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token string&quot;&gt;&quot;artifactory&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token string&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://tr1.jfrog.io/tr1/&quot;&lt;/span&gt;,
+      &lt;span class=&quot;token string&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://redacted.jfrog.io/redacted/&quot;&lt;/span&gt;,
       &lt;span class=&quot;token string&quot;&gt;&quot;user&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0038137&quot;&lt;/span&gt;,
       &lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;REDACTED_APIKEY&quot;&lt;/span&gt;,
-      &lt;span class=&quot;token string&quot;&gt;&quot;serverId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;tr1&quot;&lt;/span&gt;,
+      &lt;span class=&quot;token string&quot;&gt;&quot;serverId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;redacted&quot;&lt;/span&gt;,
       &lt;span class=&quot;token string&quot;&gt;&quot;isDefault&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
@@ -791,7 +896,7 @@ REDACTED_APIKEY
 
 $ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s -i &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
 -u &lt;span class=&quot;token string&quot;&gt;&quot;0038137:&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;jq -r &lt;span class=&quot;token string&quot;&gt;&quot;.artifactory[0].password&quot;&lt;/span&gt; ~/.jfrog/jfrog-cli.conf&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
-https://tr1.jfrog.io/tr1/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+https://redacted.jfrog.io/redacted/api/system/ping &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;head&lt;/span&gt; -n &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 HTTP/1.1 &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; OK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now let’s trying something that is unique to my user by calling the REST API to &lt;a href=&quot;https://www.jfrog.com/confluence/display/RTF/Artifactory+REST+API#ArtifactoryRESTAPI-GetAPIKey&quot;&gt;Get API Key&lt;/a&gt;.  This should echo back the same REDACTED_APIKEY I have in my config file.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ jfrog rt &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -X GET /api/security/apiKey
@@ -805,7 +910,7 @@ The case for authenticating users is clear, however access tokens can also be a
 By assigning Groups to tokens, you can control the level of access they provide.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Let’s create an access token that is valid for the next 90 seconds and then configure a &lt;code class=&quot;language-text&quot;&gt;tr1token&lt;/code&gt; entry in our config file.&lt;/p&gt;
+&lt;p&gt;Let’s create an access token that is valid for the next 90 seconds and then configure a &lt;code class=&quot;language-text&quot;&gt;REDACTED_ID&lt;/code&gt; entry in our config file.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ jfrog rt &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -X POST /api/security/token &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
 -d &lt;span class=&quot;token string&quot;&gt;&quot;username=0038137&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
 -d &lt;span class=&quot;token string&quot;&gt;&quot;scope=member-of-groups:readers&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
@@ -817,17 +922,17 @@ By assigning Groups to tokens, you can control the level of access they provide.
   &lt;span class=&quot;token string&quot;&gt;&quot;token_type&quot;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Bearer&quot;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-$ jfrog rt config --url https://tr1.jfrog.io/tr1/ --user 0038137
-Artifactory server ID &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;tr1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: tr1token
+$ jfrog rt config --url https://redacted.jfrog.io/redacted/ --user 0038137
+Artifactory server ID &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;redacted&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: REDACTED_ID
 Access token &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Leave blank &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; username and password/API key&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Quickly use the token with a ping command specifying the &lt;code class=&quot;language-text&quot;&gt;tr1token&lt;/code&gt; config, then wait for 90 seconds for the token to expire and execute another ping command.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ jfrog rt &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; --server-id tr1token
+&lt;p&gt;Quickly use the token with a ping command specifying the &lt;code class=&quot;language-text&quot;&gt;REDACTED_ID&lt;/code&gt; config, then wait for 90 seconds for the token to expire and execute another ping command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ jfrog rt &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; --server-id REDACTED_ID
 OK
 
 $ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;wait 90 seconds&quot;&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;wait&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt; seconds
 
-$ jfrog rt &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; --server-id tr1token
+$ jfrog rt &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; --server-id REDACTED_ID
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Error&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Artifactory response: &lt;span class=&quot;token number&quot;&gt;401&lt;/span&gt; Unauthorized
 &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token string&quot;&gt;&quot;errors&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;

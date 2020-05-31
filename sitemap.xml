@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://kevinhakanson.com/2020-05-29-playing-with-terraform-inside-azure-cloud-shell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-05-20-connecting-to-azure-cache-for-redis-from-redisinsight</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2020-04-22-exploring-the-microsoft-graph-api-from-azure-cloud-shell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-04-18-will-the-real-azure-please-stand-up</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-02-03-aws-ux-issues-when-under-load</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-01-20-using-aws-x-ray-with-lambdaedge</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -16,7 +17,6 @@
 <url> <loc>https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-04-22-goodbye-oracle-java-8-hello-amazon-corretto-8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2020-04-22-exploring-the-microsoft-graph-api-from-azure-cloud-shell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-04-14-file-verification-of-a-sha-256-hash-using-powershell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-04-10-aws-iam-policy-for-service-user-s3-access</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-01-11-finding-all-aws-services-my-team-is-using</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

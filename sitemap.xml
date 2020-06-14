@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://kevinhakanson.com/2020-06-12-customizing-azure-cloud-shell-using-a-powershell-profile</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-05-29-playing-with-terraform-inside-azure-cloud-shell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-05-20-connecting-to-azure-cache-for-redis-from-redisinsight</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-04-22-exploring-the-microsoft-graph-api-from-azure-cloud-shell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -164,6 +165,7 @@
 <url> <loc>https://kevinhakanson.com/tags/cli/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/cloud9/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/cloudfront/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/tags/cloudshell/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/cloudtrail/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/codequality/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/conference/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

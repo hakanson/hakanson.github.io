@@ -74,6 +74,10 @@ const Bio = () => {
         <a href={`https://stackoverflow.com/users/22514/kevin-hakanson`}>
           Stack Overflow
         </a>
+        {` | `}
+        <a href={`https://www.youracclaim.com/users/kevin-hakanson`}>
+          Acclaim
+        </a>
         
       </p>
     </div>

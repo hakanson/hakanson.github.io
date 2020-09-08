@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Jun 2020 01:31:19 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 00:04:42 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
+&lt;h3&gt;Adopting Multi-Cloud Services with Confidence&lt;/h3&gt;
+&lt;p&gt;In transitioning to multi-cloud, IT organizations have the same responsibility to provide quality service and operational security, yet have a much greater need to understand how to efficiently govern and manage these disparate cloud services.&lt;/p&gt;
+&lt;p&gt;In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Complete Cloud Summit (15 September 2020)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Introduction to Speech Interfaces for Web Applications&lt;/h3&gt;
 &lt;p&gt;Speaking with your computing device is becoming commonplace.  Most of us have used Apple’s Siri, Google Now, Microsoft’s Cortana, or Amazon’s Alexa - but how can you speak with your web application?  The Web Speech API can enable a voice interface by adding both Speech Synthesis (Text to Speech) and Speech Recognition (Speech to Text) functionality.&lt;/p&gt;
 &lt;p&gt;This session will introduce the core concepts of Speech Synthesis and Speech Recognition.  We will evaluate the current browser support and review alternative options.  See the JavaScript code and UX design considerations required to add a speech interface to your web application.  Come hear if it’s as easy as it sounds?&lt;/p&gt;
@@ -97,7 +103,162 @@
 &lt;p&gt;In this session, you will learn the ins-and-outs of building an eCommerce site with Domino, and how you can build a site faster and easier with Domino than with other technologies.  We will explain how to set up customer registration, build a product catalog, and manage the shopping cart.  Tips on how to implement effective application security and get the best site performance will also be included.  Finally, this session will describe the different ways to integrate you eCommerce applications with existing ERP applications.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lotus Developers’ Conference 1999 (20-23 June 1999)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Customizing Azure Cloud Shell using a PowerShell Profile]]></title><description><![CDATA[After creating resources in the wrong subscription during some Azure training, I wrote Setting Subscription used inside Azure Cloud Shell…]]></description><link>https://kevinhakanson.com/2020-06-12-customizing-azure-cloud-shell-using-a-powershell-profile</link><guid isPermaLink="false">https://kevinhakanson.com/2020-06-12-customizing-azure-cloud-shell-using-a-powershell-profile</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After creating resources in the wrong subscription during some Azure training, I wrote &lt;a href=&quot;/2020-01-08-setting-subscription-used-inside-azure-cloud-shell&quot;&gt;Setting Subscription used inside Azure Cloud Shell&lt;/a&gt;.  There I had used the PowerShell &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/module/az.accounts/get-azcontext?view=azps-4.2.0&quot;&gt;Get-AzContext&lt;/a&gt; cmdlet to determine my active Azure subscription.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[What is the OWASP Cyber Defense Matrix?]]></title><description><![CDATA[The OWASP® Foundation works to improve the security of software through its community-led open source software projects, including the OWASP…]]></description><link>https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</link><guid isPermaLink="false">https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://owasp.org/&quot;&gt;The OWASP® Foundation&lt;/a&gt; works to improve the security of software through its community-led open source software projects, including the &lt;a href=&quot;https://owasp.org/www-project-cyber-defense-matrix/&quot;&gt;OWASP Cyber Defense Matrix&lt;/a&gt;, a project initially created to help organize security technologies across the cybersecurity vendor marketplace. They address some of the confusion that still exists as a result of both a cybersecurity community that doesn’t use consistent terminology and vendors who use marketecture language based on trendy jargon.&lt;/p&gt;
+&lt;p&gt;Let’s first take a peek at an empty Cyber Defense Matrix and then dig into the components that define its structure.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACDElEQVQoz3VSXWsTQRTd3ydiEfogFj8epFZrEaNQsShYNIgNgogBQQyioIggCL740iefFPSlgjWWNm6yTTcfm83OzszOzB7v3WQxFLpw2HM/5sy5M+PleQ5G+SkhMNxuQhyEMNYi3vuLpBPAOEf/fYxbfpEftwNEv3egEgE5jBA1iY8TeCzCgjtBhE4vhpISVmlkBKUUbJYRVwU3WsPqSZ7rHHO/0RkM/6nXs9YhTjV6oxSDOIWkgiM3GRWZW+LGmIKzM0uQqSzqXON8ybnPS2SGX34fe11y2I+haVeyXCzMiLN7V3JaxDH3cP0wZyPFyIZcpsoQssnIUwFZ8qlbdmDNjMMZt1wrRmbBg0ig2R4gIIfyKMG0FDQTEX2EYHnDghz64aho5BQ362Jk5q7gzuWHxsSUu/8jl89GaoNYSOhU0BnQYk07iwR5xjeroOk5OeLO0LFQD08wcZtOuCWHZsYh33QwGCOicEhxjxByfoqIpyBIAm0DujpYfrc5HQPFGcNZeI4E/TDGVqsHv91H6/pr/DzfwNfl99g8+xaf5t/g3emPeHHmM+oXvmDj8nfcubSFGyu7uFLZx+K1LpZW+1h/NMK9pwIev79v2x38+NPFbjvEh/oyXlbn8OrxAhrVeTxfPYZna3Oo3zqJ2sXjeLB4ArXbp/Dw7gLur5/DWnUJlY0KVp7cxNVGDf8Av4sxCBpfubUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;OWASP Cyber Defense Matrix&quot;
+        title=&quot;OWASP Cyber Defense Matrix&quot;
+        src=&quot;/static/d3a5e54ee8a9147f83cb66ee879fe5d1/fcda8/OWASP_Cyber_Defense_Matrix.png&quot;
+        srcset=&quot;/static/d3a5e54ee8a9147f83cb66ee879fe5d1/12f09/OWASP_Cyber_Defense_Matrix.png 148w,
+/static/d3a5e54ee8a9147f83cb66ee879fe5d1/e4a3f/OWASP_Cyber_Defense_Matrix.png 295w,
+/static/d3a5e54ee8a9147f83cb66ee879fe5d1/fcda8/OWASP_Cyber_Defense_Matrix.png 590w,
+/static/d3a5e54ee8a9147f83cb66ee879fe5d1/efc66/OWASP_Cyber_Defense_Matrix.png 885w,
+/static/d3a5e54ee8a9147f83cb66ee879fe5d1/c83ae/OWASP_Cyber_Defense_Matrix.png 1180w,
+/static/d3a5e54ee8a9147f83cb66ee879fe5d1/4ca46/OWASP_Cyber_Defense_Matrix.png 1944w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+Source: &lt;a href=&quot;https://owasp.org/www-project-cyber-defense-matrix/&quot;&gt;https://owasp.org/www-project-cyber-defense-matrix/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The raw matrix is structured as a five-by-five grid with the left column labels consisting of Asset Types and the top row labels of Security Functions.  &lt;/p&gt;
+&lt;p&gt;These five high level security functions, described in detail in the &lt;a href=&quot;/2020-06-26-introduction-to-the-nist-cybersecurity-framework&quot;&gt;Introduction to the NIST Cybersecurity Framework&lt;/a&gt;, are listed below for reference: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identify (ID)&lt;/strong&gt; – Develop an organizational understanding to manage cybersecurity risk to systems, people, assets, data, and capabilities.   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protect (PR)&lt;/strong&gt; – Develop and implement appropriate safeguards to ensure delivery of critical services.   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Detect (DE)&lt;/strong&gt; – Develop and implement appropriate activities to identify the occurrence of a cybersecurity event.   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respond (RS)&lt;/strong&gt; – Develop and implement appropriate activities to take action regarding a detected cybersecurity incident.   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recover (RC)&lt;/strong&gt; – Develop and implement appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;strong&gt;CIS Controls&lt;/strong&gt;, in conjunction with the five NIST functions, uses five Asset Types to classify almost every individual CIS Sub-Control. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Devices&lt;/strong&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Networks&lt;/strong&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data&lt;/strong&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Users&lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While the image below is an arbitrary example taken from the CIS Controls v7.1 document, it illustrates how &lt;strong&gt;CIS Sub-Control 4.1: Maintain Inventory of Administrative Accounts&lt;/strong&gt; applies to the intersection of the Users asset type and the Detect security function. For a deeper dive on CIS, take a look at our recent blog &lt;a href=&quot;/2020-06-11-understanding-cis-controls-and-benchmarks&quot;&gt;Understanding CIS Controls and Benchmarks&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c014247db49d9cc3c598dc7ee1b26d21/3707e/CIS_Control_4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.7027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABP0lEQVQY03WQ6U7CQBSF+/7vo4lKVKLGhCC1lCJarOwopQt03/i8nQT/OcnJmfl65sxNtdvJms7biifnh+evHTeyv7KWyh+m39y9b7gw54p1JivuPzbcjJdcCmsz80PGNi7ZxIWoRIuykv0h4phkRFmOG0b4USIsZh8eOSS5nFOCOMM7xupblJd4wlzJNM0JEJ1aB81Zrnnq9VXpTgqu77qM7U/6hok9W1BKKG+gEh+YFp3uI+2dlhXSkVSNUlTUogotTjP2fkBZ1+SFTOv5JDLp4RiRimd5obyWSeI0xQsC/DBUrM2fdV5aLa/4QUhR1eqy63kUZcW7bTM0R1hvE0bWmJ2752s2R381MEwT3RhiCjck0x8M+LCnzBZLNP5ZJ/knf2oaxRzHodfrYY1GmG2prqNL2eDlhe12i+u6/AJqmcAJ0uooEQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CIS Control 4&quot;
+        title=&quot;CIS Control 4&quot;
+        src=&quot;/static/c014247db49d9cc3c598dc7ee1b26d21/fcda8/CIS_Control_4.png&quot;
+        srcset=&quot;/static/c014247db49d9cc3c598dc7ee1b26d21/12f09/CIS_Control_4.png 148w,
+/static/c014247db49d9cc3c598dc7ee1b26d21/e4a3f/CIS_Control_4.png 295w,
+/static/c014247db49d9cc3c598dc7ee1b26d21/fcda8/CIS_Control_4.png 590w,
+/static/c014247db49d9cc3c598dc7ee1b26d21/efc66/CIS_Control_4.png 885w,
+/static/c014247db49d9cc3c598dc7ee1b26d21/c83ae/CIS_Control_4.png 1180w,
+/static/c014247db49d9cc3c598dc7ee1b26d21/3707e/CIS_Control_4.png 1878w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now let’s use the Cyber Defense Matrix as a tool to organize some data pertaining to security controls. As you review the entire set of &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf&quot;&gt;NIST CSF Subcategories&lt;/a&gt; and &lt;a href=&quot;https://www.cisecurity.org/white-papers/cis-controls-v7-1-implementation-groups/&quot;&gt;CIS Sub-Controls&lt;/a&gt; totaled by their related security function, &lt;strong&gt;Protect&lt;/strong&gt; receives by far the most attention, followed by &lt;strong&gt;Detect&lt;/strong&gt; and &lt;strong&gt;Identify&lt;/strong&gt;.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identify&lt;/strong&gt; – NIST CSF: &lt;strong&gt;29&lt;/strong&gt; / CIS &lt;strong&gt;18&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protect&lt;/strong&gt; – NIST CSF: &lt;strong&gt;39&lt;/strong&gt; / CIS &lt;strong&gt;75&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Detect&lt;/strong&gt; – NIST CSF: &lt;strong&gt;18&lt;/strong&gt; / CIS &lt;strong&gt;36&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respond&lt;/strong&gt; – NIST CSF: &lt;strong&gt;16&lt;/strong&gt; / CIS &lt;strong&gt;6&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recover&lt;/strong&gt; – NIST CSF: &lt;strong&gt;6&lt;/strong&gt; / CIS &lt;strong&gt;0&lt;/strong&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Going back to the matrix structure, there is a categorization of the &lt;strong&gt;People / Process / Technology&lt;/strong&gt; model represented as a continuum characterizing the &lt;strong&gt;Degree of Dependency&lt;/strong&gt; for each.  There is a consistent reliance on &lt;strong&gt;Process&lt;/strong&gt;, a strong dependency on &lt;strong&gt;Technology&lt;/strong&gt; solutions to &lt;strong&gt;Identify&lt;/strong&gt; and &lt;strong&gt;Protect&lt;/strong&gt;, and an increasing need to apply your human expertise &lt;strong&gt;(People)&lt;/strong&gt; as you move into &lt;strong&gt;Detect, Respond,&lt;/strong&gt; and &lt;strong&gt;Recover&lt;/strong&gt;.   &lt;/p&gt;
+&lt;p&gt;When a Security Event occurs related to one of our assets, it happens between the &lt;strong&gt;Protect&lt;/strong&gt; and &lt;strong&gt;Detect&lt;/strong&gt; columns.  This highlights the importance of leveraging &lt;strong&gt;Technology&lt;/strong&gt; solutions along with the &lt;strong&gt;Identify&lt;/strong&gt; and &lt;strong&gt;Protect&lt;/strong&gt; functions.  However, keep in mind that this is not a one-time effort, but rather an ongoing struggle to keep up with new assets and their ever-changing configurations.   &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Original version appears on the &lt;a href=&quot;https://discover.opscompass.com/blog/cis-controls-and-benchmarks&quot;&gt;OpsCompass blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Introduction to the NIST Cybersecurity Framework]]></title><description><![CDATA[The NIST Cybersecurity Framework (NIST CSF) was created via a collaboration between the United States government and industry as a voluntary…]]></description><link>https://kevinhakanson.com/2020-06-26-introduction-to-the-nist-cybersecurity-framework</link><guid isPermaLink="false">https://kevinhakanson.com/2020-06-26-introduction-to-the-nist-cybersecurity-framework</guid><pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The &lt;a href=&quot;https://www.nist.gov/cyberframework&quot;&gt;NIST Cybersecurity Framework&lt;/a&gt; (NIST CSF) was created via a collaboration between the United States government and industry as a voluntary framework to promote the protection of critical infrastructure, and is based on existing standards, guidelines, and practices.  The NIST CSF consists of three main components: Core, Implementation Tiers, and Profiles. In this blog, we will explore the Framework Core with the same example we used in &lt;a href=&quot;/2020-06-11-understanding-cis-controls-and-benchmarks&quot;&gt;Understanding CIS Controls and Benchmarks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 220px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFEUlEQVQ4y4WUe0xTVxzHD5qZzMUtLptLJhDZQwXnVBAKFFrtu4AFcXGZcTNiZub+2dQ5NsdDZMjmAyjCIpTy0oWCWmCKUB8F2dQhCFrLowjIbWlLW+TZ0vbS3rN7TwuyZMl+ycn93XN+v88939/v3AM2FESDLZVsEN4YCygLqeYtiWqNXwL+xwTl3Uvnfc6FdsDIVXpeNpezFoJCawULQcFV3LVh8phkWp2gMVK250BcOVYaU6Eu4EufMOdjRJdHljDzmpHPlXQCxtlbAOyBh9EE7XoMgm2+yPYPqxVej1SI4NZ6weiGWoZyVQVTGC3V/ca7qBkS1ehgTGXfEE/6REDFJ3VCwCq874EWdXi+RLvmgQVXcznh12JhaL0Ae6NiLffz40lrev54En73hnJ3h6KGK8nPWb86/fbHnIp++a5r45Bf1p1B5e39E/owcu94ZcoFqF7BMi6dfjsebqnjXgp5fdOrPQ/UadgwZnbiTjgxMQFn7XY4OjqK96m65H8XpQSEFvfs3dUwRUFTqPw4Gfay7gkpUa/R6oQTwfW8RqVv1XK1Sv0IvjTX+IsXc3M4Pjc/MYxp4dM6CZ0m6U3aWW+B/KJHNNSci70e6NpGQTqtKQ6CL8BbfU97m7x5DnK4yUGYzWbocDgIyicHTi2O6A1QkfPdGm7ls1bh7/2dFOer4kEfBMz6gf/9xsKPRA+a2xKtNitUq9XOjo4OQqFQECaTiZiamoLj4+Owq6uLaGlpgUrlHafROAoHetU1K5Ibg3afac08zMtYgWAa5vYPJiI4Thd4JUiFPb/swnHY1NQ019DQQJSVlREjIyNwZnqaoOr4+PFjQiaTEVVVVUR7ezs0j1msWV8f+TCTd+ZhmihnHwJiUSyeKZqN19Ijw4b0epVXrtsrD5mZ3CWO48SiuiL5VqsVXq2vFabGiDtP7BSf9gCj2TssUezpK1zBVsxg0CAaaS6XCyXZ7XZicGAAjlksCEQuEd41l9PphE13bsSm8HOUGYniXAQcimJtMjM48H7AujCNTvsXyiIIF/WYnJwkdFotglhIoNFoJDzLBNrt2NgYLCspZ6bF5vWlJ+R9i4C3wiKWGRlcqz4gcH9rv+aEVxJOwuAUCVwsc3Z2liDlU0SqJPA5NtR7iJUcnJGQ707ZcS504RzqGRypOZz5NKVGFqDFMLd1ZgZiw8MusgmosyqVitBoNMTg4CDEMIwgd0YdKdje8+DAMeYvJ08m5g/+6+boi2T6jjF50BS4Jam4o+0T29QkdDodUC6X46Wlpa7q6mr3zZs33VKpdM5gMKAD3nq/+crB8OR1PycWwtQdOZ9SnDRR7lJgimKj/1hHZ+2f3S6AWr8g7lX1iwRsWOuA/2E2srPt6oGiL7lZ607Ei03p8XnVVH7+vks+h6KPA8Db8B6wM3jol9FFcFL1QmalrQTwy07/tFHRhh1VaXQKzXNjV/eA/l5btyGv4nILG4pB4LndaadTRedvzatMFmT7LEhuDo8E7oxAD7T8zTUzEj+zQ/IOZhUvzdRnA1F/1opt2Kll/Imz4BvHhZX37FJfiOW+z5/P/1H4q4/3CUA/fRuavPt2LJg5GILk951atXyyyO+ItcT/oa3Eb9QmWT1tK/Edt5X4a6aL/YvMBb5BVBx8lghS4zIRLDXuHDjMIm+zrggG6KEvXMLAkh3gs7hh6ux3l5sK/VbpxL4rF88rju4Hn4WcR/4xXhY4yslE/j+y3lhCfOY77QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Core, Tiers, Profile&quot;
+        title=&quot;Core, Tiers, Profile&quot;
+        src=&quot;/static/d57d0d5a9c313be089f2239f141f1df1/c8042/wheel_pie.png&quot;
+        srcset=&quot;/static/d57d0d5a9c313be089f2239f141f1df1/12f09/wheel_pie.png 148w,
+/static/d57d0d5a9c313be089f2239f141f1df1/c8042/wheel_pie.png 220w&quot;
+        sizes=&quot;(max-width: 220px) 100vw, 220px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.nist.gov/cyberframework&quot;&gt;Source: NIST Cybersecurity Framework&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Framework Core&lt;/strong&gt; provides a “set of activities to achieve specific cybersecurity outcomes, and references examples of guidance to achieve those outcomes” and is separated into five high level &lt;strong&gt;Functions&lt;/strong&gt; (Identify, Protect, Detect, Respond, Recover).  Each function is further divided to 23 &lt;strong&gt;Categories&lt;/strong&gt; (see figure below), each of which are assigned an identifier (ID) and are closely tied to needs and activities.  The deepest level of abstraction in the NIST CSF are the supporting 108 &lt;strong&gt;Subcategories&lt;/strong&gt;, which are associated with multiple &lt;strong&gt;Informative References&lt;/strong&gt; linking back to other standards, guidance, and publications including the CIS Controls (CIS CSC). As with many frameworks, consider the details as illustrative and risk informing and not as exhaustive listing. &lt;/p&gt;
+&lt;p&gt;As described in section 2.1 of the (NIST) &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf&quot;&gt;Framework for Improving Critical Infrastructure Cybersecurity Version 1.1 Update&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identify&lt;/strong&gt; &lt;strong&gt;(ID)&lt;/strong&gt; – Develop an organizational understanding to manage cybersecurity risk to systems, people, assets, data, and capabilities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protect&lt;/strong&gt; &lt;strong&gt;(PR)&lt;/strong&gt; – Develop and implement appropriate safeguards to ensure delivery of critical services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Detect&lt;/strong&gt; &lt;strong&gt;(DE)&lt;/strong&gt; – Develop and implement appropriate activities to identify the occurrence of a cybersecurity event.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respond&lt;/strong&gt; &lt;strong&gt;(RS)&lt;/strong&gt; – Develop and implement appropriate activities to take action regarding a detected cybersecurity incident.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recover&lt;/strong&gt; &lt;strong&gt;(RC)&lt;/strong&gt; – Develop and implement appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 107.43243243243244%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCA//EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABopzSuHdEdRk0F//EAB0QAAEEAgMAAAAAAAAAAAAAAAIAAQMEEBMREjH/2gAIAQEAAQUCrRxkGqLnTEqzC0bequPUGx//xAAYEQADAQEAAAAAAAAAAAAAAAABEBECEv/aAAgBAwEBPwE55MVq/8QAGxEAAgEFAAAAAAAAAAAAAAAAAAECEBESITH/2gAIAQIBAT8Bc8touxcp/8QAHxAAAgEDBQEAAAAAAAAAAAAAAQIAEDORERIhQVFh/9oACAEBAAY/AmJQHnyW1xLa4jbCSNe6kfa//8QAGhAAAgMBAQAAAAAAAAAAAAAAAAEQETEhQf/aAAgBAQABPyFnSWmFscKMF6YBI69djhuP/9oADAMBAAIAAwAAABA4CED/xAAYEQEAAwEAAAAAAAAAAAAAAAABEBEhUf/aAAgBAwEBPxC44gWltj//xAAZEQEAAgMAAAAAAAAAAAAAAAABABARQWH/2gAIAQIBAT8QV6mdIcU//8QAHBABAAMBAQADAAAAAAAAAAAAAQARIUExUWGx/9oACAEBAAE/EEZfACmHZb6z8GBsR9EgW0ShSNEsuizuxo8/ZsWw3VcIfVjyLP/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;NIST Categories&quot;
+        title=&quot;NIST Categories&quot;
+        src=&quot;/static/1c7aef746f609914e73c89f016e546ab/1c72d/NIST_Categories.jpg&quot;
+        srcset=&quot;/static/1c7aef746f609914e73c89f016e546ab/a80bd/NIST_Categories.jpg 148w,
+/static/1c7aef746f609914e73c89f016e546ab/1c91a/NIST_Categories.jpg 295w,
+/static/1c7aef746f609914e73c89f016e546ab/1c72d/NIST_Categories.jpg 590w,
+/static/1c7aef746f609914e73c89f016e546ab/a8a14/NIST_Categories.jpg 885w,
+/static/1c7aef746f609914e73c89f016e546ab/38044/NIST_Categories.jpg 936w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;br&gt;
+Source: Table 1, &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf&quot;&gt;Framework for Improving Critical Infrastructure Cybersecurity&lt;/a&gt; &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf&quot;&gt;Version 1.1&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;To continue with the Multi-Factor Authentication (MFA) example from our previous CIS Controls and Benchmarks post, let’s drill into the &lt;strong&gt;Protect (PR)&lt;/strong&gt; Function and look at the &lt;strong&gt;PR.AC&lt;/strong&gt; Category described by NIST as: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Identity Management, Authentication and Access Control (PR.AC)&lt;/strong&gt;: Access to physical and logical assets and associated facilities is limited to authorized users, processes, and devices, and is managed consistent with the assessed risk of unauthorized access to authorized activities and transactions. &lt;/p&gt;
+&lt;p&gt;This clearly pertains to the identity of users and how they authenticate into systems. Going further down into the &lt;strong&gt;PR.AC-7&lt;/strong&gt; subcategory: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PR.AC-7&lt;/strong&gt;: Users, devices, and other assets are authenticated (e.g., single-factor, multi-factor) commensurate with the risk of the transaction (e.g., individuals’ security and privacy risks and other organizational risks) &lt;/p&gt;
+&lt;p&gt;Additionally, the &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf#page=37%26zoom=100,92,96&quot;&gt;Informative References for &lt;strong&gt;PR.AC-7&lt;/strong&gt;&lt;/a&gt; include a reference to &lt;strong&gt;CIS CSC 1, 12, 15, 16.&lt;/strong&gt; That list contains &lt;strong&gt;CIS Control 16,&lt;/strong&gt; which is &lt;strong&gt;Account Monitoring and Control&lt;/strong&gt; and includes subcontrol &lt;strong&gt;16.3 Require Multi-factor Authentication&lt;/strong&gt;. However, PR.AC-7 doesn’t seem to mention &lt;strong&gt;CIS Control 4: Controlled Use of Administrative Privileges&lt;/strong&gt; and subcontrol &lt;strong&gt;4.5: Use Multi-Factor Authentication for All Administrative Access.&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;Combining NIST CSF together with the CIS Controls, a user with admin access requires MFA according to this set of recommendations.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIS Controls v7.1 4.5 &lt;/li&gt;
+&lt;li&gt;CIS Controls v7.1 16.3 &lt;/li&gt;
+&lt;li&gt;NIST CSF v1.1 PR.AC-7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Original version appears on the &lt;a href=&quot;https://discover.opscompass.com/blog/intro-to-nist-cybersecurity-framework&quot;&gt;OpsCompass blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Customizing Azure Cloud Shell using a PowerShell Profile]]></title><description><![CDATA[After creating resources in the wrong subscription during some Azure training, I wrote Setting Subscription used inside Azure Cloud Shell…]]></description><link>https://kevinhakanson.com/2020-06-12-customizing-azure-cloud-shell-using-a-powershell-profile</link><guid isPermaLink="false">https://kevinhakanson.com/2020-06-12-customizing-azure-cloud-shell-using-a-powershell-profile</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After creating resources in the wrong subscription during some Azure training, I wrote &lt;a href=&quot;/2020-01-08-setting-subscription-used-inside-azure-cloud-shell&quot;&gt;Setting Subscription used inside Azure Cloud Shell&lt;/a&gt;.  There I had used the PowerShell &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/module/az.accounts/get-azcontext?view=azps-4.2.0&quot;&gt;Get-AzContext&lt;/a&gt; cmdlet to determine my active Azure subscription.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;PS&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;home&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;kevin&gt; Get&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;AzContext &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Select-Object&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Property Name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Subscription&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Tenant &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Format-List&lt;/span&gt;
 
 Name         : Windows Azure  MSDN &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Visual Studio Premium &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;11111111&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;1111&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;4000&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;11111111111111111&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; MSI@50342
@@ -135,7 +296,26 @@ VERBOSE: test verbose
 SilentlyContinue
 &lt;span class=&quot;token function&quot;&gt;PS&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;home&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;kevin&gt; &lt;span class=&quot;token variable&quot;&gt;$VerbosePreference&lt;/span&gt; = &lt;span class=&quot;token string&quot;&gt;&quot;Continue&quot;&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;PS&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;home&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;kevin&gt; &lt;span class=&quot;token function&quot;&gt;Write-Verbose&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;test verbose&quot;&lt;/span&gt;
-VERBOSE: test verbose&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Playing with Terraform inside Azure Cloud Shell]]></title><description><![CDATA[I noticed that terraform was one of the tools pre-configured in Azure Cloud Shell, so I decided to play around with it based on the…]]></description><link>https://kevinhakanson.com/2020-05-29-playing-with-terraform-inside-azure-cloud-shell</link><guid isPermaLink="false">https://kevinhakanson.com/2020-05-29-playing-with-terraform-inside-azure-cloud-shell</guid><pubDate>Fri, 29 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I noticed that &lt;a href=&quot;https://www.terraform.io/&quot;&gt;terraform&lt;/a&gt; was one of the &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/cloud-shell/features#tools&quot;&gt;tools pre-configured in Azure Cloud Shell&lt;/a&gt;, so I decided to play around with it based on the Terraform &lt;a href=&quot;https://learn.hashicorp.com/terraform/azure/intro_az&quot;&gt;Getting Started - Azure&lt;/a&gt; learning track.&lt;/p&gt;
+VERBOSE: test verbose&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Understanding CIS Controls and Benchmarks]]></title><description><![CDATA[In a conversation about cyber security or cyber defense, you might hear the terms CIS and security controls mentioned as a recommended best…]]></description><link>https://kevinhakanson.com/2020-06-11-understanding-cis-controls-and-benchmarks</link><guid isPermaLink="false">https://kevinhakanson.com/2020-06-11-understanding-cis-controls-and-benchmarks</guid><pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In a conversation about cyber security or cyber defense, you might hear the terms CIS and security controls mentioned as a recommended best practice.  However, without some additional context this is just another TLA (Three Letter Acronym).&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.cisecurity.org/&quot;&gt;Center for Internet Security&lt;/a&gt;, Inc. (CIS®) is an independent, non-profit organization that curates consensus-based guides using a volunteer community of security practitioners and cyber experts.  CIS is often used as shorthand for their well-known CIS Controls® and CIS Benchmarks™, which they define as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CIS Controls&lt;/strong&gt; - prescriptive, prioritized, and simplified set of cybersecurity best practices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CIS Benchmarks&lt;/strong&gt; - consensus-developed secure configuration guidelines for hardening&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together, they take the most pervasive and dangerous cyber threats and pair them with specific and actionable ways to stop or mitigate a cyber-attack.&lt;/p&gt;
+&lt;h2&gt;CIS Controls&lt;/h2&gt;
+&lt;p&gt;As a foundational element, CIS Controls are often mapped to regulatory and compliance frameworks, allowing them to be used as a common reference point.  CIS &lt;a href=&quot;https://www.cisecurity.org/cybersecurity-tools/mapping-compliance/&quot;&gt;Mapping and Compliance&lt;/a&gt; tools include PCI DSS, NIST Cybersecurity Framework (CSF), HIPPA, and ISO 27001.&lt;/p&gt;
+&lt;p&gt;Sometimes it can be informative to dig into a specific example in order to better understand how the concepts apply. For example, take a scenario where a privileged or “admin” level user account should be protected with more than just a password. This is often referred to as a second factor or multi-factor authentication (MFA).  In the &lt;strong&gt;&lt;a href=&quot;https://learn.cisecurity.org/cis-controls-download&quot;&gt;CIS Controls V7.1&lt;/a&gt;&lt;/strong&gt; document from April 2019, this scenario is part of &lt;strong&gt;CIS Control 4: Controlled Use of Administrative Privileges&lt;/strong&gt;.  Included in this &lt;strong&gt;Control&lt;/strong&gt; are specific actions that organizations should implement, which are known as &lt;strong&gt;Sub-Controls&lt;/strong&gt;.  Related to this example, &lt;strong&gt;Sub-Control 4.5&lt;/strong&gt; is &lt;strong&gt;Use Multi-Factor Authentication for All Administrative Access&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;CIS Benchmarks&lt;/h2&gt;
+&lt;p&gt;There are more than 140 CIS Benchmarks covering different technologies.  The individual recommendations from these benchmarks usually map to the most applicable CIS Control.  Each of the hyperscale public cloud providers have worked with CIS to publish a CIS Benchmark related to their cloud computing services. &lt;/p&gt;
+&lt;p&gt;In the &lt;strong&gt;CIS Microsoft Azure Foundations Benchmark v1.1.0&lt;/strong&gt; from February 2019, there is a recommendation relating to our “admin” use case:  &lt;strong&gt;1.1 Ensure that multi-factor authentication is enabled for all privileged users&lt;/strong&gt;.  The 1.1 numbering is specific to this CIS Benchmark, but there is a reference back to the &lt;strong&gt;4.5 Use Multifactor Authentication For All Administrative Access&lt;/strong&gt; Sub-Control. &lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;CIS Amazon Web Services Foundations v1.2.0&lt;/strong&gt; from May 2018 also includes this “admin” use case (&lt;strong&gt;1.13 Ensure MFA is enabled for the “root” account)&lt;/strong&gt; and references &lt;strong&gt;Sub-Control 4.5&lt;/strong&gt; in the recommendation.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;CIS Google Cloud Platform Foundation Benchmark v1.1.0&lt;/strong&gt; from March 2020 includes &lt;strong&gt;1.3 Ensure that Security Key Enforcement is enabled for all admin accounts,&lt;/strong&gt; but it references a different CIS Control and Sub-Control related to MFA.  &lt;strong&gt;CIS Control 16&lt;/strong&gt; is &lt;strong&gt;Account Monitoring and Control&lt;/strong&gt; which includes Sub-Control &lt;strong&gt;16.3 Require Multi-factor Authentication&lt;/strong&gt; – an action that targets “all user accounts” and not just “privileged” users.  This isn’t wrong per se, but illustrates that even specific guidance can be subject to interpretation.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;CIS Microsoft 365 Foundations Benchmark v1.1.0&lt;/strong&gt; from December 2019 takes the same approach when &lt;strong&gt;1.1.1 (L1) Ensure multifactor authentication is enabled for all users in administrative roles&lt;/strong&gt; (also references Sub-Control 16.3).&lt;/p&gt;
+&lt;h2&gt;Cybersecurity Tools&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.cisecurity.org/cybersecurity-tools/&quot;&gt;CIS Cybersecurity Tools&lt;/a&gt; page groups CIS Controls and CIS Benchmarks in the ‘Do it yourself’ category. For those on a multi-cloud journey, the single scenario being discussed above involved four separate CIS Benchmark recommendations and not one, but two, CIS Controls.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Original version appears on the &lt;a href=&quot;https://discover.opscompass.com/blog/cis-controls-and-benchmarks&quot;&gt;OpsCompass blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Playing with Terraform inside Azure Cloud Shell]]></title><description><![CDATA[I noticed that terraform was one of the tools pre-configured in Azure Cloud Shell, so I decided to play around with it based on the…]]></description><link>https://kevinhakanson.com/2020-05-29-playing-with-terraform-inside-azure-cloud-shell</link><guid isPermaLink="false">https://kevinhakanson.com/2020-05-29-playing-with-terraform-inside-azure-cloud-shell</guid><pubDate>Fri, 29 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I noticed that &lt;a href=&quot;https://www.terraform.io/&quot;&gt;terraform&lt;/a&gt; was one of the &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/cloud-shell/features#tools&quot;&gt;tools pre-configured in Azure Cloud Shell&lt;/a&gt;, so I decided to play around with it based on the Terraform &lt;a href=&quot;https://learn.hashicorp.com/terraform/azure/intro_az&quot;&gt;Getting Started - Azure&lt;/a&gt; learning track.&lt;/p&gt;
 &lt;p&gt;I created a &lt;code class=&quot;language-text&quot;&gt;azuredeploy.tf&lt;/code&gt; file which would just create an Azure Resource Group named &lt;code class=&quot;language-text&quot;&gt;myResourceGroupT&lt;/code&gt; and Storage Account named &lt;code class=&quot;language-text&quot;&gt;terraformlabkjh20200529&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;kevin@Azure:~$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; azuredeploy.tf
 provider &lt;span class=&quot;token string&quot;&gt;&quot;azurerm&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;

@@ -11,6 +11,14 @@ Descriptions and links to various presentations from Kevin Hakanson.
 [Kevin Hakanson][17] ([@hakanson][1]) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.
 
 ---
+### Adopting Multi-Cloud Services with Confidence
+
+In transitioning to multi-cloud, IT organizations have the same responsibility to provide quality service and operational security, yet have a much greater need to understand how to efficiently govern and manage these disparate cloud services.
+
+In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.
+
+* The Complete Cloud Summit (15 September 2020)
+
 ### Introduction to Speech Interfaces for Web Applications
 
 Speaking with your computing device is becoming commonplace.  Most of us have used Apple's Siri, Google Now, Microsoft's Cortana, or Amazon's Alexa - but how can you speak with your web application?  The Web Speech API can enable a voice interface by adding both Speech Synthesis (Text to Speech) and Speech Recognition (Speech to Text) functionality.

@@ -17,7 +17,7 @@ In transitioning to multi-cloud, IT organizations have the same responsibility t
 
 In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.
 
-* The Complete Cloud Summit (15 September 2020)
+* The Complete Cloud Summit (15 September 2020)  ( [webinar][39] )
 
 ### Introduction to Speech Interfaces for Web Applications
 
@@ -169,10 +169,11 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [29]: http://youtu.be/kqwaZ-LzDag?list=PL-0yjdC10QYpmXI3l-PGK1od4kTWOjm_A
 [30]: https://docs.google.com/presentation/d/1sXeJIMAUorz-EBEvxze2FTYWDqUTulaiR8XTo2C0_BA/pub?start=false&loop=false&delayms=3000
 [31]: http://youtu.be/6uloYE87pkk
-[32]: http://www.slideshare.net/kevinhakanson/ng-owasp-ndc
+[32]: https://www.slideshare.net/kevinhakanson/ng-owasp-ndc
 [33]: https://vimeo.com/131757758
 [34]: https://docs.google.com/presentation/d/11dCU6lJ27R5RpuMDopMvkTzzcYmNAmv4CWzv4gYRxzs/pub?start=false&loop=false&delayms=3000
-[35]: http://www.slideshare.net/kevinhakanson/learning-to-mod-minecraft-a-fatherdaughter-retrospective
+[35]: https://www.slideshare.net/kevinhakanson/learning-to-mod-minecraft-a-fatherdaughter-retrospective
 [36]: https://youtu.be/InbVSEA8V0U
-[37]: http://www.slideshare.net/kevinhakanson/introduction-to-speech-interfaces-for-web-applications
-[38]: http://www.slideshare.net/kevinhakanson/make-your-own-print-play-card-game-using-svg-and-java-script
+[37]: https://www.slideshare.net/kevinhakanson/introduction-to-speech-interfaces-for-web-applications
+[38]: https://www.slideshare.net/kevinhakanson/make-your-own-print-play-card-game-using-svg-and-java-script
+[39]: https://www.brighttalk.com/webinar/adopting-multi-cloud-services-with-confidence/

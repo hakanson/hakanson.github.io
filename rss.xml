@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 00:04:42 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 18 Sep 2020 12:12:08 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
@@ -6,7 +6,7 @@
 &lt;p&gt;In transitioning to multi-cloud, IT organizations have the same responsibility to provide quality service and operational security, yet have a much greater need to understand how to efficiently govern and manage these disparate cloud services.&lt;/p&gt;
 &lt;p&gt;In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The Complete Cloud Summit (15 September 2020)&lt;/li&gt;
+&lt;li&gt;The Complete Cloud Summit (15 September 2020)  ( &lt;a href=&quot;https://www.brighttalk.com/webinar/adopting-multi-cloud-services-with-confidence/&quot;&gt;webinar&lt;/a&gt; )&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Introduction to Speech Interfaces for Web Applications&lt;/h3&gt;
 &lt;p&gt;Speaking with your computing device is becoming commonplace.  Most of us have used Apple’s Siri, Google Now, Microsoft’s Cortana, or Amazon’s Alexa - but how can you speak with your web application?  The Web Speech API can enable a voice interface by adding both Speech Synthesis (Text to Speech) and Speech Recognition (Speech to Text) functionality.&lt;/p&gt;
@@ -14,14 +14,14 @@
 &lt;ul&gt;
 &lt;li&gt;Twin Cities Code Camp 20 (16 April 2016)&lt;/li&gt;
 &lt;li&gt;MinneBar 11 (23 April 2016)&lt;/li&gt;
-&lt;li&gt;Midwest JS (10-12 August 2016) ( &lt;a href=&quot;http://www.slideshare.net/kevinhakanson/introduction-to-speech-interfaces-for-web-applications&quot;&gt;presentation&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Midwest JS (10-12 August 2016) ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/introduction-to-speech-interfaces-for-web-applications&quot;&gt;presentation&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Thomson Reuters Beyond the Edge - Ann Arbor (12 September 2016)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Learning to Mod Minecraft: A Father/Daughter Retrospective&lt;/h3&gt;
 &lt;p&gt;What do Minecraft and Blockly have in common? Minecraft is a popular, open world video game where players can build structures using digital blocks. Blockly is a open source visual programming language where students can build programs using blocks. LearnToMod combined these together to teach students how to modify Minecraft using either the Blockly visual editor or JavaScript.&lt;/p&gt;
 &lt;p&gt;This session will be the retrospective of an enthusiastic father teaching his hesitant daughter (who loves Minecraft) about programming. We started with Hour of Code and pair-programmed through LearnToMod’s video lessons. What did we create? How did we like it? What would we recommend to others? Come learn about our experience and ask questions.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;That Conference (10-12 August 2015) (with Audra Hakanson) ( &lt;a href=&quot;http://www.slideshare.net/kevinhakanson/learning-to-mod-minecraft-a-fatherdaughter-retrospective&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/InbVSEA8V0U&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;That Conference (10-12 August 2015) (with Audra Hakanson) ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/learning-to-mod-minecraft-a-fatherdaughter-retrospective&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/InbVSEA8V0U&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;ng-owasp: OWASP Top 10 for AngularJS Applications&lt;/h3&gt;
 &lt;p&gt;The OWASP Top 10 provides a list of the 10 most critical web application security risks.  How do these relate to AngularJS applications? What security vulnerabilities should developers be aware of beyond XSS and CSRF?&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;li&gt;Thomson Reuters Beyond the Edge - Ann Arbor (17 September 2014)&lt;/li&gt;
 &lt;li&gt;AngularMN Monthly Meetup (4 March 2015) ( &lt;a href=&quot;https://docs.google.com/presentation/d/1sXeJIMAUorz-EBEvxze2FTYWDqUTulaiR8XTo2C0_BA/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;http://youtu.be/6uloYE87pkk&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Twin Cities Code Camp 18 (25 April 2015)&lt;/li&gt;
-&lt;li&gt;NDC Oslo (17-19 June 2015) ( &lt;a href=&quot;http://www.slideshare.net/kevinhakanson/ng-owasp-ndc&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://vimeo.com/131757758&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;NDC Oslo (17-19 June 2015) ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/ng-owasp-ndc&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://vimeo.com/131757758&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;That Conference (10-12 August 2015) ( &lt;a href=&quot;https://docs.google.com/presentation/d/11dCU6lJ27R5RpuMDopMvkTzzcYmNAmv4CWzv4gYRxzs/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;DevFestMN 2016 (6 February 2016)&lt;/li&gt;
 &lt;/ul&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;We will start with a blank screen, adding color and graphics elements like lines, shapes, text and images.  Learn about container elements and defining content for re-use.  Understand how units in the SVG coordinate system can transform our on-screen creation into an 8.5 by 11 inch printed page (or PDF). SVG examples will be both in their native XML format and created from JavaScript using Snap.svg, an open source library from Adobe designed for modern web browsers.&lt;/p&gt;
 &lt;p&gt;You will leave this session with a basic knowledge of SVG concepts, how to programmatically generate SVG using JavaScript, and how to make your SVG creation printer friendly.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Twin Cities Code Camp 16 (5 April 2014) ( &lt;a href=&quot;http://www.slideshare.net/kevinhakanson/make-your-own-print-play-card-game-using-svg-and-java-script&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://github.com/hakanson/tccc16&quot;&gt;code&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Twin Cities Code Camp 16 (5 April 2014) ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/make-your-own-print-play-card-game-using-svg-and-java-script&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://github.com/hakanson/tccc16&quot;&gt;code&lt;/a&gt; )&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Scaling Agility from the Trenches&lt;/h3&gt;
 &lt;p&gt;Let’s start a conference with a conversation. Instead of an opening talk, Twin Cities agile practitioners will share a fishbowl with coaches in a free-for-all discussion around the good the bad and the ugly of scaling agility instead of simply adding more process. Stop back for more details or stop in and enjoy the (fishbowl) madness.&lt;/p&gt;
@@ -103,7 +103,261 @@
 &lt;p&gt;In this session, you will learn the ins-and-outs of building an eCommerce site with Domino, and how you can build a site faster and easier with Domino than with other technologies.  We will explain how to set up customer registration, build a product catalog, and manage the shopping cart.  Tips on how to implement effective application security and get the best site performance will also be included.  Finally, this session will describe the different ways to integrate you eCommerce applications with existing ERP applications.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lotus Developers’ Conference 1999 (20-23 June 1999)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[What is the OWASP Cyber Defense Matrix?]]></title><description><![CDATA[The OWASP® Foundation works to improve the security of software through its community-led open source software projects, including the OWASP…]]></description><link>https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</link><guid isPermaLink="false">https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://owasp.org/&quot;&gt;The OWASP® Foundation&lt;/a&gt; works to improve the security of software through its community-led open source software projects, including the &lt;a href=&quot;https://owasp.org/www-project-cyber-defense-matrix/&quot;&gt;OWASP Cyber Defense Matrix&lt;/a&gt;, a project initially created to help organize security technologies across the cybersecurity vendor marketplace. They address some of the confusion that still exists as a result of both a cybersecurity community that doesn’t use consistent terminology and vendors who use marketecture language based on trendy jargon.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[7 Attempts at Slide Deck Humor]]></title><description><![CDATA[With the transition of SlideShare from LinkedIn to Scribd, I looked through my old tech conference presentation slide decks and wanted to…]]></description><link>https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</link><guid isPermaLink="false">https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</guid><pubDate>Fri, 18 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;With the transition of &lt;a href=&quot;https://news.linkedin.com/2020/august/digital-library-leader-scribd-is-acquiring-slideshare&quot;&gt;SlideShare from LinkedIn to Scribd&lt;/a&gt;, I looked through my old tech conference presentation slide decks and wanted to highlight some of my slides that (maybe) were not as humorous as I planned. They say “If you have to explain a joke, it’s not funny” but I don’t care what “they” say - these are getting an explanation.&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/implementing-messaging-patterns-in-java-script-using-the-openajax-hub/51&quot;&gt;Implementing Messaging Patterns in JavaScript using the OpenAjax Hub&lt;/a&gt;, this “Q &amp;#x26; A” slide refers to &lt;a href=&quot;https://en.wikipedia.org/wiki/Q_(Star_Trek)&quot;&gt;Q&lt;/a&gt; from Star Trek: The Next Generation (1987) and &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Scarlet_Letter&quot;&gt;A&lt;/a&gt; as the Scarlet Letter from the classic Nathaniel Hawthorn novel (1850).&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8a3718282e68735d15874924db8ca0a7/8608d/implementing-messaging-patterns-in-javascript-using-the-openajax-hub-51-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABq4mNlPnIp//EABsQAAMAAgMAAAAAAAAAAAAAAAECAwQTABIU/9oACAEBAAEFAmuFLX68k+xMpab3B82KCsP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8ByK//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BpX//xAAdEAACAgEFAAAAAAAAAAAAAAABEQACEiEiMVFx/9oACAEBAAY/Ate1KkVeQfMyShVWPZTayoBaf//EABsQAAMAAwEBAAAAAAAAAAAAAAABESExYUGB/9oACAEBAAE/IXZJ0+UllXcCfueWnQwsDOZZ3oXJHWf/2gAMAwEAAgADAAAAEFM//8QAFxEAAwEAAAAAAAAAAAAAAAAAABEhAf/aAAgBAwEBPxDIURw//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQIBAT8QcHBc0//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQAxQWFRodH/2gAIAQEAAT8QZuBsUOx8HzDUphoAh5O85+CdBjePRJxwIoGl94xkAhAZBNz1lqHIkaWtZ//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Q (Star Trek) &amp;amp; A (Scarlet Letter)&quot;
+        title=&quot;Q (Star Trek) &amp;amp; A (Scarlet Letter)&quot;
+        src=&quot;/static/8a3718282e68735d15874924db8ca0a7/1c72d/implementing-messaging-patterns-in-javascript-using-the-openajax-hub-51-638.jpg&quot;
+        srcset=&quot;/static/8a3718282e68735d15874924db8ca0a7/a80bd/implementing-messaging-patterns-in-javascript-using-the-openajax-hub-51-638.jpg 148w,
+/static/8a3718282e68735d15874924db8ca0a7/1c91a/implementing-messaging-patterns-in-javascript-using-the-openajax-hub-51-638.jpg 295w,
+/static/8a3718282e68735d15874924db8ca0a7/1c72d/implementing-messaging-patterns-in-javascript-using-the-openajax-hub-51-638.jpg 590w,
+/static/8a3718282e68735d15874924db8ca0a7/8608d/implementing-messaging-patterns-in-javascript-using-the-openajax-hub-51-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/developers-guide-to-javascript-and-web-cryptography/21&quot;&gt;Developer’s Guide to JavaScript and Web Cryptography&lt;/a&gt;, this pre-apology slide for when I accidentally said SSL (Secure Sockets Layer) instead of TLS (Transport Layer Security), was a reference to the They Might be Giants 1990 version of &lt;a href=&quot;https://en.wikipedia.org/wiki/Istanbul_(Not_Constantinople)&quot;&gt;Istanbul (Not Constantinople)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bbed3f5766f48df817b43a29b474d003/8608d/developers-guide-to-javascript-and-web-cryptography-21-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB2osStkBP/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECERAT/9oACAEBAAEFAqeHpykKXp//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAEDEB/9oACAEBAAY/AiLCL//EABoQAQACAwEAAAAAAAAAAAAAAAERIQAQMUH/2gAIAQEAAT8hYzLbhNQ47emaEw4JPrX/2gAMAwEAAgADAAAAEMPP/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EBF//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAgICAwAAAAAAAAAAAAAAAREhoQAQQWGB/9oACAEBAAE/EBYFoQUVhhqT4a0L5QIfRyPFpIU3r//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Istanbul (Not Constantinople)&quot;
+        title=&quot;Istanbul (Not Constantinople)&quot;
+        src=&quot;/static/bbed3f5766f48df817b43a29b474d003/1c72d/developers-guide-to-javascript-and-web-cryptography-21-638.jpg&quot;
+        srcset=&quot;/static/bbed3f5766f48df817b43a29b474d003/a80bd/developers-guide-to-javascript-and-web-cryptography-21-638.jpg 148w,
+/static/bbed3f5766f48df817b43a29b474d003/1c91a/developers-guide-to-javascript-and-web-cryptography-21-638.jpg 295w,
+/static/bbed3f5766f48df817b43a29b474d003/1c72d/developers-guide-to-javascript-and-web-cryptography-21-638.jpg 590w,
+/static/bbed3f5766f48df817b43a29b474d003/8608d/developers-guide-to-javascript-and-web-cryptography-21-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users/13&quot;&gt;Internationalize your JavaScript Application: Prepare for “the next billion” internet users&lt;/a&gt;, following where I explained that internationalization was abbreviated as &lt;strong&gt;i18n&lt;/strong&gt; and localization was abbreviated as &lt;strong&gt;l10n&lt;/strong&gt;, I attempted to make a &lt;a href=&quot;https://en.wikipedia.org/wiki/Numeronym&quot;&gt;numeronym&lt;/a&gt; joke out of my own name (which also ends in &lt;strong&gt;n&lt;/strong&gt;) with Kevin Hakanson being replaced by &lt;strong&gt;K3n H6n&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/081511f6f75816b0ac08768e3c4f6e9d/8608d/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users-13-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe/NDQf/xAAWEAEBAQAAAAAAAAAAAAAAAAABACD/2gAIAQEAAQUChHP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAASAh/9oACAEBAAY/AjHP/8QAFxAAAwEAAAAAAAAAAAAAAAAAARARAP/aAAgBAQABPyHFoAuL/9oADAMBAAIAAwAAABDgD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERABAhMUGR/9oACAEBAAE/EFArwGVQJYPmu8CNL9df/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;K3n H6n numeronym joke&quot;
+        title=&quot;K3n H6n numeronym joke&quot;
+        src=&quot;/static/081511f6f75816b0ac08768e3c4f6e9d/1c72d/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users-13-638.jpg&quot;
+        srcset=&quot;/static/081511f6f75816b0ac08768e3c4f6e9d/a80bd/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users-13-638.jpg 148w,
+/static/081511f6f75816b0ac08768e3c4f6e9d/1c91a/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users-13-638.jpg 295w,
+/static/081511f6f75816b0ac08768e3c4f6e9d/1c72d/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users-13-638.jpg 590w,
+/static/081511f6f75816b0ac08768e3c4f6e9d/8608d/internationalize-your-javascript-application-prepare-for-the-next-billion-internet-users-13-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/make-your-own-print-play-card-game-using-svg-and-java-script/103&quot;&gt;Make your own Print &amp;#x26; Play card game using SVG and JavaScript&lt;/a&gt;, after I built up this personalized trading card using SVG (Scalable Vector Graphics), I egotistically put it side by side with the original template. This was not just another Star Trek: The Next Generation reference but also honored the &lt;a href=&quot;https://en.wikipedia.org/wiki/TableTop#International_TableTop_Day&quot;&gt;second International TableTop Day&lt;/a&gt; that was being live streamed by Wil Wheaton that very same day in 2014.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/92c050df9dc380cd628358fc567f9b48/8608d/make-your-own-print-play-card-game-using-svg-and-javascript-103-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAAB3pJSumTKf//EABgQAQEBAQEAAAAAAAAAAAAAAAMCBAET/9oACAEBAAEFAk09hK09ngp6S4XbLnSpzRRl/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAQQDAQAAAAAAAAAAAAAAAgABETEDEiFh/9oACAEBAAY/AiDWvUL62M2piOwiJm46xw1DDrUrlf/EABkQAQADAQEAAAAAAAAAAAAAAAEAETFRIf/aAAgBAQABPyEiFqNx7sZXER3YLUvhAGw8DsTukZ//2gAMAwEAAgADAAAAEG//AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8Qig9P/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxBW6I//xAAdEAEBAAMAAgMAAAAAAAAAAAABEQAhMUFhUXGx/9oACAEBAAE/EAhNTFpeTC+5F5BCc94BJACjTO4eMMUkgb78/mMOJ0Hb9+s1l3CNtc//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Wil Wheaton and Kevin Hakanson as Evil Twins&quot;
+        title=&quot;Wil Wheaton and Kevin Hakanson as Evil Twins&quot;
+        src=&quot;/static/92c050df9dc380cd628358fc567f9b48/1c72d/make-your-own-print-play-card-game-using-svg-and-javascript-103-638.jpg&quot;
+        srcset=&quot;/static/92c050df9dc380cd628358fc567f9b48/a80bd/make-your-own-print-play-card-game-using-svg-and-javascript-103-638.jpg 148w,
+/static/92c050df9dc380cd628358fc567f9b48/1c91a/make-your-own-print-play-card-game-using-svg-and-javascript-103-638.jpg 295w,
+/static/92c050df9dc380cd628358fc567f9b48/1c72d/make-your-own-print-play-card-game-using-svg-and-javascript-103-638.jpg 590w,
+/static/92c050df9dc380cd628358fc567f9b48/8608d/make-your-own-print-play-card-game-using-svg-and-javascript-103-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/securing-todomvc-using-the-web-cryptography-api/56&quot;&gt;Securing TodoMVC Using the Web Cryptography API&lt;/a&gt;, back when internet meme options were not as rich as they are today, I used &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Most_Interesting_Man_in_the_World&quot;&gt;The Most Interesting Man in the World&lt;/a&gt; to make a substitution cipher joke about ROT26 (which is equivalent to no encryption at all). Another throwback to my college years when &lt;a href=&quot;https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol&quot;&gt;NTTP&lt;/a&gt; group posts used &lt;a href=&quot;https://en.wikipedia.org/wiki/ROT13&quot;&gt;ROT13&lt;/a&gt; to obscure answers to jokes and puzzles.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2d138a57fe30146d268bd53479485ab7/8608d/securing-todomvc-using-the-web-cryptography-api-56-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQD/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABUOVPheqv/8QAGRAAAgMBAAAAAAAAAAAAAAAAAgMAAQQT/9oACAEBAAEFAtRktFaWd48OihzlRT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgIDAAAAAAAAAAAAAAACEQABECExMmH/2gAIAQEABj8Csh5qADdOnrFim4GuvuP/xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAQQVFhgf/aAAgBAQABPyFV5Dj3Fhoo6Ovg4sx6TEaf/9oADAMBAAIAAwAAABCfz//EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAwEBPxCBn//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/EKf/xAAcEAEBAAICAwAAAAAAAAAAAAABESExABBBkaH/2gAIAQEAAT8QA8qVoiB+cNnKIlD1vfSBFQVDY75h+XawCZ3nHjr/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;I don&amp;#39;t always use encryption, but when I do, I use ROT26&quot;
+        title=&quot;I don&amp;#39;t always use encryption, but when I do, I use ROT26&quot;
+        src=&quot;/static/2d138a57fe30146d268bd53479485ab7/1c72d/securing-todomvc-using-the-web-cryptography-api-56-638.jpg&quot;
+        srcset=&quot;/static/2d138a57fe30146d268bd53479485ab7/a80bd/securing-todomvc-using-the-web-cryptography-api-56-638.jpg 148w,
+/static/2d138a57fe30146d268bd53479485ab7/1c91a/securing-todomvc-using-the-web-cryptography-api-56-638.jpg 295w,
+/static/2d138a57fe30146d268bd53479485ab7/1c72d/securing-todomvc-using-the-web-cryptography-api-56-638.jpg 590w,
+/static/2d138a57fe30146d268bd53479485ab7/8608d/securing-todomvc-using-the-web-cryptography-api-56-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/ng-owasp-ndc/8&quot;&gt;ng-owasp: OWASP Top 10 for AngularJS Applications&lt;/a&gt;, as I was explaining the presentation would focus on front-end technologies like HTML and JavaScript. I made the slide title of &lt;code class=&quot;language-text&quot;&gt;html[ng-app]:focus, script:focus&lt;/code&gt; a syntactically correct CSS selector. This referenced that AngularJS added &lt;code class=&quot;language-text&quot;&gt;class=&amp;quot;ng-app&amp;quot;&lt;/code&gt; to the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;html&amp;gt;&lt;/code&gt; element, JavaScript uses the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; element, and I misappropriated the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/:focus&quot;&gt;:focus&lt;/a&gt; CSS pseudo-class.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4bf1f29e5bf9c6a86e7bc1c5e87f7dae/8608d/ngowasp-owasp-top-10-for-angularjs-applications-8-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdyaoYg//8QAGRABAQADAQAAAAAAAAAAAAAAEQABITFC/9oACAEBAAEFAjfqGMPL/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAEBEgQf/aAAgBAQAGPwLYY//EABwQAQACAQUAAAAAAAAAAAAAAAEAESEQMUFx4f/aAAgBAQABPyFHoysDNduld04jMAFE/9oADAMBAAIAAwAAABDjz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQADAQADAAAAAAAAAAAAAAEAESExEEHB/9oACAEBAAE/EGoW7uURVFz79eeKam1d1IoFj7uVhon/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;html[ng-app]:focus, script:focus&quot;
+        title=&quot;html[ng-app]:focus, script:focus&quot;
+        src=&quot;/static/4bf1f29e5bf9c6a86e7bc1c5e87f7dae/1c72d/ngowasp-owasp-top-10-for-angularjs-applications-8-638.jpg&quot;
+        srcset=&quot;/static/4bf1f29e5bf9c6a86e7bc1c5e87f7dae/a80bd/ngowasp-owasp-top-10-for-angularjs-applications-8-638.jpg 148w,
+/static/4bf1f29e5bf9c6a86e7bc1c5e87f7dae/1c91a/ngowasp-owasp-top-10-for-angularjs-applications-8-638.jpg 295w,
+/static/4bf1f29e5bf9c6a86e7bc1c5e87f7dae/1c72d/ngowasp-owasp-top-10-for-angularjs-applications-8-638.jpg 590w,
+/static/4bf1f29e5bf9c6a86e7bc1c5e87f7dae/8608d/ngowasp-owasp-top-10-for-angularjs-applications-8-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/introduction-to-speech-interfaces-for-web-applications/46&quot;&gt;Introduction to Speech Interfaces for Web Applications&lt;/a&gt;, where I made a Star Wars reference to line ”&lt;a href=&quot;https://starwars.fandom.com/wiki/TK-421&quot;&gt;TK-421&lt;/a&gt; why aren’t you at your post?” Each digit of 421 is enumerated by the actor, but most speech-to-text engines will say “four-hundred twenty-one” requiring custom mark-up to hear the intended result.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f1013c5dc28afbd6bff74caedb2e9a16/8608d/introduction-to-speech-interfaces-for-web-applications-46-638.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd6alYgcH//EABkQAQEAAwEAAAAAAAAAAAAAAAIDAAEEEf/aAAgBAQABBQLOim5y56qg8ygLM5ka/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgMBAQAAAAAAAAAAAAAAAAECERIQMf/aAAgBAQAGPwI1Ebde8zJWioqj/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQEAAT8husdoWpahhdKMRF4dWiwb4lvT/9oADAMBAAIAAwAAABAgD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEAAgIDAAAAAAAAAAAAAAERACFBYVFx0f/aAAgBAQABPxABa9ZEIdyTbMZESWRIfcVpF84v0VsTZ6ynVoU7gcvWf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;TK-421&quot;
+        title=&quot;TK-421&quot;
+        src=&quot;/static/f1013c5dc28afbd6bff74caedb2e9a16/1c72d/introduction-to-speech-interfaces-for-web-applications-46-638.jpg&quot;
+        srcset=&quot;/static/f1013c5dc28afbd6bff74caedb2e9a16/a80bd/introduction-to-speech-interfaces-for-web-applications-46-638.jpg 148w,
+/static/f1013c5dc28afbd6bff74caedb2e9a16/1c91a/introduction-to-speech-interfaces-for-web-applications-46-638.jpg 295w,
+/static/f1013c5dc28afbd6bff74caedb2e9a16/1c72d/introduction-to-speech-interfaces-for-web-applications-46-638.jpg 590w,
+/static/f1013c5dc28afbd6bff74caedb2e9a16/8608d/introduction-to-speech-interfaces-for-web-applications-46-638.jpg 638w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully, you found at least one of these funny without the explanation. Visit &lt;a href=&quot;https://kevinhakanson.com/presentations&quot;&gt;kevinhakanson.com/presentations&lt;/a&gt; for links to all my slide decks, associated code samples, and some video recordings.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[7 Multi-Cloud Governance Best Practices]]></title><description><![CDATA[I recently authored a presentation on adopting multi-cloud, and pulled together this list of 7 multi-cloud best practices as a quick summary…]]></description><link>https://kevinhakanson.com/2020-09-12-7-multi-cloud-governance-best-practices</link><guid isPermaLink="false">https://kevinhakanson.com/2020-09-12-7-multi-cloud-governance-best-practices</guid><pubDate>Sat, 12 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I recently authored a &lt;a href=&quot;https://www.brighttalk.com/webcast/14725/430858&quot;&gt;presentation on adopting multi-cloud&lt;/a&gt;, and pulled together this list of 7 multi-cloud best practices as a quick summary of the session. While I don’t claim this is an exhaustive list, it is a good starting point for those on a multi-cloud adoption journey.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#1 - Know why you are multi-cloud&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Organizations use multiple clouds for a variety of reasons. But it is not always right for every company or every situation. When I read &lt;a href=&quot;https://www.lastweekinaws.com/blog/multi-cloud-is-the-worst-practice/&quot;&gt;Multi-Cloud is the Worst Practice&lt;/a&gt;, I was drawn to this comment:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In practice, every “we’re multi-cloud” story I’ve ever seen in the wild means “we’re over 80% on our primary provider, then have a smattering of workloads on others.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sometimes multi-cloud is just a fact of doing business, whether you have a strategic initiative to migrate between clouds, or the result of a merger or acquisition has left you with a multi-cloud footprint. It is critical to understand your reason for being multi-cloud.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#2 – Write down “your” definitions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;“Common” terminology like &lt;strong&gt;cloud-native&lt;/strong&gt; and &lt;strong&gt;cloud-agnostic&lt;/strong&gt; seem to have different meanings, depending on the situation and whom you ask. Document your contextual meaning and provide examples. Take the case of Amazon DocumentDB (with &lt;em&gt;MongoDB&lt;/em&gt; compatibility) or Azure Cosmos DB’s API for &lt;em&gt;MongoDB&lt;/em&gt; – are these cloud-native because they are a PaaS service, cloud-agnostic because they support the &lt;em&gt;MongoDB&lt;/em&gt; protocol, or is the only “approved” implementation hosting your own &lt;em&gt;MongoDB&lt;/em&gt; instance on IaaS?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#3 – Review multiple Shared Responsibility Models&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When it comes to shared responsibility for cloud security, a common theme emerges of separating the cloud provider’s responsibility and your responsibility as the cloud customer&lt;a href=&quot;#_ftn1&quot;&gt;[1]&lt;/a&gt;. These models have differences in their layers, but the top level of each highlights protecting customer data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/compliance/shared-responsibility-model/&quot;&gt;AWS - Shared Responsibility Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/containers-kubernetes/exploring-container-security-the-shared-responsibility-model-in-gke-container-security-shared-responsibility-model-gke&quot;&gt;Google Cloud - Shared Responsibility Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility&quot;&gt;Microsoft Azure - Shared Responsibility Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;#4 – Evaluate multiple Cloud Adoption Frameworks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Each framework has a different approach and adds value to the ongoing conversation about multi-cloud adoption. There is a common understanding that alignment between Business and IT is needed for a successful cloud adoption and that security plays a central and ongoing role.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/professional-services/CAF/&quot;&gt;AWS Cloud Adoption Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/adoption-framework/&quot;&gt;The Google Cloud Adoption Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/overview&quot;&gt;Microsoft Cloud Adoption Framework for Azure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;#5 – Consult multiple Well-Architected Frameworks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This set of documents has more cloud-native than cloud-agnostic advice, but each cloud provider has (basically) aligned on a common set of pillars: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/architecture/well-architected/&quot;&gt;AWS Well-Architected Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/architecture/framework&quot;&gt;Google Cloud’s Architecture Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/architecture/framework/&quot;&gt;Microsoft Azure Well-Architected Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;#6 – Know your proper names&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Each hyperscale cloud provider has similar core concepts, but often use different names. An &lt;strong&gt;Account&lt;/strong&gt; in AWS is like a &lt;strong&gt;Project&lt;/strong&gt; in GCP and is like a &lt;strong&gt;Subscription&lt;/strong&gt; in Microsoft Azure. Each of these terms describe the core container of cloud resources and can be organized into a hierarchy with policies applied at different levels. Another common element, a “load balancer” might be at the application level (e.g. OSI Layer 4 or HTTP), or at the network level (e.g. OSI Layer 4 or TCP), or allow for either. Watch out when trying to make your terminology cloud-agnostic when you really need to be using the cloud-native service names.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#7 – Plan for the impact on your Cloud Center of Excellence&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully your &lt;a href=&quot;/blog/cloud-center-of-excellence-drives-success&quot;&gt;Cloud Center of Excellence (CCoE)&lt;/a&gt; team members are already experts at the cloud adoption functions of governance, security, and automation. But, people and skills are often an organization’s limiting factor, and you need to focus on workloads and business outcomes. A CCoE team needs to have multi-cloud insight into the security and governance across all your workloads and their corresponding dependencies whether IaaS, PaaS, or SaaS. My recommendation is to find an independent, trusted partner (specialty consultant or software vendor) who focuses all their time thinking about multi-cloud to help.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#_ftnref1&quot;&gt;[1]&lt;/a&gt; &lt;a href=&quot;https://www.cisecurity.org/blog/shared-responsibility-cloud-security-what-you-need-to-know/&quot;&gt;CIS: &lt;em&gt;Shared Responsibility for Cloud Security: What You Need to Know&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Original version appears on the &lt;a href=&quot;https://discover.opscompass.com/blog/7-multi-cloud-governance-best-practices&quot;&gt;OpsCompass blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What is the OWASP Cyber Defense Matrix?]]></title><description><![CDATA[The OWASP® Foundation works to improve the security of software through its community-led open source software projects, including the OWASP…]]></description><link>https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</link><guid isPermaLink="false">https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</guid><pubDate>Wed, 12 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://owasp.org/&quot;&gt;The OWASP® Foundation&lt;/a&gt; works to improve the security of software through its community-led open source software projects, including the &lt;a href=&quot;https://owasp.org/www-project-cyber-defense-matrix/&quot;&gt;OWASP Cyber Defense Matrix&lt;/a&gt;, a project initially created to help organize security technologies across the cybersecurity vendor marketplace. They address some of the confusion that still exists as a result of both a cybersecurity community that doesn’t use consistent terminology and vendors who use marketecture language based on trendy jargon.&lt;/p&gt;
 &lt;p&gt;Let’s first take a peek at an empty Cyber Defense Matrix and then dig into the components that define its structure.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;

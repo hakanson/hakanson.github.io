@@ -28,8 +28,8 @@
 <url> <loc>https://kevinhakanson.com/2019-01-11-finding-all-aws-services-my-team-is-using</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-12-18-architecture-decision-records-adrs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-10-17-full-stack-caching-strategy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-10-11-x-xss-protection-is-dead-long-live-content-security-policy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -107,8 +107,8 @@
 <url> <loc>https://kevinhakanson.com/2016-08-22-investigating-cloudtrail-for-s3-putbucketnotification</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-08-15-how-iam-roles-become-credentials-on-ec2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-29-net-zipkin-investigation-medidatazipkintracermodule</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-06-10-zipkin-js-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-05-03-introduction-to-speech-interfaces-for-web-applications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -138,8 +138,8 @@
 <url> <loc>https://kevinhakanson.com/2014-10-07-hindi-number-formatting-in-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2014-09-23-i-was-a-victim-of-internet-plagiarism</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2014-07-31-reimagining-cobaltjs-preferences-in-angularjs-using-uml</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2014-07-03-page-visibility-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2014-07-03-cdn-hosting-of-javascript-and-information-security-aspects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2014-07-03-page-visibility-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2014-06-24-the-architecture-of-open-source-applications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2014-06-01-i-love-to-talk-i-hate-to-type</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2014-05-20-cfobjective-2014</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

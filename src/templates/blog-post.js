@@ -18,6 +18,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          canonical={post.frontmatter.canonical}
         />
 
         <nav>
@@ -102,8 +103,10 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
         date(formatString: "MMMM DD, YYYY")
         tags
+        canonical
       }
     }
   }

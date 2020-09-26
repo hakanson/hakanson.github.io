@@ -17,7 +17,7 @@ In transitioning to multi-cloud, IT organizations have the same responsibility t
 
 In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.
 
-* The Complete Cloud Summit (15 September 2020)  ( [webinar][39] )
+* The Complete Cloud Summit (15 September 2020)  (  [presentation][41], [video][39] )
 
 ### Aumentum Cloud Strategy: Public Cloud vs. Government Cloud
 
@@ -146,7 +146,7 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 
 [1]: https://twitter.com/hakanson
 [2]: https://www.linkedin.com/in/kevinhakanson
-[3]: http://stackoverflow.com/users/22514/kevin-hakanson
+[3]: https://stackoverflow.com/users/22514/kevin-hakanson
 [4]: https://docs.google.com/presentation/d/1h95HJrrijsqNPvteAO4oo9NkcogfJWE4zS4MDUJJluo/pub?start=false&loop=false&delayms=3000
 [5]: https://www.youtube.com/watch?v=iQ0PSR8xyGQ
 [6]: https://docs.google.com/presentation/d/1hbUdAj1BrRVRgYK-_LR2cbG3M88HfFQwzhYFCxW-kqk/pub?start=false&loop=false&delayms=3000
@@ -159,9 +159,9 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [13]: http://jswebcrypto.azurewebsites.net/demo.html#/
 [14]: https://docs.google.com/presentation/d/1AbWHPOeNTL9w5nddBrRQ5f-3dJ1gp_JPtmHinLq9K80/pub?start=false&loop=false&delayms=3000
 [15]: https://docs.google.com/presentation/d/1ZA8dp-SsXXqjKyFxsnVDrGcdoo0NaqE8dz-DCB8wA2M/pub?start=false&loop=false&delayms=3000
-[16]: http://www.youtube.com/watch?v=h3p8cGOZ8CU
+[16]: https://www.youtube.com/watch?v=h3p8cGOZ8CU
 [17]: https://kevinhakanson.com
-[18]: http://youtu.be/nIS-XrNrv-0
+[18]: https://youtu.be/nIS-XrNrv-0
 [19]: https://docs.google.com/presentation/d/1MeQzuoyrPulLcyv_eOCoVrfHvs5tQATO0YLH2HyG-bg/pub?start=false&loop=false&delayms=3000
 [20]: http://jsi18n.azurewebsites.net/demo.html
 [21]: https://github.com/hakanson/tccc16
@@ -172,9 +172,9 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [26]: https://docs.google.com/presentation/d/1lIMvkPXM2gsieAJ56aokX9QEKsEyTCHiHcJ8SjSU4DQ/pub?start=false&loop=false&delayms=3000
 [27]: https://github.com/hakanson/todomvc-jquery-webcryptoapi
 [28]: https://hakanson.github.io/todomvc-jquery-webcryptoapi/
-[29]: http://youtu.be/kqwaZ-LzDag?list=PL-0yjdC10QYpmXI3l-PGK1od4kTWOjm_A
+[29]: https://youtu.be/kqwaZ-LzDag?list=PL-0yjdC10QYpmXI3l-PGK1od4kTWOjm_A
 [30]: https://docs.google.com/presentation/d/1sXeJIMAUorz-EBEvxze2FTYWDqUTulaiR8XTo2C0_BA/pub?start=false&loop=false&delayms=3000
-[31]: http://youtu.be/6uloYE87pkk
+[31]: https://youtu.be/6uloYE87pkk
 [32]: https://www.slideshare.net/kevinhakanson/ng-owasp-ndc
 [33]: https://vimeo.com/131757758
 [34]: https://docs.google.com/presentation/d/11dCU6lJ27R5RpuMDopMvkTzzcYmNAmv4CWzv4gYRxzs/pub?start=false&loop=false&delayms=3000
@@ -182,5 +182,6 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [36]: https://youtu.be/InbVSEA8V0U
 [37]: https://www.slideshare.net/kevinhakanson/introduction-to-speech-interfaces-for-web-applications
 [38]: https://www.slideshare.net/kevinhakanson/make-your-own-print-play-card-game-using-svg-and-java-script
-[39]: https://www.brighttalk.com/webinar/adopting-multi-cloud-services-with-confidence/
+[39]: https://youtu.be/wgoSzIjqT5s
 [40]: https://www.slideshare.net/secret/7PaI49fYLA0d24
+[41]: https://www.slideshare.net/kevinhakanson/adopting-multicloud-services-with-confidence

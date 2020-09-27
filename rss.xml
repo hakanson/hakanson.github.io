@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Sep 2020 12:23:57 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Sep 2020 15:30:57 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
@@ -6,7 +6,7 @@
 &lt;p&gt;In transitioning to multi-cloud, IT organizations have the same responsibility to provide quality service and operational security, yet have a much greater need to understand how to efficiently govern and manage these disparate cloud services.&lt;/p&gt;
 &lt;p&gt;In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The Complete Cloud Summit (15 September 2020)  ( &lt;a href=&quot;https://www.brighttalk.com/webinar/adopting-multi-cloud-services-with-confidence/&quot;&gt;webinar&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;The Complete Cloud Summit (15 September 2020)  (  &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/adopting-multicloud-services-with-confidence&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/wgoSzIjqT5s&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Aumentum Cloud Strategy: Public Cloud vs. Government Cloud&lt;/h3&gt;
 &lt;p&gt;As Aumentum transitions to a cloud hosted SaaS product, the conversation about “public cloud” vs. “government cloud” is of interest to customers.  This session will review some cloud computing definitions, discuss what is commonly referred to as “government cloud,” and provide a preview of the Aumentum cloud strategy.&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;This session will review the OWASP Top 10 with a front-end development focus on HTML and JavaScript.  It will look at patterns to implement and others to consider avoiding.  We will also explore several built-in features of AngularJS that help secure your application.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Thomson Reuters Beyond the Edge - Ann Arbor (17 September 2014)&lt;/li&gt;
-&lt;li&gt;AngularMN Monthly Meetup (4 March 2015) ( &lt;a href=&quot;https://docs.google.com/presentation/d/1sXeJIMAUorz-EBEvxze2FTYWDqUTulaiR8XTo2C0_BA/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;http://youtu.be/6uloYE87pkk&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;AngularMN Monthly Meetup (4 March 2015) ( &lt;a href=&quot;https://docs.google.com/presentation/d/1sXeJIMAUorz-EBEvxze2FTYWDqUTulaiR8XTo2C0_BA/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/6uloYE87pkk&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Twin Cities Code Camp 18 (25 April 2015)&lt;/li&gt;
 &lt;li&gt;NDC Oslo (17-19 June 2015) ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/ng-owasp-ndc&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://vimeo.com/131757758&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;That Conference (10-12 August 2015) ( &lt;a href=&quot;https://docs.google.com/presentation/d/11dCU6lJ27R5RpuMDopMvkTzzcYmNAmv4CWzv4gYRxzs/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt; )&lt;/li&gt;
@@ -46,7 +46,7 @@
 &lt;ul&gt;
 &lt;li&gt;JavaScriptMN Monthly Meetup (28 August 2014)&lt;/li&gt;
 &lt;li&gt;Thomson Reuters Eagan Technology Unconference (5 September 2014)&lt;/li&gt;
-&lt;li&gt;jQuery Conference (12-13 September 2014) ( &lt;a href=&quot;https://docs.google.com/presentation/d/1lIMvkPXM2gsieAJ56aokX9QEKsEyTCHiHcJ8SjSU4DQ/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://github.com/hakanson/todomvc-jquery-webcryptoapi&quot;&gt;code&lt;/a&gt;, &lt;a href=&quot;https://hakanson.github.io/todomvc-jquery-webcryptoapi/&quot;&gt;demo&lt;/a&gt;, &lt;a href=&quot;http://youtu.be/kqwaZ-LzDag?list=PL-0yjdC10QYpmXI3l-PGK1od4kTWOjm_A&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;jQuery Conference (12-13 September 2014) ( &lt;a href=&quot;https://docs.google.com/presentation/d/1lIMvkPXM2gsieAJ56aokX9QEKsEyTCHiHcJ8SjSU4DQ/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://github.com/hakanson/todomvc-jquery-webcryptoapi&quot;&gt;code&lt;/a&gt;, &lt;a href=&quot;https://hakanson.github.io/todomvc-jquery-webcryptoapi/&quot;&gt;demo&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/kqwaZ-LzDag?list=PL-0yjdC10QYpmXI3l-PGK1od4kTWOjm_A&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Twin Cities Code Camp 17 (4 October 2014)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Make your own &lt;em&gt;Print &amp;#x26; Play&lt;/em&gt; card game using SVG and JavaScript&lt;/h3&gt;
@@ -67,12 +67,12 @@
 &lt;ul&gt;
 &lt;li&gt;Thomson Reuters Eagan Technology Unconference (6 September 2013)  ( short &lt;a href=&quot;https://docs.google.com/presentation/d/18WgfvLWPFtaQaWcUS6LF4-NXFJX0dkEbFCqvG2k352I/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Twin Cities Code Camp 15 (19 October 2013)  ( &lt;a href=&quot;https://docs.google.com/presentation/d/1AbWHPOeNTL9w5nddBrRQ5f-3dJ1gp_JPtmHinLq9K80/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt; )&lt;/li&gt;
-&lt;li&gt;Iowa Code Camp 12 (2 November 2013)  ( &lt;a href=&quot;https://docs.google.com/presentation/d/1ZA8dp-SsXXqjKyFxsnVDrGcdoo0NaqE8dz-DCB8wA2M/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;http://www.youtube.com/watch?v=h3p8cGOZ8CU&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Iowa Code Camp 12 (2 November 2013)  ( &lt;a href=&quot;https://docs.google.com/presentation/d/1ZA8dp-SsXXqjKyFxsnVDrGcdoo0NaqE8dz-DCB8wA2M/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=h3p8cGOZ8CU&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;Google DevFest Twin Cities (8 February 2014) ( &lt;a href=&quot;https://docs.google.com/presentation/d/1MeQzuoyrPulLcyv_eOCoVrfHvs5tQATO0YLH2HyG-bg/pub?start=false&amp;#x26;loop=false&amp;#x26;delayms=3000&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;http://jsi18n.azurewebsites.net/demo.html&quot;&gt;demo&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;That Conference (11-13 August 2014) ( &lt;a href=&quot;https://github.com/hakanson/jsi18n/blob/gh-pages/JavaScript%20Internationalization%20(That%20Conference).pdf&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://github.com/hakanson/jsi18n&quot;&gt;code&lt;/a&gt;, &lt;a href=&quot;http://hakanson.github.io/jsi18n/&quot;&gt;demo&lt;/a&gt; )&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;A Humorous Comparison of Software Development with Star Wars: The Clone Wars&lt;/h3&gt;
-&lt;p&gt;Lightning talk style presentation describing software development using references from Star Wars: The Clone Wars. ( &lt;a href=&quot;http://youtu.be/nIS-XrNrv-0&quot;&gt;screencast&lt;/a&gt; )&lt;/p&gt;
+&lt;p&gt;Lightning talk style presentation describing software development using references from Star Wars: The Clone Wars. ( &lt;a href=&quot;https://youtu.be/nIS-XrNrv-0&quot;&gt;screencast&lt;/a&gt; )&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Thomson Reuters Eagan Technology Unconference (6 September 2013)&lt;/li&gt;
 &lt;li&gt;JavaScriptMN Monthly Meetup (26 September 2013)&lt;/li&gt;
@@ -2302,7 +2302,274 @@ c&amp;lt;--d:
 deactivate c
 ```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/ab627c94e2e5362edd11a8efd45eb426/callflows.svg&quot; alt=&quot;UML Sequence Diagram&quot; title=&quot;call flows&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Later, I am going to think about the best way to check in this text-based UML next to our source code.  I haven’t figured out if the rendered images should be checked in as well, generated as part of a build, or just viewed as part of a markdown preview.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Tools for PowerShell on macOS]]></title><description><![CDATA[Since you can never have too many command lines and shells, today I thought about Installing PowerShell Core on macOS. After that, it was…]]></description><link>https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</link><guid isPermaLink="false">https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</guid><pubDate>Fri, 03 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Since you can never have too many command lines and shells, today I thought about &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-6&quot;&gt;Installing PowerShell Core on macOS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Later, I am going to think about the best way to check in this text-based UML next to our source code.  I haven’t figured out if the rendered images should be checked in as well, generated as part of a build, or just viewed as part of a markdown preview.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Tag Keys with Spaces Problems]]></title><description><![CDATA[The Cloud Center of Excellence at my company was beginning to strictly enforce the tagging standard, which meant that mis-tagged resources…]]></description><link>https://kevinhakanson.com/2019-05-23-aws-tag-keys-with-spaces-problems</link><guid isPermaLink="false">https://kevinhakanson.com/2019-05-23-aws-tag-keys-with-spaces-problems</guid><pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Cloud Center of Excellence at my company was beginning to strictly enforce the tagging standard, which meant that mis-tagged resources were going to be deleted.  The CCoE gave reasonable lead time, and even provided  a list of affected resources.  However, when “delete day” came, one of my teams lost a few resources.  They claimed they verified everything on the list using the AWS Console UI.  Something didn’t add up, so I started an investigation which lead to a bug being reported to AWS Enterprise Support.&lt;/p&gt;
+&lt;p&gt;Since I was documenting this problem for an AWS support case, I wanted to share the specific cli version I was using to reproduce the problem.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws --version
+aws-cli/1.15.37 Python/3.6.5 Darwin/18.0.0 botocore/1.10.37&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The problem resources were EC2 volumes, so I created one using the CLI and set one of the tag keys to &lt;code class=&quot;language-text&quot;&gt;&amp;quot; cost-id&amp;quot;&lt;/code&gt; which has a leading space.  Note that in the resulting output, that key came back as &lt;code class=&quot;language-text&quot;&gt;&amp;quot;cost-id&amp;quot;&lt;/code&gt; without the space.  I even created this resource with both &lt;code class=&quot;language-text&quot;&gt;&amp;quot; cost-id&amp;quot;&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;&amp;quot;cost-id&amp;quot;&lt;/code&gt; as keys, making the output even more confusing because it looks like I have a duplicate tag during the &lt;code class=&quot;language-text&quot;&gt;creating&lt;/code&gt; state.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws --region us-east-1 ec2 create-volume --availability-zone us-east-1a --size &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; --volume-type standard &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+  --tag-specifications &lt;span class=&quot;token string&quot;&gt;&apos;{&quot;ResourceType&quot;:&quot;volume&quot;, &quot;Tags&quot;:[{&quot;Key&quot;:&quot;Name&quot;,&quot;Value&quot;:&quot;Kevin tag testing&quot;}, {&quot;Key&quot;:&quot; cost-id&quot;,&quot;Value&quot;:&quot;1&quot;}, {&quot;Key&quot;:&quot;cost-id&quot;,&quot;Value&quot;:&quot;1&quot;}]}&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;AvailabilityZone&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;us-east-1a&quot;&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;CreateTime&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;2019-05-23T15:08:58.000Z&quot;&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;Encrypted&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; false,
+    &lt;span class=&quot;token string&quot;&gt;&quot;Size&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;SnapshotId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;State&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;creating&quot;&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;VolumeId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vol-07220abdd997d840e&quot;&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;Tags&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;Key&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Name&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;Value&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Kevin tag testing&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;,
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;Key&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cost-id&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;Value&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;,
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;Key&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cost-id&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;Value&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
+    &lt;span class=&quot;token string&quot;&gt;&quot;VolumeType&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;standard&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;However, the tag keys are returned correctly from the &lt;code class=&quot;language-text&quot;&gt;describe-volumes&lt;/code&gt; cli command when in the &lt;code class=&quot;language-text&quot;&gt;available&lt;/code&gt; state.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws --region us-east-1 ec2 describe-volumes --filters &lt;span class=&quot;token string&quot;&gt;&apos;[{&quot;Name&quot;:&quot;volume-id&quot;, &quot;Values&quot;:[&quot;vol-07220abdd997d840e&quot;]}]&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;Volumes&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;Attachments&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;AvailabilityZone&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;us-east-1a&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;CreateTime&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;2019-05-23T15:08:58.926Z&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;Encrypted&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; false,
+            &lt;span class=&quot;token string&quot;&gt;&quot;Size&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;SnapshotId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;State&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;available&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;VolumeId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vol-07220abdd997d840e&quot;&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;Tags&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token string&quot;&gt;&quot;Key&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; cost-id&quot;&lt;/span&gt;,
+                    &lt;span class=&quot;token string&quot;&gt;&quot;Value&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1&quot;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;,
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token string&quot;&gt;&quot;Key&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;cost-id&quot;&lt;/span&gt;,
+                    &lt;span class=&quot;token string&quot;&gt;&quot;Value&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1&quot;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;,
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token string&quot;&gt;&quot;Key&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Name&quot;&lt;/span&gt;,
+                    &lt;span class=&quot;token string&quot;&gt;&quot;Value&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Kevin tag testing&quot;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
+            &lt;span class=&quot;token string&quot;&gt;&quot;VolumeType&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;standard&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now I have a resource that reproduces my problem with a leading space in the tag key.  However, when you view these tags in the AWS Console, you &lt;strong&gt;do not&lt;/strong&gt; see leading spaces unless you inspect the HTML elements.  If there was only a single &lt;code class=&quot;language-text&quot;&gt;&amp;quot;cost-id&amp;quot;&lt;/code&gt; tag, there would be no visual clue that something is wrong.  It is only because my test case has both &lt;code class=&quot;language-text&quot;&gt;&amp;quot;cost-id&amp;quot;&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;&amp;quot; cost-id&amp;quot;&lt;/code&gt; that makes this appear odd.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 267px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/eecc5c92ccd773c8f1838df868b701b7/19e8f/aws-console-view-tags.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.94594594594594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABgUlEQVQ4y6VTi26CQBDk///IH6gaJb5iIKkg8jgEjCCvYFGnzDYmtqlNpJsMd7d3zM0Oi5bnObbbLXzPhati2EECFfiwLEtg2zZM08Rms5G167pwHAdBEMD3fXieJ/kwDMHQ6rqWDZLskyNUkiFUgRzwPV8I+JJSCrvdToiIOI4lx3eZ3++jL8K2bVGWJag0y1IUxQnt5YKyKnHKTzJyrygK8GzTNN25TPaYv7QfuJYh6vgdbRFBq6oKq9UK4/FYMJvNkCSJlPk2HGK5XGKqTzGZTKBCJfaMRiPoui65KIqQpkdMuzkvFYW32w2/BfPX61VG4tIpf1zfc4+h8UHphmlgvV7LSHX05X7454Ud1dOLNT7oyWKxwHwxF1LODcN4qvyv0MjcnBvQy/P5LHMZO/PpSVG+BimZn38wGMCyLWkRZ+dIyWyZVyElUx0X7Kk0TcWCvpCSCapku/Tx7ZuHJKBn/J14A+PeHn0gCklAhfydOL+3wb8ID4eD+MdG70tGfALJ5S4uOKxZMQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;AWS Console EC2 Volume view tags&quot;
+        title=&quot;AWS Console EC2 Volume view tags&quot;
+        src=&quot;/static/eecc5c92ccd773c8f1838df868b701b7/19e8f/aws-console-view-tags.png&quot;
+        srcset=&quot;/static/eecc5c92ccd773c8f1838df868b701b7/12f09/aws-console-view-tags.png 148w,
+/static/eecc5c92ccd773c8f1838df868b701b7/19e8f/aws-console-view-tags.png 267w&quot;
+        sizes=&quot;(max-width: 267px) 100vw, 267px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 383px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fd407734869427713e4d82eb7b32abdd/d0c94/aws-console-view-tags-htmlsource.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.2972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA5UlEQVQY002PyU7EQAxE8//fA1ckDhy5AQHNwMxk7exrZ7K0+9EJFyyVZZfKZdvTo6a+FYxFSlX0hOFInGiGYcZaQcyGNQsiFivisDpOMMYenOyc652YPbw96XZyhi1Tk5CkmtO54/unR9cZbRpQxClKTZR5T61yomg4dEk6kWXuIDXQt7NbIn+G83SnjUpGdaVISmc2EAQDadzQVJqy2qjrBa1XlkWY74ZtE1cbltkc3Lqa4yMvbIWwF06hxv9QfH36vLwqHp8LHp4U79eOt1uOf664RJpLORE0K3Fvidzcf4Sd8AsHEjBc4CBYKwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Inspect HTML view of tags&quot;
+        title=&quot;Inspect HTML view of tags&quot;
+        src=&quot;/static/fd407734869427713e4d82eb7b32abdd/d0c94/aws-console-view-tags-htmlsource.png&quot;
+        srcset=&quot;/static/fd407734869427713e4d82eb7b32abdd/12f09/aws-console-view-tags-htmlsource.png 148w,
+/static/fd407734869427713e4d82eb7b32abdd/e4a3f/aws-console-view-tags-htmlsource.png 295w,
+/static/fd407734869427713e4d82eb7b32abdd/d0c94/aws-console-view-tags-htmlsource.png 383w&quot;
+        sizes=&quot;(max-width: 383px) 100vw, 383px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So assuming you were going to verify the tag name, and you went to edit them, the leading space on &lt;code class=&quot;language-text&quot;&gt;&amp;quot; cost-id&amp;quot;&lt;/code&gt; is still not visible and missing from the UI.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 381px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8c267baf90a3fe065e986dc6d6fc71e0/2add2/aws-console-edit-tags.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.86486486486486%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGElEQVQ4y61Ty66bMBD1X/bHuu6uf9J2EUVVlKubFwmQBELAEEggvJnTGSNy20rd1dKRPQ+Pz8x4VHC9YrVeYbPZ4HA4YLvbIrndUNUVyrL8E9W/UKF4PhEnMdRut8N8PsdiscBqtcJsNoPt2NBa48qPRVGEMAoRhiNE9/t5koMggOM4UPf7/eVwY2Zpmr4cJdjlcoHneUaW8wRhLIuIDKalnkxVok8vSRCRBX+ziuP4JcvjSZK87khGXddBibBcLnE6neC6Lo7Ho6EuLKSmLqd/CmJYfgY3zOEcz3Bs29RcfCd/m3WPxwNKqMtLeZ7jfywlNRMmyS0x1CP9AUnt/f3d1FDH+sMejRAiMcsx2zTvEktlWYbtdmtqNjlGYWTqJef9fm9sWousuWZjvcQmaV6uGn4QwQtCDphB9X1vGEj+0q1hGCC6qYNt02DoO7Rtg56LPgyjTXwsy4KfNjgnFVxdomoHqLZt4fs+pNtybjhAXdcmsHTtePa5ER6sg4uTF6AoGzRtz2hNI+O8QZBW0PfxjuJL5Hk+cVOIFcRBiYMyuZ7SoiPLL8i/deQnndk93rse/PlaWq83LJd0jJ5khwU9645UxWMjX0T+k3R6Stmk2w3Iig55NSDJezzKAW/nEl++afx0H6jLAg37NPyCgPmYSSGeZeKxIw5MY+nIDICcJ0T3ms5xSd93KX36/EZff1yNfhjH5IVfO1/XekuTyuMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;AWS Console EC2 Volume Add/Edit tags&quot;
+        title=&quot;AWS Console EC2 Volume Add/Edit tags&quot;
+        src=&quot;/static/8c267baf90a3fe065e986dc6d6fc71e0/2add2/aws-console-edit-tags.png&quot;
+        srcset=&quot;/static/8c267baf90a3fe065e986dc6d6fc71e0/12f09/aws-console-edit-tags.png 148w,
+/static/8c267baf90a3fe065e986dc6d6fc71e0/e4a3f/aws-console-edit-tags.png 295w,
+/static/8c267baf90a3fe065e986dc6d6fc71e0/2add2/aws-console-edit-tags.png 381w&quot;
+        sizes=&quot;(max-width: 381px) 100vw, 381px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;When you attempt to edit the tag key, the suggestions drop down list shows two options which look the same (no leading spaces), even though the first includes a leading space from inspecting the HTML).  Also, note the cursor is in the first position because the textbox does not contain the leading space, making editing (or validating) via AWS Console UI impossible.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 236px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7329654b1195320eff390430a1c1870e/a7bcd/aws-console-edit-tags-dropdown.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.5945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABo0lEQVQoz53Oz4sSYRzH8fmDBG85M+IIXhTFQ3WzDi0oiAf13ikIgiC6NEvEbKwhzlpstBsehX5chCYKEtNt3WZ08wdLLUS7/mjy3eNGkrAU7QMvnu/z/Ty/pMlkguu6jMdjjkcjRv8wnU5xf7jMz52WS41GgxfPn9HpOAyHAwaDntBf0u/36fVEX+TWa4tqtUqz2RT7hyf9ef6btLf3EevNOz60O7TtfXZ2bXbazhLH+aXb7Z5cZFkWrVZLfKKDbduLfL6WmvtHvN095L19iHPwnS9jODgSjuHzCD59heE3FmM2m/G3Ib181eTqtZtcv3GL23fusfZgA2PdxCiYrAl375vohsmjh2U2ymUKhQLFYpFSqbRgmibrol+v15G2tp6gaUESly5z/sJFFEXlnE/G51MEMcsyqqogy4rIFFRlXstL/H4/Ho8HXdeRtp9uE4/HyWQyrKxcIRaLEQ6HiUQiC+E/6tNEo1ECgQCGYSBtPt4kFAqRTCZJJBIEg0FU8aL/P2iahtfrRV9dRarVaqTTaXK5HNls9kzy+TypVIpKpcJPSCUG5NHqNgwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tag key auto suggestions&quot;
+        title=&quot;Tag key auto suggestions&quot;
+        src=&quot;/static/7329654b1195320eff390430a1c1870e/a7bcd/aws-console-edit-tags-dropdown.png&quot;
+        srcset=&quot;/static/7329654b1195320eff390430a1c1870e/12f09/aws-console-edit-tags-dropdown.png 148w,
+/static/7329654b1195320eff390430a1c1870e/a7bcd/aws-console-edit-tags-dropdown.png 236w&quot;
+        sizes=&quot;(max-width: 236px) 100vw, 236px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 383px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fd407734869427713e4d82eb7b32abdd/d0c94/aws-console-edit-tags-dropdown-htmlsource1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.2972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA5UlEQVQY002PyU7EQAxE8//fA1ckDhy5AQHNwMxk7exrZ7K0+9EJFyyVZZfKZdvTo6a+FYxFSlX0hOFInGiGYcZaQcyGNQsiFivisDpOMMYenOyc652YPbw96XZyhi1Tk5CkmtO54/unR9cZbRpQxClKTZR5T61yomg4dEk6kWXuIDXQt7NbIn+G83SnjUpGdaVISmc2EAQDadzQVJqy2qjrBa1XlkWY74ZtE1cbltkc3Lqa4yMvbIWwF06hxv9QfH36vLwqHp8LHp4U79eOt1uOf664RJpLORE0K3Fvidzcf4Sd8AsHEjBc4CBYKwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Inspect HTML view of tag key auto suggestions&quot;
+        title=&quot;Inspect HTML view of tag key auto suggestions&quot;
+        src=&quot;/static/fd407734869427713e4d82eb7b32abdd/d0c94/aws-console-edit-tags-dropdown-htmlsource1.png&quot;
+        srcset=&quot;/static/fd407734869427713e4d82eb7b32abdd/12f09/aws-console-edit-tags-dropdown-htmlsource1.png 148w,
+/static/fd407734869427713e4d82eb7b32abdd/e4a3f/aws-console-edit-tags-dropdown-htmlsource1.png 295w,
+/static/fd407734869427713e4d82eb7b32abdd/d0c94/aws-console-edit-tags-dropdown-htmlsource1.png 383w&quot;
+        sizes=&quot;(max-width: 383px) 100vw, 383px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Inspecting the HTML on the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;input&amp;gt;&lt;/code&gt; fields is even more confusing.  There is a related hidden &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; with the actual value (first tag with a space, second without) but not on what the user interacts with.  It looks like I can blame &lt;a href=&quot;http://www.gwtproject.org/&quot;&gt;Google Web Tookit&lt;/a&gt; for this &lt;a href=&quot;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&quot;&gt;Rube Goldberg machine&lt;/a&gt; generated HTML.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 432px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4896c20d545a9ac1a90cf58e47db0e66/0e0c3/aws-console-edit-tags-dropdown-htmlsource2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20.27027027027027%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA1UlEQVQY0y2PjW6EMAyDef9nPGnTDgYF2ut/Swt8F90WyZJlO44yTHvm59uy7ppRRb5+K+NW2V4OtW4su2fSjVVbpk2y6yH+wWwqk4nMa2QVvrjKni6G1E6Wp2GbZnzMGH9iXCPkRm2dIn7p9z+/SAekhmiQRc/tD6Vfn9yAzNk7aYvEZWQZNx4Pj3qu5JAwuqB1/UCpTAmeahXFGfJLC9f0ZCVb6HJ8uKXwvm6CChRriD6izSFFkews3kb2vWLtgZO3arAkPZN8ILgoO4GzHfR+cknPG4m/MxigzvX5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Inspect HTML view of first tag key edit&quot;
+        title=&quot;Inspect HTML view of first tag key edit&quot;
+        src=&quot;/static/4896c20d545a9ac1a90cf58e47db0e66/0e0c3/aws-console-edit-tags-dropdown-htmlsource2.png&quot;
+        srcset=&quot;/static/4896c20d545a9ac1a90cf58e47db0e66/12f09/aws-console-edit-tags-dropdown-htmlsource2.png 148w,
+/static/4896c20d545a9ac1a90cf58e47db0e66/e4a3f/aws-console-edit-tags-dropdown-htmlsource2.png 295w,
+/static/4896c20d545a9ac1a90cf58e47db0e66/0e0c3/aws-console-edit-tags-dropdown-htmlsource2.png 432w&quot;
+        sizes=&quot;(max-width: 432px) 100vw, 432px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 437px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ff60004a1e5bec65ad3455699b470233/5a428/aws-console-edit-tags-dropdown-htmlsource3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.594594594594593%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA1klEQVQY0yWO23KDMAxE8/+/2HSahMYQgxE22MbmcqKmD2ckraSdvdzMzOM+YezArU18/WaaodANwrN90dioc6bthZ8uKyt3W1SLWgPmlTCyYqaCjScXt2zcrpa2MVjJmKHSuoILhSkqaf/gU0XizqhPklAOZVft+PB/d3CBk71Wlm4ivhqeD8f3VXBtzxIi4jJOsTbTa9q6CKt0ZD+SZaAEoUZPWopaqeF5quG2E7pAWSbmkBhHTSaRPHv8lHDjivdVd5k1jCSx2keiss6RY9/YtoM/rzdD0DHROUrV3gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Inspect HTML view of second tag key edit&quot;
+        title=&quot;Inspect HTML view of second tag key edit&quot;
+        src=&quot;/static/ff60004a1e5bec65ad3455699b470233/5a428/aws-console-edit-tags-dropdown-htmlsource3.png&quot;
+        srcset=&quot;/static/ff60004a1e5bec65ad3455699b470233/12f09/aws-console-edit-tags-dropdown-htmlsource3.png 148w,
+/static/ff60004a1e5bec65ad3455699b470233/e4a3f/aws-console-edit-tags-dropdown-htmlsource3.png 295w,
+/static/ff60004a1e5bec65ad3455699b470233/5a428/aws-console-edit-tags-dropdown-htmlsource3.png 437w&quot;
+        sizes=&quot;(max-width: 437px) 100vw, 437px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Luckily, I work for a company with AWS Enterprise Support and was able to get bug reported directly.  This was an interesting problem and required my “full stack architect” skills from the command line to the browser developer tools.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Tools for PowerShell on macOS]]></title><description><![CDATA[Since you can never have too many command lines and shells, today I thought about Installing PowerShell Core on macOS. After that, it was…]]></description><link>https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</link><guid isPermaLink="false">https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</guid><pubDate>Fri, 03 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Since you can never have too many command lines and shells, today I thought about &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-6&quot;&gt;Installing PowerShell Core on macOS&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ brew cask &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; powershell
 $ pwsh
 PowerShell &lt;span class=&quot;token number&quot;&gt;6.2&lt;/span&gt;.0

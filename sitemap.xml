@@ -21,6 +21,7 @@
 <url> <loc>https://kevinhakanson.com/2019-07-07-aws-signature-authorization-using-postman</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-06-14-programmatically-adding-ip-restrictions-to-an-azure-app-service</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-06-09-uml-sequence-diagrams-using-plantuml</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2019-05-23-aws-tag-keys-with-spaces-problems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-05-03-aws-tools-for-powershell-on-macos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-04-22-goodbye-oracle-java-8-hello-amazon-corretto-8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2019-04-14-file-verification-of-a-sha-256-hash-using-powershell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

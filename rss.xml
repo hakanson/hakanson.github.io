@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Sep 2020 15:30:57 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 20 Dec 2020 17:37:23 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
+&lt;h3&gt;Who’s in your Cloud? Cloud State Monitoring&lt;/h3&gt;
+&lt;p&gt;When it comes to cloud operations, monitoring security and visibility are critical. Integration by other systems via Cloud APIs is one of the most powerful value drivers of the hyperscale cloud providers.&lt;/p&gt;
+&lt;p&gt;In this session, we will describe Cloud State Monitoring, including why it is important and who needs awareness in your organization.  An explanation of the categories of Cloud APIs (including the management plane, control plane, and data plane) will give us background.  Specific use cases across AWS, Azure, and GCP will dive deep into various changes you might not have considered monitoring.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MN ISSA and CSA MN Joint Chapter Meeting (15 December 2020)  ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/whos-in-your-cloud-cloud-state-monitoring&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/a4CNQsaRPts&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Adopting Multi-Cloud Services with Confidence&lt;/h3&gt;
 &lt;p&gt;In transitioning to multi-cloud, IT organizations have the same responsibility to provide quality service and operational security, yet have a much greater need to understand how to efficiently govern and manage these disparate cloud services.&lt;/p&gt;
 &lt;p&gt;In this session, we will examine some key patterns and models taken from a Cloud Adoption Framework through a multi-cloud lens. The presentation will include a mixture of high-level guidance, examples where vocabulary and terminology differ, and opinions on when to utilize cloud-agnostic vs cloud-native technologies for strategic decisions. Attendees will leave with a better understanding of how to implement a Cloud Adoption Framework across multiple clouds and a higher level of confidence in their multi-cloud adoption plans.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The Complete Cloud Summit (15 September 2020)  (  &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/adopting-multicloud-services-with-confidence&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/wgoSzIjqT5s&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;The Complete Cloud Summit (15 September 2020)  ( &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/adopting-multicloud-services-with-confidence&quot;&gt;presentation&lt;/a&gt;, &lt;a href=&quot;https://youtu.be/wgoSzIjqT5s&quot;&gt;video&lt;/a&gt; )&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Aumentum Cloud Strategy: Public Cloud vs. Government Cloud&lt;/h3&gt;
 &lt;p&gt;As Aumentum transitions to a cloud hosted SaaS product, the conversation about “public cloud” vs. “government cloud” is of interest to customers.  This session will review some cloud computing definitions, discuss what is commonly referred to as “government cloud,” and provide a preview of the Aumentum cloud strategy.&lt;/p&gt;
@@ -108,7 +114,78 @@
 &lt;p&gt;In this session, you will learn the ins-and-outs of building an eCommerce site with Domino, and how you can build a site faster and easier with Domino than with other technologies.  We will explain how to set up customer registration, build a product catalog, and manage the shopping cart.  Tips on how to implement effective application security and get the best site performance will also be included.  Finally, this session will describe the different ways to integrate you eCommerce applications with existing ERP applications.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lotus Developers’ Conference 1999 (20-23 June 1999)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[7 Attempts at Slide Deck Humor]]></title><description><![CDATA[With the transition of SlideShare from LinkedIn to Scribd, I looked through my old tech conference presentation slide decks and wanted to…]]></description><link>https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</link><guid isPermaLink="false">https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</guid><pubDate>Fri, 18 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;With the transition of &lt;a href=&quot;https://news.linkedin.com/2020/august/digital-library-leader-scribd-is-acquiring-slideshare&quot;&gt;SlideShare from LinkedIn to Scribd&lt;/a&gt;, I looked through my old tech conference presentation slide decks and wanted to highlight some of my slides that (maybe) were not as humorous as I planned. They say “If you have to explain a joke, it’s not funny” but I don’t care what “they” say - these are getting an explanation.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Amazon Alexa Skills Journey]]></title><description><![CDATA[Today (December 1, 2020) is the day Amazon Alexa is deprecating the Echo Buttons Skill API. In 2018, I published a couple Alexa skills for…]]></description><link>https://kevinhakanson.com/2020-12-01-my-amazon-alexa-skills-journey</link><guid isPermaLink="false">https://kevinhakanson.com/2020-12-01-my-amazon-alexa-skills-journey</guid><pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today (December 1, 2020) is the day Amazon Alexa is &lt;a href=&quot;https://developer.amazon.com/en-US/docs/alexa/ask-overviews/deprecated-features.html#deprecated-echo-button-skills&quot;&gt;deprecating the Echo Buttons Skill API&lt;/a&gt;. In 2018, I published a couple Alexa skills for Echo Buttons (&lt;a href=&quot;https://www.amazon.com/KJH-Software-LLC-Color-Stumper/dp/B07K1FNR31&quot;&gt;Color Stumper&lt;/a&gt;; &lt;a href=&quot;https://www.amazon.com/KJH-Software-LLC-Rochambeau-Buttons/dp/B07JJ216XZ/&quot;&gt;Rochambeau Buttons&lt;/a&gt;) and even have two unopened sets of buttons which I won as prizes.&lt;/p&gt;
+&lt;p&gt;Receiving free Amazon Echo devices started when I attended AWS re:Invent 2016 with both the Echo Dot swag gift and winning a “full size” Echo as a finalist in that year’s AWS re:Invent Alexa Skill Contest with &lt;a href=&quot;/2016-12-21-my-first-published-alexa-skill-mars-rover-mission&quot;&gt;My First Published Alexa Skill: Mars Rover Mission&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That didn’t give me fame and fortune, but the hands-on coding and skill publishing did provide me the knowledge to achieve the &lt;a href=&quot;https://www.youracclaim.com/earner/earned/badge/18716c6f-2343-45c6-89a5-3d2cbbc7ef50&quot;&gt;AWS Certified Alexa Skill Builder - Specialty&lt;/a&gt; last week. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b38e5364fe7a95869abd8c92fc8bcbc8/0a47e/AWS-AlexaSkillBuilder-Specialty-2020.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAD4ElEQVQ4y42Ve2xTVRjAz1biIzEkgCBG5Q8SpxOGkZggjCjIwBgZiIoxshlNFBODkYfExfi32dIN5C8csiHrHnRrx0q2Sba1e7CtbOu6divb2Nqtz3WPggPatbc993ycc3rvTRFBT3Jzv3vP9/3O97rfRYiu3Fdq0f7MOiainJeq0b5Xa1VIWUfX5mcbLuZtM5Qj9P0a+S21Ue2mumzty6zlDHlDMaWwdFEU06THZbteqDxx6qe+W6GACAt+DCUnr4fefb7iGN3jB4aC4bScF6vSUw5JCm+v1qQV5LUrXmWhc/t/+bJzZGwgAtJKSBc4+qPw8xcdwxtRaa6sf/Izo4ox+MObT5XLHqHlqHjTt+81N7bp/ABEAVGnCUSXYkBvIsA9Dm7R+uDwnmbDM0idJdsrrO2rKp79dHP96QtqO166w0HY3D+Iz5z9E2rqrsAFzSVSqW8lQWsNQPV6AGc1ZgctLQKUF9kSB9+oL9m+smKVkruPsnQlHkcSJHlFBqx2aL9mJqauXtLZbYYeiwO8I60Eer8ixNPEFGkMhOniaTvAgY26IgWYn33lNxzjQAFjkd3JQugW8fgCMBOcA+eUGwaHhmHc5YObky5w++dZQghOcF0hTlOdv81QrADzthpOS6HGiUh49gIzs2ChkCm3F8YnXDA3HwLH6DgM2hwwMxPkyjy51CZ8G+DQWw3qB4CxuxKQwP9ahCqSpHI88jcHPuhhVAImEhiMHdegb8AKFprH0bEJHqbXH4BWYyeYOrt5+H+1GCEajf03kCm1mbqg3zLEAd3mfujo6qUhL1CQHVqMHWAfuQHtXT2PB8oh07xwwR8IgtM1zY0mnFO0OLPgosUJRyIQEwQph48O+ZRcFIwx1zL3WaBKq6dXPegaGsHQeBVKyzRwSdcAXlp9DsSPKEpq24hJHpEW0APkiv6jJoRIukJ8ibdNiQKkTVnMmpPZscZmBbx7L0zbxUloqMTj9fEUTLqmiWvaTQQhTr3jJeafptMK8OGGukIFmL3i4spPXterywpt8chiEpzACTw8MgbjNyeBQRiMNfiQ/QZ1SeCfXpjm7o9fh4SPN+mLKGMFh21+okwZDk+jog3f5DRdvlrjSZ0yqbGK8tRprnLD17ua9E+iwkzZnrKSwjtrNGknDrYp4+s1VPpBQZ7JNtxz56HxZe9ehIJDJmsm+v19ZQQfaFExxsMDlg5L1+hteWCm71xb+UPxj9fn530Y5rwY1MfNczue0xyhe9zY1jub/q8DNjejlo19Lu9eV432ZmhTfgHfraYtcf7zLQ3nEDqsjKi9L2tVe9ZJvwBqm5uh5fJ9jVbWh6fpXX4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;AWS Certified Alexa Skill Builder – Specialty&quot;
+        title=&quot;AWS Certified Alexa Skill Builder – Specialty&quot;
+        src=&quot;/static/b38e5364fe7a95869abd8c92fc8bcbc8/fcda8/AWS-AlexaSkillBuilder-Specialty-2020.png&quot;
+        srcset=&quot;/static/b38e5364fe7a95869abd8c92fc8bcbc8/12f09/AWS-AlexaSkillBuilder-Specialty-2020.png 148w,
+/static/b38e5364fe7a95869abd8c92fc8bcbc8/e4a3f/AWS-AlexaSkillBuilder-Specialty-2020.png 295w,
+/static/b38e5364fe7a95869abd8c92fc8bcbc8/fcda8/AWS-AlexaSkillBuilder-Specialty-2020.png 590w,
+/static/b38e5364fe7a95869abd8c92fc8bcbc8/0a47e/AWS-AlexaSkillBuilder-Specialty-2020.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;However, it was recently announced that cert is being retired in March 2021.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Retirements&lt;/strong&gt;&lt;br&gt;
+AWS Certified Alexa Skill Builder - Specialty&lt;/p&gt;
+&lt;p&gt;Please note that we will be retiring the AWS Certified Alexa Skill Builder - Specialty exam (AXS-C01) and the corresponding practice exam (AXS-P01) on March 23, 2021. The last day to take the exam will be March 22, 2021.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;AWS re:Invent 2020 starts today, and I’m off to learn something new.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I'm a Microsoft Azure Solutions Architect Expert]]></title><description><![CDATA[I can now add Microsoft Certified: Azure Solutions Architect Expert to my resume.  This certification requires passing two exams, AZ-303 and…]]></description><link>https://kevinhakanson.com/2020-10-30-im-a-microsoft-azure-solutions-architect-expert</link><guid isPermaLink="false">https://kevinhakanson.com/2020-10-30-im-a-microsoft-azure-solutions-architect-expert</guid><pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I can now add &lt;a href=&quot;https://www.youracclaim.com/earner/earned/badge/fc68e9e7-e271-429a-b3c9-e68205b1f250&quot;&gt;Microsoft Certified: Azure Solutions Architect Expert&lt;/a&gt; to my resume.  This certification requires passing two exams, &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/az-303&quot;&gt;AZ-303&lt;/a&gt; and &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/az-304&quot;&gt;AZ-304&lt;/a&gt;, both of which I completed this month.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3e970253558c410b2fe0d1a7cefa8f3d/0a47e/azure-solutions-architect-expert-600x600.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAEJvAABCbwFRKOG9AAAEe0lEQVQ4y22UfUxTVxjGT4ti3IbDibIoUgoy/FgQGcxsOj50ZhNmC9JKCEJERFEB2UyW+bEPItmSDZwkI1myP2YcbOKmMLFAEaYDKRWYBMoEIwSjiOCokELlo73n2TmHFsHtTU7f2/c8z++8997clxCFmojwiSGzAwCR+8auYfVstiodK5vX+N6cUMTMzXNgCnU4+5/LchPxVtmIUoOZ5asFWclq3mxvWhP+H6iA+cx0eY4o44RZ7qeBqz/LvrEMoLKLtXKHbeHqeLis0joOYVrucXIEdKZdtRsrWmW+O0FejZrcEP2h/WReMU3MPk0/SM1FzP6vkJCVT9OOFVL/iIN2sjx6UqZkWoXaynxuz+7UAXTxFcAnMmUsWDeSx4YkBL5/hIbsOIp12zLADkBQVDYCthyiS4J2C43QMo/wOm87NFIj59cbE/JfYt0NEx92qpdamuevhfv6ZCwLScF8/11YFLgbbq8nYukbKVgQEA+yQiVxLfdwL2c4Wc5YRDy2jMgVUXh5tYp6BsbCKzgOPqEa+L8VD7+NWijZNa/xPa6Re28H8YgcEV5naDSaVQUFBWdLS8uay8orJUOjEZ2dnbSv7wGG/hnEqGUEY6MjGLeO4umYBY8HH+HevV50dnXRRmMTuOdSaWkzZ3AWyczM/BiOGHjUj/v379Pbt29Dp9PB1NGBjo6/YTA0osFgwN273TAajTCZTCw3oru7mz582Oe0g7NIQkKCamBgAGaz2abX6yk3tLa2iswM6O3txZ07d9DW1ob29nb09PSgq6uLH0D5ITpdBZ2YmLD19/cjMTFRRfz8/JQGg2GcnyBJlPI8ZDbTK6zD3y+Xo+WvW6jSV6Ou/gb01Vdxo8GApuYWjFmtQjs1ZROZMziLP0ZXdns9jq4l8UvtdHR4CJahAYyaB2F9Mghp3IIJixnDj/thn3wqVLM9nMFZ4sUUFhaWWCwWtJs67FU112lRmR4FxRX0xPelyPz2AtLzSnDgm/M4fPoCTrLamaIr9NzFSlTVXqftJpOdezlj5k2r43au0MbEpLhvSh8miT+DaH+iJP4X6v1RBdaeqEHQ59ew5ngtQnOuYfkRHYimmJJdRZRruYd7OUPAQsLVshlyQPI1kloJ2cEam3x/JYJPNdCt+Tdp2NdGROYZ8d6ZZup5tJaSvTq4HKqxkdQKkNeS/nDaZ1iK0Ph54vNbFqaSRXwBkl4jvXi4SoouuAm3jCrWzSWxFmfpadIPt+CepbeTA1clWfhncFkaFj2bMR1erBaYJj4b+cqoHBLxJRTH69H5eML25ql6mvpjG913tg3BOXW05YF1yuuTOpDwXMi9tp8Q/nV75IIxPRwco2vJZkJqHIPT890s+cZsu1taGUhatfTdn302vsi+amnBnouQhR6ZIp5b04V2bzkhr2xyjD/1cwOWb2w6Nv0cXtgQSJTaCsJuS578G+RJv4KEfcrn4GWycP1aoQnOkJHFb//PxBdDdrowf8U21nWsy7OREfoO8dWUMNB54hayedaEdnHl2uf8/wKTmL0N89hNFAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Microsoft Certified: Azure Solutions Architect Expert&quot;
+        title=&quot;Microsoft Certified: Azure Solutions Architect Expert&quot;
+        src=&quot;/static/3e970253558c410b2fe0d1a7cefa8f3d/fcda8/azure-solutions-architect-expert-600x600.png&quot;
+        srcset=&quot;/static/3e970253558c410b2fe0d1a7cefa8f3d/12f09/azure-solutions-architect-expert-600x600.png 148w,
+/static/3e970253558c410b2fe0d1a7cefa8f3d/e4a3f/azure-solutions-architect-expert-600x600.png 295w,
+/static/3e970253558c410b2fe0d1a7cefa8f3d/fcda8/azure-solutions-architect-expert-600x600.png 590w,
+/static/3e970253558c410b2fe0d1a7cefa8f3d/0a47e/azure-solutions-architect-expert-600x600.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;However, my certification journey was not as quick as it may appear.  I started studying for &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/az-300&quot;&gt;AZ-300&lt;/a&gt;, off and on, earlier this year and was almost ready to take that exam in July.  However, when I saw that AZ-300/AZ-301 was schedule to be retired in September, I decided to wait until their replacements (AZ-303/AZ-304) came out of beta.&lt;/p&gt;
+&lt;p&gt;Luckily, I had a recommendation not to wait too long between the exams because of the content overlap.  That plus the voucher for a free Microsoft Certification exam I received via in the &lt;a href=&quot;https://csc.docs.microsoft.com/ignite/registration&quot;&gt;Microsoft Ignite Cloud Skills Challenge&lt;/a&gt; gave me the confidence I needed. I even scored higher on the second exam.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[7 Attempts at Slide Deck Humor]]></title><description><![CDATA[With the transition of SlideShare from LinkedIn to Scribd, I looked through my old tech conference presentation slide decks and wanted to…]]></description><link>https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</link><guid isPermaLink="false">https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</guid><pubDate>Fri, 18 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;With the transition of &lt;a href=&quot;https://news.linkedin.com/2020/august/digital-library-leader-scribd-is-acquiring-slideshare&quot;&gt;SlideShare from LinkedIn to Scribd&lt;/a&gt;, I looked through my old tech conference presentation slide decks and wanted to highlight some of my slides that (maybe) were not as humorous as I planned. They say “If you have to explain a joke, it’s not funny” but I don’t care what “they” say - these are getting an explanation.&lt;/p&gt;
 &lt;p&gt;From &lt;a href=&quot;https://www.slideshare.net/kevinhakanson/implementing-messaging-patterns-in-java-script-using-the-openajax-hub/51&quot;&gt;Implementing Messaging Patterns in JavaScript using the OpenAjax Hub&lt;/a&gt;, this “Q &amp;#x26; A” slide refers to &lt;a href=&quot;https://en.wikipedia.org/wiki/Q_(Star_Trek)&quot;&gt;Q&lt;/a&gt; from Star Trek: The Next Generation (1987) and &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Scarlet_Letter&quot;&gt;A&lt;/a&gt; as the Scarlet Letter from the classic Nathaniel Hawthorn novel (1850).&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -6604,7 +6681,35 @@ Address: 107.23.215.71&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;“Alexa, enable Mars Rover Mission”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Alternatively, enable Mars Rover Mission via the Alexa app or at &lt;a href=&quot;https://www.amazon.com/dp/B01N002EZY&quot;&gt;Amazon.com: Mars Rover Mission: Alexa Skills&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/71k2KOc15YL.png&quot; alt=&quot;Mars Rover&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f44c273f1fa8bac2678269aed9307a1d/01e7c/71k2KOc15YL.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAEtklEQVQ4y2VUe1CUVRTftBmH/qgcHSvLdMKmUDTDAjFtTCRXQoESEHnOAEKIiIxsLIJYzSawIsoCmhaoM8kSYEmAuk6YgozTCgMaPngo8toH7PLtfstjX/fX3WW/hezMnO+e+/qdc757zo+nVqt5NrWJSqWaw3PI0ED/Ro1Gc4bR6bt1etZE1UjtrtHR0dODA/3ruXPcHRvGyMgIbzbYXNvY97R3Ib1UPTllBMuy6OxoQ9P1K7j95zU8vN8Ow/g4JugevSzte/pk/vOgdlE7Fgb6ny3VarU9RqMJDdUXrblp8WZhpL9VEMYn+4N9SUbUdqs4PdEsu1xtNVusoBk8pncWO8Cms6PGC7axo1U+T6PVdjAMgzO5WcbMCD/yXVwQUsP9yaGkSCLYs4vkpUaSwzE7kBXtT8oLRVMGw7gNVN5ys/FFZ4T0Y0+VpvCtzWvFKbFRnBoGSeYeUkw1JzEEhcI4lB7ZS9fi7eslWYnk2IFw1JQXGy1WghG1OsuBYcfi9XY9mD/G6JRtd27ivDjNWik5RCpOCm1K5wchLcrE1Qu5uFAgQIUkG1JJNqkszia/nBBaH9xrhXaMGejt6nyZeyieZnQkgNGxaL560XKjpog0VkvIjRoJbl0+jb8uleDWbyWQX/kZdB2NNSVorv0Rclk5abp0krTIpJbxiUkapYrvBKTlkKMdVePCsQNmaV4CqStMREPRXtypOopn7Zdx+48zuF5RiJHeRrRcLYOsSoKm+nOQfBOEsz/sM09MToJWxkEn4JjeUKhVDqIyJ8x05Wg4uXsqHn+f3oO6vAjIihJQVSxAYoQ/8tNCERewDmG+HtjisRxrlr5K4gM3mJWKIdCg8mcAdaxIqx5GQ36MuflkDGksiMH3MZsQsckNoT6rEe3nBe/lC7F2sQvcFr2EDe8uQjx/DX46uJ06TDLTX4YxhslyAtLai6SPgvoTKZbaI1+ROtFuUpoWBFFyAH7Pj0as7yr4uC+Bt+sCuC5wweee7ihNDyV9F/eRtkqR2TAxBQq60wk43Nf9toZhDfL686g/HECu5UWT7JitRBjli19zwhC7zQPr33sd/A/eRHLwJsT6e5Fdn60iwhAva1OdFIzewDzrefQWz1E79grXaLRlrJ5BQdKXxoxgb3wdspmU7N9OSpO3YscnK/CxuysEoRsRy/8QSUGfkl0b3JAQ4mfSswZotZpyJxbXKU97uhbTtDWd99qxZa2byc/TDUn+68i2lW8QPn2AQO8V4K9eSj5a8grZueo1CEN9LHK5HAaW1fd0dy2b3XXUmCaG4cGBzZRVLN0PO3FWEGUSB6y05PHfIeIvXJHtu4wUB75PCnZ6QJQSZXny6B8rbRIMDQ7unk0u05TDm2lB2uxeOr3+sZmefnC3BbKy40SaKyBlonQ0nCvCw9YWM3UKE21TxfCwvfZUSuWcgf7+Gfqir8yxjh20uVHmQqNO0bHjbYxhEmPsOKG2lTFMmCaNZtA9KBWKOA6Mznn/pa9ZJOukIY5AFYpavU5nIwAYp6agUinvU8ee3FnuHpepU5yM6/i5VOc57HJQoaOCagY9w1HVXO78/8A4sW1w0XLlRMdsqmKqC2Y5n/t8EJz8CzeykcArj0s2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Mars Rover&quot;
+        title=&quot;Mars Rover&quot;
+        src=&quot;/static/f44c273f1fa8bac2678269aed9307a1d/01e7c/71k2KOc15YL.png&quot;
+        srcset=&quot;/static/f44c273f1fa8bac2678269aed9307a1d/12f09/71k2KOc15YL.png 148w,
+/static/f44c273f1fa8bac2678269aed9307a1d/e4a3f/71k2KOc15YL.png 295w,
+/static/f44c273f1fa8bac2678269aed9307a1d/01e7c/71k2KOc15YL.png 512w&quot;
+        sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;If you want more of the technical details (including links to the JavaScript &lt;a href=&quot;https://github.com/kjhsoftware/mars-rover-mission&quot;&gt;code&lt;/a&gt;, how to cheat, and the &lt;a href=&quot;https://youtu.be/P4A-EMxqtuk&quot;&gt;demo video&lt;/a&gt; I recorded at 4 am), take a look at the project writeup:  &lt;a href=&quot;https://www.hackster.io/kevin-hakanson/mars-rover-mission-a-slow-paced-adventure-game-971ae2&quot;&gt;Mars Rover Mission: A slow paced adventure game. - Hackster.io&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;If you don’t own an Amazon Echo, and can’t buy one because they are out of stock, try out the browser based &lt;a href=&quot;https://echosim.io/&quot;&gt;Alexa Skill Testing Tool - Echosim.io&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span

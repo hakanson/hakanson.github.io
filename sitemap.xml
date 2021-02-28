@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://kevinhakanson.com/2021-02-27-acclaim-badges-to-csv</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2021-01-22-im-a-microsoft-azure-security-engineer-associate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2020-12-18-cloud-state-monitoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-12-01-my-amazon-alexa-skills-journey</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-10-30-im-a-microsoft-azure-solutions-architect-expert</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2020-10-10-azure-managed-identity-resources</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-09-18-7-attempts-at-slide-deck-humor</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-09-12-7-multi-cloud-governance-best-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2020-08-12-what-is-the-owasp-cyber-defense-matrix</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -31,8 +35,8 @@
 <url> <loc>https://kevinhakanson.com/2019-01-11-finding-all-aws-services-my-team-is-using</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-12-18-architecture-decision-records-adrs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-11-21-cloudfront-and-disaster-recovery-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-11-21-aws-cloud9-and-sharing-with-role-issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-11-08-excited-about-azure-signalr-serviceaspnet-core-signalr</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-10-17-full-stack-caching-strategy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-10-11-x-xss-protection-is-dead-long-live-content-security-policy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -42,8 +46,8 @@
 <url> <loc>https://kevinhakanson.com/2018-08-31-aws-waf-aws-shield-for-ddos-protection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-08-22-investigating-web-cache-poisoning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-07-05-first-thoughts-on-aws-cloud9</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-22-redis-security-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-02-side-channel-attacking-browsers-through-css3-features</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-05-15-categorizing-backlog-items-using-the-owasp-samm-security-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -78,8 +82,8 @@
 <url> <loc>https://kevinhakanson.com/2017-08-07-datadog-apm-tracing-http-headers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-24-could-the-bitcoin-segwit-2x-fork-be-the-start-of-a-51-attack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-21-blockchain-programming-vs-web-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2017-07-20-application-security-testing-sast-dast-and-iast</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-20-penetration-testing-secure-code-review-and-secure-design-review-threat-modeling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2017-07-20-application-security-testing-sast-dast-and-iast</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-19-finding-publicly-exposed-amazon-s3-buckets</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-06-the-geographical-center-of-the-united-states-and-ip-addresses</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-07-05-capital-one-cloud-custodian-test-drive</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -110,8 +114,8 @@
 <url> <loc>https://kevinhakanson.com/2016-08-22-investigating-cloudtrail-for-s3-putbucketnotification</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-08-15-how-iam-roles-become-credentials-on-ec2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-29-net-zipkin-investigation-medidatazipkintracermodule</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-20-categorizing-information-security-topics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2016-07-20-zipkin-js-investigation-part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-07-11-pokemon-go-vs-certificate-pinning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-06-10-zipkin-js-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2016-05-03-introduction-to-speech-interfaces-for-web-applications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

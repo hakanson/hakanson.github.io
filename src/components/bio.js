@@ -57,7 +57,7 @@ const Bio = () => {
       />
       <p>
         {` `}
-        Software Architect. Web Platform. JavaScript. Cloud. Information Security. Speaker. 
+        Multi-Cloud Certified Architect | DevSecOps | AppSec | Web Platform | Speaker | Learner | Builder
         <br></br>
         <a href={`https://twitter.com/${social.twitter}`}>
           Twitter

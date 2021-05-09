@@ -46,8 +46,8 @@
 <url> <loc>https://kevinhakanson.com/2018-08-31-aws-waf-aws-shield-for-ddos-protection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-08-22-investigating-web-cache-poisoning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-07-05-first-thoughts-on-aws-cloud9</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-22-redis-security-investigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-06-02-side-channel-attacking-browsers-through-css3-features</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2018-05-15-categorizing-backlog-items-using-the-owasp-samm-security-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -67,8 +67,8 @@
 <url> <loc>https://kevinhakanson.com/2017-12-12-cloudfront-and-disaster-recovery</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-30-aws-certificate-manager-and-certificate-pinning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-22-using-the-virtual-mfa-device-with-the-aws-cli</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-12-interesting-speculation-about-blockchain-and-future-society</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2017-10-05-comparing-brandon-sandersons-legion-and-mixed-reality</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -162,6 +162,7 @@
 <url> <loc>https://kevinhakanson.com/2009-07-06-you-cant-escape-encoding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2008-10-27-debugging-javascript-in-ie</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/2008-10-06-ajax-experience-2008-summary</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kevinhakanson.com/BADIDEA</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/presentations</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/agile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kevinhakanson.com/tags/alexa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Feb 2021 19:53:03 GMT</lastBuildDate><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[kevinhakanson.com]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 May 2021 00:54:02 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[CISO Series Video Chat I receive a lot of enjoyment participating in the BEST BAD IDEA parts of CISO Series Video Chat.  Attendees suggest…]]></description><link>https://kevinhakanson.com/BADIDEA</link><guid isPermaLink="false">https://kevinhakanson.com/BADIDEA</guid><content:encoded>&lt;h1&gt;CISO Series Video Chat&lt;/h1&gt;
+&lt;p&gt;I receive a lot of enjoyment participating in the BEST BAD IDEA parts of &lt;a href=&quot;https://cisoseries.com/&quot;&gt;CISO Series&lt;/a&gt; Video Chat.  Attendees suggest bad ideas in the chat related to that weeks topic.  These are used for various segments with the guests such as “Department of YES” where they have to agree with the idea,“Beat the BAD IDEA” where they need to implement compensating controls, or “What’s Worse?” determining the worse of two bad ideas.  Each week the BEST bad idea wins an award and a really awesome CISO Series sweatshirt (repeat winners get a $25 Amazon gift card). &lt;/p&gt;
+&lt;h2&gt;2020-12-04 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-user-access-ciso-series-video-chat/&quot;&gt;Hacking User Access&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Winner&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a7b09c51c0cac8bc0a58e18e84e39305/0a47e/BadIdea_12-04-20.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACBklEQVQoz02QS0xTQRSG/4m0GhM3JsYdbGBpXLl3bdy4c+fWd2IIBFrBxmopFOlDoO9ySxVssYSappFKtfEBXNrevm5Avba33LaXVomJcenGmdYEJ19O5szMOf9/Bkrz6+fa2105WVGypVrEk+3x5zULZS0nahZ3NVxZExRZpCknaoN7x5zpU/cuX7t5YdDiG4BQWXhWPhv9ci4int+WbF5B82gNhgh5EMZwAA+jGFuG/jlGF6ELkfEwHBta3dXr+kvGCU8fBNlvS520xns5vp+vsGJrGtNviOkVRoMwxWBcxdRrmON0T8wJ2NdPjFy5PXTRaHYOIF8LmBK4v4z592d2KnZfvoc+HXQRqqkLMYb9GH8Bwwr0IeZlcu34VKDP5O61xU5DrotFOULZqyUL1SV3DnObeBwjE3GqD8s640kK1negJ5MJzG3BV4ZPhCcPqM1WW/3VOvh5ePCnVF31FkAN35ohIxyb9o4ddx0Y8uKGhTn3FeDJwbVDKO4M0GjU6419pVFVm4cl+aUrS+9oe+LkMfsJjg94+pExnYQrA68Ad/YIqKrabrdbLfVH+3dZjrLiDJw8md/GEVus4+wma0dT2pe+YcWSJPE8n8tlxKIkSGGPAFsaY0vEEMFMqjPwBhueKnehP8Jku8WKolToqn6r174Xqyv/lOlUHZPefCd2Nx3+t/0XanU2oVgGrwkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;In-app purchases. Pay $0.00 to avoid MFA challenge.&quot;
+        title=&quot;In-app purchases. Pay $0.00 to avoid MFA challenge.&quot;
+        src=&quot;/static/a7b09c51c0cac8bc0a58e18e84e39305/fcda8/BadIdea_12-04-20.png&quot;
+        srcset=&quot;/static/a7b09c51c0cac8bc0a58e18e84e39305/12f09/BadIdea_12-04-20.png 148w,
+/static/a7b09c51c0cac8bc0a58e18e84e39305/e4a3f/BadIdea_12-04-20.png 295w,
+/static/a7b09c51c0cac8bc0a58e18e84e39305/fcda8/BadIdea_12-04-20.png 590w,
+/static/a7b09c51c0cac8bc0a58e18e84e39305/0a47e/BadIdea_12-04-20.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;2021-01-08 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-cyber-media-ciso-series-video-chat/&quot;&gt;Hacking Cyber Media&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Honorable Mention&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Publishing a cyber story requires a cryptocurrency payment on a blockchain. Once published everyone that shares gets a cut of the profit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2021-01-22 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-high-profile-accounts-ciso-series-video-chat/&quot;&gt;Hacking High Profile Accounts&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Honorable Mention&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sell ’15 minutes of fame’ insurance for when you might ‘go big’ on social media and need it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2021-02-05 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-windows-security-ciso-series-video-chat/&quot;&gt;Hacking Windows Security&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Winner&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/28668fafcf1bfa1412cbd5be5601351e/0a47e/BestBadIdea_02-05-21_600.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+0lEQVQoz1WRS2gTURSG/8FOFMGNIO7qxi7FlXvX4sKtK7cibkR80UcaJ22Cse0EinlMXhRt2kmTPqiPRtNaQXHymDhJqtZxJukkmWa0COLSjWcmInj5OBzOPef8P/fC6H753Nr82MxrRrnWEoXKQExmE4orWWNTdZv4BzZepQqbrLlSO4dC28duXLxy7dzNQGwIspZ8XD+Z3T0jNs6+V3mhwvrWMTrPTKxhXIRnyWZsAf7nFBm3CD7vGr58dfgC54uegtyM84WjM+uDKem0pPGCzM5s4X6O4ZZBreMZTK7Bu0IVTKww05sIbhy5c+n6rfOcPzSEaisx+QwjaTx6c6KoBWPywFSBuhn3IkbT8GRARmjFyBP4n2Jul9oOk6YvOsivHkez3VCaIvGpla9q80IVD17gbooht95lkP7tBLyrtvJYGvfmEMgjvgOhjmgVMLs9y/zZ2/9xsP+7pueiMsi2J+MMO25tnJy8UJHfQqTEhCUmUgI6nXa7s2d0dLN7oOhLNBzcBpdjqJsg5xwNZ23z7gX7CWffIVL+C0zTtCyr1zO/W7/qzWy45FzQ7iJCEvqxz3+50wZVVSVJqlRKDUWV1UVS5l/bX0Ui0wUENjD1Cg9f2lBOzL7tb3eGDcPQ6Ohf261vip4Jl+2toSJDUZBB72fHfuLwzzPxB0UlNeKrRRNHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Give away CPU cycles to hackers mining Bitcoin if they promise not to steal your data.&quot;
+        title=&quot;Give away CPU cycles to hackers mining Bitcoin if they promise not to steal your data.&quot;
+        src=&quot;/static/28668fafcf1bfa1412cbd5be5601351e/fcda8/BestBadIdea_02-05-21_600.png&quot;
+        srcset=&quot;/static/28668fafcf1bfa1412cbd5be5601351e/12f09/BestBadIdea_02-05-21_600.png 148w,
+/static/28668fafcf1bfa1412cbd5be5601351e/e4a3f/BestBadIdea_02-05-21_600.png 295w,
+/static/28668fafcf1bfa1412cbd5be5601351e/fcda8/BestBadIdea_02-05-21_600.png 590w,
+/static/28668fafcf1bfa1412cbd5be5601351e/0a47e/BestBadIdea_02-05-21_600.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;2021-02-12 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-cloud-collaboration-tools-ciso-series-video-chat/&quot;&gt;Hacking Cloud Collaboration Tools&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Winner&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/385161da4ea2e9407808076ec1c576d3/0a47e/BestBadIdea_02-12-21-600.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/ElEQVQozzWQO2zTUBSGf4u6ICQWJMRWFjoiJnZmxMDMwooQC0KIgb6dR2lJmkioSZw0YUANdZukKeWVkrZkqOI2cWrX4uXGNk7iJlAhIUYWznVb69fRvdf3O/9/LpzO96/2+mer1HRqmi2J9b5Unc+o/RmNT2s8q7veQuXTdKifilfOPbh55961h9OpQSjNzMu9i7lvVyT9atWIpBR+6gOGs5yvCKGAUQn+IiZy8C1j5BU3UUAw3z90++6TG0JQvATFmouUz86sDryQL8v7DA6XCeACKwwQ8gi8hq/AWgzPc+FNREtnHt+6/+i6MBkbRMNOB95iKIvZyoXtZjSp9EU2iOHIlgz9K8ycWgRXIeQwXUJi6zR5BsWBSPE8rJauWhLpi13aNedFBdFPDCaMgKn3LDyZT75hW/8yEjUk95DSITYAt9PtuX+6B78PD/5pZp7gmQ023niOXaW01GV8CUdBRhfw9B3xXFzmEjtAu91qtX84bdPtHKrmklhnziNZjqL6vbGJIeeTN8PYImaroGsUAa7r9nq9btf91furWTk6er6FcJmjZyOF1vBsDaGPx6IpQmXEZMR3PNgwDFmW60pNVw3FWGAzVzAmsdiRTcbTFOF1ppDXLlZl2DHsOE6TPnO/Zf9UzcW49yO2zVFNKkg2vKqcrBtIeIGP9B+/vjXD8jaqmAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Always require two people to be in any document at the same time.  That way a solo hacker can&amp;#39;t access your data without someone else helping.&quot;
+        title=&quot;Always require two people to be in any document at the same time.  That way a solo hacker can&amp;#39;t access your data without someone else helping.&quot;
+        src=&quot;/static/385161da4ea2e9407808076ec1c576d3/fcda8/BestBadIdea_02-12-21-600.png&quot;
+        srcset=&quot;/static/385161da4ea2e9407808076ec1c576d3/12f09/BestBadIdea_02-12-21-600.png 148w,
+/static/385161da4ea2e9407808076ec1c576d3/e4a3f/BestBadIdea_02-12-21-600.png 295w,
+/static/385161da4ea2e9407808076ec1c576d3/fcda8/BestBadIdea_02-12-21-600.png 590w,
+/static/385161da4ea2e9407808076ec1c576d3/0a47e/BestBadIdea_02-12-21-600.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;2021-03-05 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-systemic-risk-ciso-series-video-chat/&quot;&gt;Hacking Systemic Risk&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Honorable Mention&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When presented with risk, follow the Rules of Improv and AGREE then say ‘YES AND’ to assume even more risk.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Make sure your Chief Risk Officer has anterograde amnesia and can then claim they don’t recall accepting it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2021-03-12 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-board-metrics-ciso-series-video-chat/&quot;&gt;Hacking Board Metrics&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Honorable Mention&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Treat all board meetings like the party game “Two Truths and a Lie” when giving metrics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Graphics showing board metrics should be in the style of M.C. Escher’s impossible perspectives.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;2021-04-23 &lt;a href=&quot;https://cisoseries.com/best-moments-from-hacking-distractions-ciso-series-video-chat/&quot;&gt;Hacking Distractions&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Winner&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1c3e4258f5ca36da11279a6b0d18a303/0a47e/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACAklEQVQoz02QT0wTURDGv420GhMvJsYbXORoPHn3bDx49ObVGC/GoIEWKay2GBNaoALd3ZYaSpHtH0RJD8Ri01hDod12tw3+Wbqt23bpKjExHLk4TzTx5ctk9r357TczMLtfP7e29pqbDbOktWSh3CdVHIuaM1x1RGtMEY0+WRKuOqXqqfncufs3bt+9+uC5NAilsRirXUx9uSzXr2zrAbHs8GUwnuL4NYyt4vErysG/hjsOfo0TVcy8c47cuuO6zvuEASjNcCB71r/RHy1eKu4HJMXhfw/3MjeRwvBLPIzAI2N0hf0o+IELa5jNnnl0897QNX5yfhCVVsSbgXsFc/kLO41pSembIjjGeRJwxZjziZ6uY24bswUEc6cnxQGf0B9YP49mu642ZdKn1mbViAsK/FvwJBhMIv8xmUWCR5YwHIVvA5E9iDUIFcDq9mzrV+/g5+HBsWakCZ7KUh3HpzGeZA1732JIYuZP/kxO8UWBC+2SgE6n3e58MzuG1T1UjSRzzlERm5nkXmb+bG1JuJbYIKNxBAsQygiVyNmybNvu9awf9pHWTIXKmM7TehhMC6dI2EQa3jesc2qHOX9kJIN1XS8Wi2WlVFd1RV8VKwjk8CzDUfOUzORBy6ecIlXTq6hgYfcfbJpmg46x3259V40EXS3s0ANHddQbk/JXJ8D/+g3CPzPJxm+0IQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Use Snapchat style auto deletion for security events, forcing items to be addressed as soon as they are viewed.&quot;
+        title=&quot;Use Snapchat style auto deletion for security events, forcing items to be addressed as soon as they are viewed.&quot;
+        src=&quot;/static/1c3e4258f5ca36da11279a6b0d18a303/fcda8/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png&quot;
+        srcset=&quot;/static/1c3e4258f5ca36da11279a6b0d18a303/12f09/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png 148w,
+/static/1c3e4258f5ca36da11279a6b0d18a303/e4a3f/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png 295w,
+/static/1c3e4258f5ca36da11279a6b0d18a303/fcda8/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png 590w,
+/static/1c3e4258f5ca36da11279a6b0d18a303/0a47e/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;2021-05-07 Hacking Cloud Access&lt;/h2&gt;
+&lt;p&gt;Defend the BAD IDEA&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Embrace Chaos Engineering concepts to implement Chaos-Based Access Control (CBAC) instead of RBAC or ABAC.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Presentations]]></title><description><![CDATA[Descriptions and links to various presentations from Kevin Hakanson. Biography Kevin Hakanson (@hakanson) is an experienced Software…]]></description><link>https://kevinhakanson.com/presentations</link><guid isPermaLink="false">https://kevinhakanson.com/presentations</guid><content:encoded>&lt;p&gt;Descriptions and links to various presentations from Kevin Hakanson.&lt;/p&gt;
 &lt;h2&gt;Biography&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://kevinhakanson.com&quot;&gt;Kevin Hakanson&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/hakanson&quot;&gt;@hakanson&lt;/a&gt;) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.&lt;/p&gt;
 &lt;hr&gt;
@@ -3736,42 +3896,7 @@ aws-cli/1.14.9 Python/2.7.14 Linux/4.14.47-56.37.amzn1.x86_64 botocore/1.8.13&lt
     &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;json&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dumps&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;caller_identity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; indent&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; __name__ &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    sys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Selecting an ElastiCache (Redis) AUTH token]]></title><description><![CDATA[Redis Security highlights some items about selecting an AUTH token (password). It should be long enough to prevent brute force attacks for…]]></description><link>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security&lt;/a&gt; highlights some items about selecting an AUTH token (password).&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It should be long enough to prevent brute force attacks for two reasons:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Redis is very fast at serving queries. Many passwords per second can be tested by an external client.&lt;/li&gt;
-&lt;li&gt;The Redis password is stored inside the &lt;code class=&quot;language-text&quot;&gt;redis.conf&lt;/code&gt; file and inside the client configuration, so it does not need to be remembered by the system administrator, and thus it can be very long.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;From &lt;a href=&quot;https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html&quot;&gt;Authenticating Users with Redis AUTH - Amazon ElastiCache for Redis&lt;/a&gt; we see some additional AUTH constraints.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;AUTH Token Constraints when using with ElastiCache&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Passwords must be at least 16 and a maximum of 128 printable characters.&lt;/li&gt;
-&lt;li&gt;The only permitted printable special characters are !, &amp;#x26;, #, $, ^, &amp;#x3C;, &gt;, and -. Other printable special characters cannot be used in the AUTH token.&lt;/li&gt;
-&lt;li&gt;AUTH can only be enabled when creating clusters where in-transit encryption is enabled.&lt;/li&gt;
-&lt;li&gt;The password set at cluster creation cannot be changed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Since the special character set is limited, it makes sense to avoid them but generate a very long password.  This also has the side benefit of allowing a “double click” on the string to select it (which is usually hard with interior punctuation).  Below is an AWS CLI command that uses &lt;a href=&quot;https://aws.amazon.com/secrets-manager/&quot;&gt;AWS Secrets Manager&lt;/a&gt; to generate that random string.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws secretsmanager get-random-password --password-length &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt; --exclude-punctuation 
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;RandomPassword&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;FiXWVSsPAJmA1y4c6E63pc9p4YgM4m0lJzTVeRZD0hyJTiYPqZD5YkToDxBHX9N2APQqhnqVXYNipIkErKByFD9Gx38rbF5vE80z28u2v9NGD9vZz6GtgnElS1yqAfMk&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This secret is needed in plaintext during ElasticCache creation.  It should then be KMS encrypted and stored  in Secrets Manager, the microservice needing access to Redis can retrieve it.&lt;/p&gt;
-&lt;p&gt;Note: I was glad to see the usage of &lt;code class=&quot;language-text&quot;&gt;time_independent_strcmp&lt;/code&gt; to avoid timing attacks in &lt;a href=&quot;https://github.com/antirez/redis/blob/3.2/src/server.c#L2683&quot;&gt;redis/server.c&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;authCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;client &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Client sent AUTH, but no password is set&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;time_independent_strcmp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;ptr&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;token function&quot;&gt;addReply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;shared&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;invalid password&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Making a secure connection to ElastiCache (Redis)]]></title><description><![CDATA[In Redis Security Investigation, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I…]]></description><link>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In &lt;a href=&quot;../2018-06-22-redis-security-investigation&quot;&gt;Redis Security Investigation&lt;/a&gt;, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I created to test against.  Note that instead of port 6379, I specified 6380 (which seems to be the common Redis “SSL” port).&lt;/p&gt;
+    sys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Making a secure connection to ElastiCache (Redis)]]></title><description><![CDATA[In Redis Security Investigation, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I…]]></description><link>https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-making-a-secure-connection-to-elasticache-redis</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In &lt;a href=&quot;../2018-06-22-redis-security-investigation&quot;&gt;Redis Security Investigation&lt;/a&gt;, I recommended enabling both Encryption in-transit and Redis Auth.  Below is an ElastiCache Redis server I created to test against.  Note that instead of port 6379, I specified 6380 (which seems to be the common Redis “SSL” port).&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
@@ -3858,7 +3983,42 @@ value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; r&lt;span clas
     &lt;span class=&quot;token comment&quot;&gt;// Endpoints without an explicit port will use 6379 if ssl is not enabled, and 6380 if ssl is enabled&lt;/span&gt;
     Password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;[Redacted]&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     Ssl &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; True
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Redis Security Investigation]]></title><description><![CDATA[The Securing Redis section from the Redis Quick Start stresses applying network level security (firewalls), the  option (AUTH command), and…]]></description><link>https://kevinhakanson.com/2018-06-22-redis-security-investigation</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-22-redis-security-investigation</guid><pubDate>Fri, 22 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Securing Redis section from the &lt;a href=&quot;https://redis.io/topics/quickstart#securing-redis&quot;&gt;Redis Quick Start&lt;/a&gt; stresses applying network level security (firewalls), the &lt;code class=&quot;language-text&quot;&gt;requirepass&lt;/code&gt; option (&lt;a href=&quot;https://redis.io/commands/auth&quot;&gt;AUTH&lt;/a&gt; command), and SSL tunneling.  Additional details can be found by reading &lt;a href=&quot;http://antirez.com/news/96&quot;&gt;A few things about Redis security&lt;/a&gt; and &lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security – Redis&lt;/a&gt;.&lt;/p&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Selecting an ElastiCache (Redis) AUTH token]]></title><description><![CDATA[Redis Security highlights some items about selecting an AUTH token (password). It should be long enough to prevent brute force attacks for…]]></description><link>https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-27-selecting-an-elasticache-redis-auth-token</guid><pubDate>Wed, 27 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security&lt;/a&gt; highlights some items about selecting an AUTH token (password).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It should be long enough to prevent brute force attacks for two reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redis is very fast at serving queries. Many passwords per second can be tested by an external client.&lt;/li&gt;
+&lt;li&gt;The Redis password is stored inside the &lt;code class=&quot;language-text&quot;&gt;redis.conf&lt;/code&gt; file and inside the client configuration, so it does not need to be remembered by the system administrator, and thus it can be very long.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From &lt;a href=&quot;https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html&quot;&gt;Authenticating Users with Redis AUTH - Amazon ElastiCache for Redis&lt;/a&gt; we see some additional AUTH constraints.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AUTH Token Constraints when using with ElastiCache&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Passwords must be at least 16 and a maximum of 128 printable characters.&lt;/li&gt;
+&lt;li&gt;The only permitted printable special characters are !, &amp;#x26;, #, $, ^, &amp;#x3C;, &gt;, and -. Other printable special characters cannot be used in the AUTH token.&lt;/li&gt;
+&lt;li&gt;AUTH can only be enabled when creating clusters where in-transit encryption is enabled.&lt;/li&gt;
+&lt;li&gt;The password set at cluster creation cannot be changed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since the special character set is limited, it makes sense to avoid them but generate a very long password.  This also has the side benefit of allowing a “double click” on the string to select it (which is usually hard with interior punctuation).  Below is an AWS CLI command that uses &lt;a href=&quot;https://aws.amazon.com/secrets-manager/&quot;&gt;AWS Secrets Manager&lt;/a&gt; to generate that random string.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws secretsmanager get-random-password --password-length &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt; --exclude-punctuation 
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;RandomPassword&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;FiXWVSsPAJmA1y4c6E63pc9p4YgM4m0lJzTVeRZD0hyJTiYPqZD5YkToDxBHX9N2APQqhnqVXYNipIkErKByFD9Gx38rbF5vE80z28u2v9NGD9vZz6GtgnElS1yqAfMk&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This secret is needed in plaintext during ElasticCache creation.  It should then be KMS encrypted and stored  in Secrets Manager, the microservice needing access to Redis can retrieve it.&lt;/p&gt;
+&lt;p&gt;Note: I was glad to see the usage of &lt;code class=&quot;language-text&quot;&gt;time_independent_strcmp&lt;/code&gt; to avoid timing attacks in &lt;a href=&quot;https://github.com/antirez/redis/blob/3.2/src/server.c#L2683&quot;&gt;redis/server.c&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;authCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;client &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Client sent AUTH, but no password is set&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;time_independent_strcmp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;ptr&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;requirepass&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;addReply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;shared&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ok&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      c&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;authenticated &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;addReplyError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;invalid password&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Redis Security Investigation]]></title><description><![CDATA[The Securing Redis section from the Redis Quick Start stresses applying network level security (firewalls), the  option (AUTH command), and…]]></description><link>https://kevinhakanson.com/2018-06-22-redis-security-investigation</link><guid isPermaLink="false">https://kevinhakanson.com/2018-06-22-redis-security-investigation</guid><pubDate>Fri, 22 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Securing Redis section from the &lt;a href=&quot;https://redis.io/topics/quickstart#securing-redis&quot;&gt;Redis Quick Start&lt;/a&gt; stresses applying network level security (firewalls), the &lt;code class=&quot;language-text&quot;&gt;requirepass&lt;/code&gt; option (&lt;a href=&quot;https://redis.io/commands/auth&quot;&gt;AUTH&lt;/a&gt; command), and SSL tunneling.  Additional details can be found by reading &lt;a href=&quot;http://antirez.com/news/96&quot;&gt;A few things about Redis security&lt;/a&gt; and &lt;a href=&quot;https://redis.io/topics/security&quot;&gt;Redis Security – Redis&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Amazon VPC Security Groups and the ElastiCache Subnet Groups provide network security.  For data security, Amazon ElastiCache for Redis supports each of In-Transit Encryption (TLS), At-Rest Encryption, and AUTH for clusters running Redis version 3.2.6.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/security/amazon-elasticache-now-supports-encryption-for-elasticache-for-redis/&quot;&gt;Now You Can Use Amazon ElastiCache for Redis with In-Transit and At-Rest Encryption to Help Protect Sensitive Information&lt;/a&gt;&lt;/li&gt;
@@ -4828,7 +4988,12 @@ Enter MFA code: 000000
   &lt;span class=&quot;token string&quot;&gt;&quot;UserId&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;AROAXXXXXXXXXXXXXXXXX:AWS-CLI-session-1508622621&quot;&lt;/span&gt;,
   &lt;span class=&quot;token string&quot;&gt;&quot;Account&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;123456789012&quot;&lt;/span&gt;,
   &lt;span class=&quot;token string&quot;&gt;&quot;Arn&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;arn:aws:sts::123456789012:assumed-role/kjh-DuperRole/AWS-CLI-session-1508622621&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Creating and Using an AWS Virtual MFA Device with the AWS SDK for Python]]></title><description><![CDATA[Some scenarios, like on-premise servers that need access to AWS resources, require AWS IAM Users to be created.  These “service users” are…]]></description><link>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</link><guid isPermaLink="false">https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</guid><pubDate>Sat, 21 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some scenarios, like on-premise servers that need access to AWS resources, require AWS IAM Users to be created.  These “service users” are given Access Keys, which serve as long term credentials and needed to be protected.  An additional measure of protection could be to enable programmatic multifactor authentication for these users.&lt;/p&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[HashiCorp Vault supports AWS STS AssumeRole and TOTP]]></title><description><![CDATA[The working security model for on-premise servers to access AWS resources is an IAM User which should only assume an IAM Role.  This makes…]]></description><link>https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</link><guid isPermaLink="false">https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</guid><pubDate>Sat, 21 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The working security model for on-premise servers to access AWS resources is an IAM User which should only assume an IAM Role.  This makes the behavior similar to the Role-based permissions used by EC2 or Lambda.  This IAM User cannot log in onto the AWS Console, but uses an Access Key as long term credentials.  The call to &lt;code class=&quot;language-text&quot;&gt;sts:AssumeRole&lt;/code&gt; returns temporary security credentials that are valid for an hour. (see &lt;a href=&quot;http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access.html&quot;&gt;Controlling Permissions for Temporary Security Credentials - AWS Identity and Access Management&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Reading about &lt;a href=&quot;https://www.vaultproject.io/&quot;&gt;Vault by HashiCorp&lt;/a&gt; highlighted two relevant features:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;a href=&quot;https://www.vaultproject.io/docs/secrets/aws/index.html#sts-assumerole&quot;&gt;AWS Secret Backend&lt;/a&gt; has built-in support for STS AssumeRole, which allows a &lt;code class=&quot;language-text&quot;&gt;POST /aws/sts/:name&lt;/code&gt; call to retrieve temporary credentials (see &lt;a href=&quot;https://www.vaultproject.io/api/secret/aws/index.html#generate-iam-with-sts&quot;&gt;AWS Secret Backend - HTTP API&lt;/a&gt; for full reference).  For internal teams that use Vault, this could allow the long term credentials (from the IAM User Access Key) to be securely stored once, and server instances request temporary security credentials as needed.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;https://www.vaultproject.io/docs/secrets/totp/index.html&quot;&gt;TOTP Secret Backend&lt;/a&gt; allows Vault users to store their multi-factor authentication keys in Vault and use the API to retrieve time-based one-time use passwords on demand.  The &lt;strong&gt;Using MFA with AssumeRole&lt;/strong&gt; section of &lt;a href=&quot;https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html&quot;&gt;AssumeRole - AWS Security Token Service&lt;/a&gt; explains how can optionally include multi-factor authentication (MFA) information when you call AssumeRole.  However, storage of the TOTP secret and generation of the TOTP code don’t have an implemented solution.  If the secret is stored alongside the long term credentials, then it is as easy to steal two secrets, as it is one.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Creating and Using an AWS Virtual MFA Device with the AWS SDK for Python]]></title><description><![CDATA[Some scenarios, like on-premise servers that need access to AWS resources, require AWS IAM Users to be created.  These “service users” are…]]></description><link>https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</link><guid isPermaLink="false">https://kevinhakanson.com/2017-10-21-creating-and-using-an-aws-virtual-mfa-device-with-the-aws-sdk-for-python</guid><pubDate>Sat, 21 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Some scenarios, like on-premise servers that need access to AWS resources, require AWS IAM Users to be created.  These “service users” are given Access Keys, which serve as long term credentials and needed to be protected.  An additional measure of protection could be to enable programmatic multifactor authentication for these users.&lt;/p&gt;
 &lt;p&gt;This Python code creates a virtual MFA device with &lt;a href=&quot;http://boto3.readthedocs.io/en/latest/index.html&quot;&gt;Boto 3&lt;/a&gt; (AWS SDK for Python).  The  &lt;a href=&quot;https://boto3.readthedocs.io/en/latest/reference/services/iam.html#IAM.Client.create_virtual_mfa_device&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;create_virtual_mfa_device&lt;/code&gt;&lt;/a&gt; response includes a shared secret (saved in &lt;code class=&quot;language-text&quot;&gt;string_seed&lt;/code&gt;) and the bytes of a PNG image of a QR code that can be used with standard Authenticator apps.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;session &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; boto3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Session&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;profile_name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;kjh-SuperDuperUser&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 iam_client &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; session&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;client&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;iam&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -4929,12 +5094,7 @@ response &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sts_client&
 &lt;li&gt;&lt;a href=&quot;http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html&quot;&gt;Enabling a Virtual Multi-factor Authentication (MFA) Device - AWS Identity and Access Management&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_cliapi.html&quot;&gt;Enable and manage virtual MFA devices (AWS CLI, Tools for Windows PowerShell, or AWS API) - AWS Identity and Access Management&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_configure-api-require.html&quot;&gt;Configuring MFA-Protected API Access - AWS Identity and Access Management&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[HashiCorp Vault supports AWS STS AssumeRole and TOTP]]></title><description><![CDATA[The working security model for on-premise servers to access AWS resources is an IAM User which should only assume an IAM Role.  This makes…]]></description><link>https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</link><guid isPermaLink="false">https://kevinhakanson.com/2017-10-21-hashicorp-vault-supports-aws-sts-assumerole-and-totp</guid><pubDate>Sat, 21 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The working security model for on-premise servers to access AWS resources is an IAM User which should only assume an IAM Role.  This makes the behavior similar to the Role-based permissions used by EC2 or Lambda.  This IAM User cannot log in onto the AWS Console, but uses an Access Key as long term credentials.  The call to &lt;code class=&quot;language-text&quot;&gt;sts:AssumeRole&lt;/code&gt; returns temporary security credentials that are valid for an hour. (see &lt;a href=&quot;http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access.html&quot;&gt;Controlling Permissions for Temporary Security Credentials - AWS Identity and Access Management&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Reading about &lt;a href=&quot;https://www.vaultproject.io/&quot;&gt;Vault by HashiCorp&lt;/a&gt; highlighted two relevant features:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The &lt;a href=&quot;https://www.vaultproject.io/docs/secrets/aws/index.html#sts-assumerole&quot;&gt;AWS Secret Backend&lt;/a&gt; has built-in support for STS AssumeRole, which allows a &lt;code class=&quot;language-text&quot;&gt;POST /aws/sts/:name&lt;/code&gt; call to retrieve temporary credentials (see &lt;a href=&quot;https://www.vaultproject.io/api/secret/aws/index.html#generate-iam-with-sts&quot;&gt;AWS Secret Backend - HTTP API&lt;/a&gt; for full reference).  For internal teams that use Vault, this could allow the long term credentials (from the IAM User Access Key) to be securely stored once, and server instances request temporary security credentials as needed.&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&quot;https://www.vaultproject.io/docs/secrets/totp/index.html&quot;&gt;TOTP Secret Backend&lt;/a&gt; allows Vault users to store their multi-factor authentication keys in Vault and use the API to retrieve time-based one-time use passwords on demand.  The &lt;strong&gt;Using MFA with AssumeRole&lt;/strong&gt; section of &lt;a href=&quot;https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html&quot;&gt;AssumeRole - AWS Security Token Service&lt;/a&gt; explains how can optionally include multi-factor authentication (MFA) information when you call AssumeRole.  However, storage of the TOTP secret and generation of the TOTP code don’t have an implemented solution.  If the secret is stored alongside the long term credentials, then it is as easy to steal two secrets, as it is one.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[API-First and the Customer Experience]]></title><description><![CDATA[Enabling distributed digital business with API-first architecture (Google Cloud Next ‘17) was a good, high-level overview of API strategies…]]></description><link>https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</link><guid isPermaLink="false">https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</guid><pubDate>Tue, 17 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9SmXhbgYmbU&quot;&gt;Enabling distributed digital business with API-first architecture (Google Cloud Next ‘17)&lt;/a&gt; was a good, high-level overview of API strategies, and reminds me of our internal Customer Experience Model and Customer Experience Principles goals.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[API-First and the Customer Experience]]></title><description><![CDATA[Enabling distributed digital business with API-first architecture (Google Cloud Next ‘17) was a good, high-level overview of API strategies…]]></description><link>https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</link><guid isPermaLink="false">https://kevinhakanson.com/2017-10-17-api-first-and-the-customer-experience</guid><pubDate>Tue, 17 Oct 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9SmXhbgYmbU&quot;&gt;Enabling distributed digital business with API-first architecture (Google Cloud Next ‘17)&lt;/a&gt; was a good, high-level overview of API strategies, and reminds me of our internal Customer Experience Model and Customer Experience Principles goals.&lt;/p&gt;
 &lt;p&gt;The “Inside-out” vs. “Outside-in” perspective is analogous to how developers used to build UIs, but we now utilize a Central UX: Experience Design &amp;#x26; Research team to focus on the user (vs. the feature).&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;

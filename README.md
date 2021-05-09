@@ -7,4 +7,4 @@
   kevinhakanson.com
 </h1>
 
-Generated from the Gatsby's blog starter.  Source code is under the The MIT License.  Content is © 2020 Kevin Hakanson.
+Generated from the Gatsby's blog starter.  Source code is under the The MIT License.  Content is © 2008-2021 Kevin Hakanson.

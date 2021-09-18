@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-404-js","path":"/404/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}}},"pageContext":{}},"staticQueryHashes":["2589769190"]}
+{
+    "componentChunkName": "component---src-pages-404-js",
+    "path": "/404/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}}},"pageContext":{}},
+    "staticQueryHashes": ["2589769190"]}

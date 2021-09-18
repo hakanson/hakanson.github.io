@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/cloudformation/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2021-06-30-aws-cloudformation-linter-custom-rules"},"frontmatter":{"title":"AWS CloudFormation Linter Custom Rules","date":"June 30, 2021","tags":["aws","cloudformation"]}}}]}},"pageContext":{"tag":"cloudformation"}},
+    "staticQueryHashes": ["2589769190","97908498"]}

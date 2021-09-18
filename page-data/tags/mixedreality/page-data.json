@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/mixedreality/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2017-10-05-comparing-brandon-sandersons-legion-and-mixed-reality"},"frontmatter":{"title":"Comparing Brandon Sanderson's Legion and Mixed Reality","date":"October 05, 2017","tags":["random","mixedreality"]}}}]}},"pageContext":{"tag":"mixedreality"}},"staticQueryHashes":["2589769190","3567236516"]}
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/mixedreality/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2017-10-05-comparing-brandon-sandersons-legion-and-mixed-reality"},"frontmatter":{"title":"Comparing Brandon Sanderson's Legion and Mixed Reality","date":"October 05, 2017","tags":["random","mixedreality"]}}}]}},"pageContext":{"tag":"mixedreality"}},
+    "staticQueryHashes": ["2589769190","97908498"]}

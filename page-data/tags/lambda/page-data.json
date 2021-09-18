@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/lambda/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2021-07-29-my-first-c-aws-lambda-function"},"frontmatter":{"title":"My first C# AWS Lambda Function","date":"June 30, 2021","tags":["aws","lambda","csharp","dotnet"]}}}]}},"pageContext":{"tag":"lambda"}},
+    "staticQueryHashes": ["2589769190","97908498"]}

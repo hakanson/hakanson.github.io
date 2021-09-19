@@ -3,7 +3,7 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kevin Hakanson <kevin.hakanson@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -39,7 +39,7 @@
     "react-typography": "^0.16.19",
     "typeface-merriweather": "^1.1.13",
     "typeface-montserrat": "^1.1.13",
-    "typography": "^0.16.19",
+    "typography": "^0.16.21",
     "typography-theme-github": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },

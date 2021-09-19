@@ -7,32 +7,29 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import { rhythm } from "../utils/typography"
 
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author
-          social {
-            twitter
-            linkedin
-            github
-          }
-        }
+  const data = useStaticQuery(graphql`query BioQuery {
+  avatar: file(absolutePath: {regex: "/profile-pic.jpg/"}) {
+    childImageSharp {
+      gatsbyImageData(width: 50, height: 50, layout: FIXED)
+    }
+  }
+  site {
+    siteMetadata {
+      author
+      social {
+        twitter
+        linkedin
+        github
       }
     }
-  `)
+  }
+}
+`)
 
   const { author, social } = data.site.siteMetadata
   return (
@@ -42,8 +39,8 @@ const Bio = () => {
         marginBottom: rhythm(1),
       }}
     >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
+      <GatsbyImage
+        image={data.avatar.childImageSharp.gatsbyImageData}
         alt={author}
         style={{
           marginRight: rhythm(1 / 2),
@@ -53,8 +50,7 @@ const Bio = () => {
         }}
         imgStyle={{
           borderRadius: `50%`,
-        }}
-      />
+        }} />
       <p>
         {` `}
         Multi-Cloud Certified Architect | DevSecOps | AppSec | Web Platform | Speaker | Learner | Builder
@@ -75,13 +71,13 @@ const Bio = () => {
           Stack Overflow
         </a>
         {` | `}
-        <a href={`https://www.youracclaim.com/users/kevin-hakanson`}>
-          Acclaim
+        <a href={`https://www.credly.com/users/kevin-hakanson`}>
+          Credly
         </a>
         
       </p>
     </div>
-  )
+  );
 }
 
 export default Bio

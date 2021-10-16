@@ -67,8 +67,18 @@ Winner
 ![Use Snapchat style auto deletion for security events, forcing items to be addressed as soon as they are viewed.](images/CISO-Series-Video-Chat-04-29-21-Best-Bad-Idea_600.png)
 
 
-## 2021-05-07 Hacking Cloud Access
+## 2021-05-07 [Hacking Cloud Access](https://cisoseries.com/best-moments-from-hacking-cloud-access-ciso-series-video-chat/)
 
-Defend the BAD IDEA
+Honorable Mention
 
 > Embrace Chaos Engineering concepts to implement Chaos-Based Access Control (CBAC) instead of RBAC or ABAC.
+
+## 2021-10-08 [Hacking Regulations](https://cisoseries.com/five-best-moments-from-hacking-regulations-ciso-series-video-chat) 
+
+Winner
+
+![What NOT to say to an auditor:  Do you have a copy of last year's report?  We lost our to ransomware.](images/CISO-Series-Video-Chat-10-08-21-BestBadIdea_600-2.png)
+
+Honorable Mention
+
+> What NOT to say to an Auditor:  "Did you get the gift cards? I clicked the link last week."

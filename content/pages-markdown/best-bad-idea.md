@@ -81,4 +81,34 @@ Winner
 
 Honorable Mention
 
-> What NOT to say to an Auditor:  "Did you get the gift cards? I clicked the link last week."
+> What NOT to say to an auditor:  "Did you get the gift cards? I clicked the link last week."
+
+## 2021-10-15 [Hacking Security Champions](https://cisoseries.com/five-best-moments-from-10-15-21-hacking-security-champions-ciso-series-video-chat/)
+
+Winner
+
+![What NOT to say to a security champion:  "How did you get demoted from developer to project manager?"](images/CISO-Series-Video-Chat-10-15-21-BestBadIdea_600-1.png)
+
+## 2021-10-22 [Hacking Ransomware](https://cisoseries.com/best-moments-from-hacking-ransomware-ciso-series-video-chat/)
+
+Honorable Mention
+
+> What NOT to say in ransomware negotiation: If you can fill out this vendor security assessment, I can get procurement to pay out.
+
+> What NOT to say in ransomware negotiation: My cryptocurrency wallet private key is in that data. Can you decrypt it and send back to me?
+
+## 2021-10-29 [Hacking Secure Access](https://cisoseries.com/best-moments-from-hacking-secure-access-ciso-series-video-chat/)
+
+Honorable Mention
+
+> Outsource every business function so that far fewer employees need secure access. Transfer risk to vendors.
+
+> Build apartments in your office building and require employees to live there.
+
+## 2021-11-05 [Hacking Asset Management](https://cisoseries.com/best-moments-from-hacking-asset-management-ciso-series-video-chat/)
+
+Honorable Mention
+
+> Make sure to plug in every USB drive you find so you can track it as an asset.
+
+> Use 100% ephemeral assets so there is nothing to track.

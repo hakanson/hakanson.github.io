@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hakanson's Blog RSS Feed]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 03 Aug 2022 02:06:51 GMT</lastBuildDate><item><title><![CDATA[My First AWS Blog]]></title><description><![CDATA[Posts on this blog have been fewer lately, but today my first official AWS Blog post was published:  Partitioning and Isolating Multi-Tenant…]]></description><link>https://kevinhakanson.com/2022-06-14-my-first-aws-blog</link><guid isPermaLink="false">https://kevinhakanson.com/2022-06-14-my-first-aws-blog</guid><pubDate>Tue, 14 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Posts on this blog have been fewer lately, but today my first official AWS Blog post was published:  &lt;a href=&quot;https://aws.amazon.com/blogs/apn/partitioning-and-isolating-multi-tenant-saas-data-with-amazon-s3/&quot;&gt;Partitioning and Isolating Multi-Tenant SaaS Data with Amazon S3&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[aws-icons-for-plantuml v13.0 Released]]></title><description><![CDATA[Last year with Adding AWS Icons to PlantUML Sequence Diagrams I started making my diagrams look a bit better.  However, the native sprite…]]></description><link>https://kevinhakanson.com/2022-06-06-aws-icons-for-plantuml-v130-released</link><guid isPermaLink="false">https://kevinhakanson.com/2022-06-06-aws-icons-for-plantuml-v130-released</guid><pubDate>Mon, 06 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last year with &lt;a href=&quot;/2021-08-12-adding-aws-icons-to-plantuml-sequence-diagrams&quot;&gt;Adding AWS Icons to PlantUML Sequence Diagrams&lt;/a&gt; I started making my diagrams look a bit better.  However, the native sprite format looked somewhat washed out to me.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hakanson's Blog RSS Feed]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 Oct 2022 21:30:20 GMT</lastBuildDate><item><title><![CDATA[Sequence Diagrams with Mermaid and Diagrams.net]]></title><description><![CDATA[I’m still having fun creating UML Sequence Diagrams using PlantUML.  On August 19, 2022 I published Sequence Diagrams enrich your…]]></description><link>https://kevinhakanson.com/2022-10-02-sequence-diagrams-with-mermaid-and-diagramsnet</link><guid isPermaLink="false">https://kevinhakanson.com/2022-10-02-sequence-diagrams-with-mermaid-and-diagramsnet</guid><pubDate>Sun, 02 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’m still having fun creating UML Sequence Diagrams using PlantUML.  On August 19, 2022 I published &lt;a href=&quot;https://aws.amazon.com/blogs/architecture/sequence-diagrams-enrich-your-understanding-of-distributed-architectures/&quot;&gt;Sequence Diagrams enrich your understanding of distributed architectures&lt;/a&gt; on the AWS Architecture Blog.  The &lt;code class=&quot;language-text&quot;&gt;.puml&lt;/code&gt; source files from that blog post are available in the &lt;a href=&quot;https://github.com/awslabs/aws-icons-for-plantuml/tree/main/examples/architecture-blog&quot;&gt;architecture-blog&lt;/a&gt; examples folder inside the &lt;a href=&quot;https://github.com/awslabs/aws-icons-for-plantuml&quot;&gt;AWS Icons for PlantUML&lt;/a&gt; GitHub project.  This blog was included as one of the five stories in &lt;a href=&quot;https://mailchi.mp/deararchitects/103-dear-architects&quot;&gt;#103 Dear Architects&lt;/a&gt; and both the blog and the AWS Icons for PlantUML project were mentioned in &lt;a href=&quot;https://dev.to/094459/aws-open-source-news-and-updates-127-56n9&quot;&gt;AWS open source news and updates, #127&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Mermaid&lt;/h2&gt;
+&lt;p&gt;Another tool that gets mentioned for Diagrams-as-Code is &lt;a href=&quot;https://mermaid-js.github.io/mermaid/#/&quot;&gt;Mermaid&lt;/a&gt; which “uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.”  For a target diagram to create with Mermaid, I used the end-state, PlantUML-based diagram from my &lt;a href=&quot;https://github.com/awslabs/aws-icons-for-plantuml/tree/main/examples/cognito-scenario&quot;&gt;Creating a Sequence Diagram for an Amazon Cognito scenario&lt;/a&gt; tutorial, which adds AWS service icons and colors for greater visual impact.  Below is a PNG export of that diagram (SVG always seems to look better).&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d8c120f37c36cdf56debe226cac998ff/8efc2/plantuml.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100.67567567567568%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2UlEQVQ4y32TS47cNhCGdTYvs8zKZ8omu8Cb+ATOERIDhp0YHk+6Hc8omHZLPaNHq/WmKJJFFl8GRcdjeJEPBEEJ9bN+FouJ995ojUo6a4y1ZVG003iehqZpyqpqyFS3l6osHk6n4+ETY6v33jnnAy7x3kvBjlmGUsTf/Pc/4NfnXnI9dOsvz9x+py1m5b+n88FKwW5u9dRjVVlKNjGI00OlJHhrvPfFTz/f/fjUCbYc7v558sP44jfv/X1zvO9P3url/U5d6v7vPfR9EGuU49BbrcIRjD6lt+lfb8k01MX9zes3x9sblCzPjqc805IP5zOs8zFN27pMonvnQk65Dn1+NVYfSJv2+bu1PfiIs96FKO+s2+YoSrTWUinGeN/3lMyck+Ehm/Oj89oiWGOjPIi2Oln7ZXbOJ8M4VedGCOCMcc6FQnrp1rIMEUYbVEaHoVF9K47raNsbY3QAQ5D3bMibw5s2vxoerqdi14XFzln9vXiz4wBgnmdCyDzPjDEJoJSCde0+3jBCFKpH/99lDiX4cu/+208Hsnn5qs5PHEAIoTaMMV+3+D+xYbz7821X1+M8933ftu04TVNzsVrH6CA2UlnzCCLG7XGau1ev6TAqbUBKAIlao1Qu1jqKRVmLNZQ6QikFgNDp3rOq0mJ1VhkUcWglnLWPtkMSRAAw4WnYLflWeW2BT23+rs2uuvx6KvZTuRvurzWQx4fhvBcAhBAAkMEexIWUUggRXGiX1Z+qtgQBy7IgogSw1iaU0jRNLxtd1wFANC82OOeMM6vdPnu/T6/Hfuy6bpym4u6wLkvCYmMJsWxQSqVUm+2AUogYHkxafDzVmTUOEa1zy7lBKZOVru2l5YyHU25E2X+VD023iT/k9VGjCVdt7XJpDWLCOV9Y6CHGGCKG97VhN+Iu3vvj+a5qC+98vEhUITJRSs1kmjcIIcuykI14iq+LeZ4ppYwxSlfG2LrxGZuMciZ4gUGzAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PlantUML based sequence diagram&quot;
+        title=&quot;PlantUML based sequence diagram&quot;
+        src=&quot;/static/d8c120f37c36cdf56debe226cac998ff/fcda8/plantuml.png&quot;
+        srcset=&quot;/static/d8c120f37c36cdf56debe226cac998ff/12f09/plantuml.png 148w,
+/static/d8c120f37c36cdf56debe226cac998ff/e4a3f/plantuml.png 295w,
+/static/d8c120f37c36cdf56debe226cac998ff/fcda8/plantuml.png 590w,
+/static/d8c120f37c36cdf56debe226cac998ff/8efc2/plantuml.png 828w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to see how close I could reproduce that look.  Using Mermaid &lt;a href=&quot;https://mermaid-js.github.io/mermaid/#/directives&quot;&gt;directives&lt;/a&gt; I was able to get some control over colors and styling by including the &lt;code class=&quot;language-text&quot;&gt;%%{init: {...}}%%&lt;/code&gt; blocks in the source below.  The &lt;a href=&quot;https://mermaid-js.github.io/mermaid/#/theming?id=sequence-diagram&quot;&gt;theming for sequence digrams&lt;/a&gt; is documented, but I found &lt;a href=&quot;https://github.com/mermaid-js/mermaid/blob/develop/packages/mermaid/src/diagrams/sequence/styles.js&quot;&gt;styles.js&lt;/a&gt; to be the authoritive source.  The configurations specific for sequence diagrams were also best found in the &lt;a href=&quot;https://github.com/mermaid-js/mermaid/blob/develop/packages/mermaid/src/defaultConfig.ts&quot;&gt;defaultConfig.ts&lt;/a&gt; source code.  I did not find a way to use images for the AWS icons inside my Mermaid sequence diagram.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;%%{init: {&apos;sequence&apos;: { &apos;mirrorActors&apos;: false, &apos;rightAngles&apos;: true, &apos;messageAlign&apos;: &apos;center&apos;, &apos;actorFontSize&apos;: 20, &apos;actorFontWeight&apos;: 900, &apos;noteFontSize&apos;: 18, &apos;noteFontWeight&apos;: 600, &apos;messageFontSize&apos;: 14}}}%%
+%%{init: {&apos;theme&apos;: &apos;base&apos;, &apos;themeVariables&apos;: {&apos;labelBoxBkgColor&apos;: &apos;lightgrey&apos;, &apos;labelBoxBorderColor&apos;: &apos;#000000&apos;, &apos;actorBorder&apos;: &apos;#D86613&apos;, &apos;actorBkg&apos;: &apos;#ffffff&apos;, &apos;activationBorderColor&apos;: &apos;#232F3E&apos;, &apos;activationBkgColor&apos;: &apos;#D86613&apos;, &apos;noteBkgColor&apos;: &apos;rgba(255, 153, 0, .25)&apos;, &apos;noteBorderColor&apos;: &apos;#232F3E&apos;}}}%%
+sequenceDiagram
+    title Amazon S3 objects using IAM Temporary Credentials
+
+    participant user as «Tenant 1»&amp;lt;br /&gt;&amp;lt;br /&gt;User
+    participant userpool as &amp;lt;br /&gt;Amazon Cognito&amp;lt;br /&gt;User Pool
+    participant idpool as &amp;lt;br /&gt;Amazon Cognito&amp;lt;br /&gt;Identity Pool
+    participant s3 as «Multi-tenant»&amp;lt;br /&gt;Amazon S3&amp;lt;br /&gt;bucket
+    participant sts as &amp;lt;br /&gt;AWS STS&amp;lt;br /&gt;
+    participant permissions as &amp;lt;br /&gt;AWS IAM&amp;lt;br /&gt;policy
+
+    note over userpool: 1. Authenticate and get tokens
+    user -&gt;&gt;+ userpool: InitiateAuth
+    userpool --&gt;&gt;- user: ID Token and Access Token
+
+    note over idpool: 2. Exchange tokens for AWS credentials
+    user -&gt;&gt;+ idpool: GetCredentialsForIdentity
+    idpool -&gt;&gt; idpool: map to IAM Role
+    idpool -&gt;&gt;+ sts: AssumeRoleWithWebIdentity(Role)
+    sts --&gt;&gt;- idpool: temporary security credentials
+    idpool --&gt;&gt;- user: temporary security credentials
+   
+    note over s3: 3. Access AWS services with credentials
+    user -&gt;&gt;+ s3: GetObject
+    s3 -&gt;&gt;+ permissions: check permissions
+    alt no access
+      permissions --&gt;&gt; s3: ❌ Deny
+      s3 --&gt;&gt; user: error (AccessDenied)
+    else access
+      permissions --&gt;&gt;- s3: ✅ Allow
+      s3 --&gt;&gt;- user: S3 object
+    end &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Below is the PNG rendered by that source.  Clicking the image will bring you to the &lt;a href=&quot;https://mermaid.live&quot;&gt;Mermaid Live Editor&lt;/a&gt;, which displays the image as the better looking SVG version. Some differences you will see are the text in &lt;code class=&quot;language-text&quot;&gt;note&lt;/code&gt; not spilling out the left and right sides or the emoji font characters rendering differently.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNVc1O20AQfpWRKxQQhEJcEI0qJPNXcUCtGlouuWzWg7ONvZvuroEQ5dhbH6F9gj5CbzxKn6Szu7YxgZb6EGVnvm9-vpm15xFXKUb9aGVlLqSwfZh3DH4pUXLs0AE6hdBa6YRbpQ1ZLllucAM6WmRjm8gsR2e1unTGAo1hGSa5yCRZOxylRd0hD3P8EyXtQNy6wL2ttvECXTQyv95ydqkstrDbey1bA9310CpjG_1qsVisrAxlqyM7xsL5OiNm0JXjDZ-YFmwUGph3cjbC_EDdHEyyQ5Ur7eC5y5VpnDlOA1A6Rd1gXmz5p2kyuL3naG93dzu-90wyb770T2UWV8wKJZeD9uLeSXy8hGlV1ortlGm7dDZiq72dnQ3Y3ok3gFTa7O2sNcinE1Wa1aM_EizTrBhKoMcKmyMkBbtVEgYxqNFn5NZAaYTM4DQ5g3MspkozPYNDjSkNXdCWDGWgT5m2gospk5YoqIEZuPt5jtIZtu9-vRlpeLkffj-S_2nWVKncMQOuKuZQZTRhdc-F9wR7HECkz9NPfd129pcQJg51n5W5FV3rq69rb6QJx1HJJ2ifCEGa3ZdwMYDB-SAcHmOnqAthDE19iUNyh8NU5YLPapHdaEFdkQK1WHQTNiEpadOpLc7IzWQKGVqwaoLSBJ4fSHd_f73FOyVRBBEc-R7lFewStOuPBDuCcxfJx004p5sYDI9rCvrTrd-E4xs-ZjLDqgq4VBpcX7y9OA8rq9lv0bbW60TpemSBUA2ZKA2jYFPK41f0g8pxGbfuRtKHxJiyQAe4EHZ8gaM67qqzrQWWG17ovg5um6U3yEvtVudRE3Wulmz_QVuWz8R9iDdrjZ1aFOlK0AmuqeJ_aeeopNs7f2WrTuLgaq1YH_gY-aRtCliWW6oDmM8cTPBgN11nPsnvH9_gCOWsBrkszheaRvcNgdXQAcEEppWuSJ-TZ-J3Q4LvXyHJc3W9lKHWtXkxVXFpKelftBEVFI6JlL5xc-caRv7lP4z69DfFS0YXehgN5YKgrLRqMJM86vsPWlROU7oH1csw6vtv3-IP3EVgcg&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.24324324324324%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB0UlEQVQoz32T207cMBCGef836wWq0IrCFhAkYXeTDT7F68Mc7KniUKFFVf8bj+T55vBbvhGRnGKOQeqqUkot6xm9X5x11hzfh4/5HENgxMIkpRSiyiwiNyISvfPWSCUzvj3d387Db6/Pb68vap6E6fX5yeoPkeq0ghiE6fje5+A/YWYqpVo1HfY/ppdb1e/SRXNZe4gIEdVaWxqLrAEAbMEKl1Kcc6dxVMZd9LkyQTBxmbP/gIsmwjWxVZHr4BNGxFKK0Xoax6l/UN2d6nf2cG8OvxCy/B8GAGaOMVprM0AReX9+NEpdjd22+Adc/l6sbrdU3T14fdbGDsNwPB5jynHRq9vfYGZGRGa21s7z7P0iIn7q0qKtVqdDP50O4bJEp0p7oe+dmXkbPsaYUqJVvMyd7n7q/s4ddnrYIaSGVGolvjqHEIgIEQHAOee9zznnlADJjR2kgIjjNC3LgoghXL5gANBa11qZub3hqq0QELv+MYcFma3WKUYiMv2eED9hREwpbcOnlJRSxhhoKiJu2GMKVSS2trVWN+wJ4QuOMTIzEaWUsAkAUozIxQ37HC9cSghh89V0j1dwSmn7FUS0Lbw61lxdji/UrNp8aX/Bbrb/AQ2DKfaz6PlOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Mermaid based sequence diagram&quot;
+        title=&quot;Mermaid based sequence diagram&quot;
+        src=&quot;/static/616f3fecd8ff4942d6bb476768c28ff0/fcda8/mermaid.png&quot;
+        srcset=&quot;/static/616f3fecd8ff4942d6bb476768c28ff0/12f09/mermaid.png 148w,
+/static/616f3fecd8ff4942d6bb476768c28ff0/e4a3f/mermaid.png 295w,
+/static/616f3fecd8ff4942d6bb476768c28ff0/fcda8/mermaid.png 590w,
+/static/616f3fecd8ff4942d6bb476768c28ff0/efc66/mermaid.png 885w,
+/static/616f3fecd8ff4942d6bb476768c28ff0/c83ae/mermaid.png 1180w,
+/static/616f3fecd8ff4942d6bb476768c28ff0/9ba38/mermaid.png 1329w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Diagrams.net (Draw.IO)&lt;/h2&gt;
+&lt;p&gt;You can use Diagrams.net (Draw.IO) as a drawing tool and create “pixel perfect” versions of your sequence diagrams (which I spent too much time doing and it doesn’t look perfect).  You can also insert your PlantUML or Mermaid by clicking &lt;code class=&quot;language-text&quot;&gt;Arrange&lt;/code&gt; then &lt;code class=&quot;language-text&quot;&gt;Insert &gt; Advanced&lt;/code&gt; and choose which diagram type.  I created a &lt;code class=&quot;language-text&quot;&gt;.drawio&lt;/code&gt; file with three tabs:  the hand drawn version; the PlantUML rendered import; and the Mermaid rendered import.&lt;/p&gt;
+&lt;p&gt;Below is a PNG export of that drawn diagram with the “Grid” option. I also chose the “Include a copy of my diagram” option, so (hopefully) you can click this PNG and edit it in &lt;code class=&quot;language-text&quot;&gt;app.diagrams.net&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fhakanson%2Fraw%2Fmain%2F2022-10-02-sequence-diagrams-with-mermaid-and-diagramsnet%2Fimages%2FSequenceDiagrams-Diagrams.net.drawio.png&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.78378378378379%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAADPElEQVQ4y12UyY7kRBCG68k48RhckBBnjjwAQpyQkHgBDjwBQjQjwQgYMdB0z0z3rL1V9VKuKru85WLnXh9y9qKBlH5FWA7/GfFHhGfBaG6uLhmkIMVAdBb315+4J38QlMC/PMI++pnU1NTtinfzF0hZE2WPfPkKW26I3jLML7CbDTMzKN6dXlDXNZDwoqf85FPKjz7Gra5pv/iS4oMPMS+e0/iW8/I1a3FD2Fa0v/zGeH5BGCRq/4BQbZnJvmNxdUNVVbcZ+sDF199y9tU3BCW5/O57jj/7nGE+Z3Cad1dvGY0i9C3dyzeMRUFyhnL/ELlcMYvOYLRgFxwpOMauoFyds17PUdWCrq/Zih4zatygKNcrvBkIdkArgTOa5C19W6NExwwgekfXdYxaIIvXNPNniKuj7CcjIUbSHUiRlCIxpVxRriomdjGwS5HZalOy3Vas12u22xrtAsXbE+rT+XQXISaC98S0ywjeEWPMJDF4YgiZPMeEwKxpO5QUaKWQUiBEjxYSdfOKZr5Pe/0cWRzTLA7pFgeEsb8lj/GBZCK8J88le2tyU7bbbbZKK4yWjIOkvVpwdfgPXVPRNxXBGXa7HSkldhNR/B9hzC8j7Hbcn91dwHTU/JI3P/zIcr2mKAqWN9cslzf0fY9o6ixBep8wDANj2yCURAhxhx5nDRFojo6ZP/qVfrC0naRuOtpeYX1iu97k6tIkwT2h63r0ZoPSGqUUSk1W5ptDjDjnUKsFY71gqC9x7XW2upqTjLhrUCT69zScSm7qGmvtQ8ectXjv8SFiZYVYndCvT7l4+wSxOqMvTnCqydmlPEIxSzWb5q+uStq2zZBSIoW4Re68zNCjQ4+Wvb9/YrWpWJd1XlfRdzluuVjQty2z4+Njzk5P6NqWpmlyltaMt5h8a/OWWGMw1vD4YI9yWaAHzahVHjfrPcX5BW1ZMttsNvlF7tQ0WyHgvcM7l/387OytDZ7Hz/ZYlUvG0eRLzTgSUmIzZVjXzFZlQdtt8+pNpU26TdlMmBoyYfrw3n/66ncuq0vGcbyLG/Eh5BEalWIm87h0mXAaGXW3Mf/RUPQPWk6amcGg9fRzkLlkrTWD1tn/F10ACiCQcQYSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Diagrams.net based sequence diagram&quot;
+        title=&quot;Diagrams.net based sequence diagram&quot;
+        src=&quot;/static/a845e90783de0acb1fcac680fe355eb2/fcda8/SequenceDiagrams-Diagrams.net.drawio.png&quot;
+        srcset=&quot;/static/a845e90783de0acb1fcac680fe355eb2/12f09/SequenceDiagrams-Diagrams.net.drawio.png 148w,
+/static/a845e90783de0acb1fcac680fe355eb2/e4a3f/SequenceDiagrams-Diagrams.net.drawio.png 295w,
+/static/a845e90783de0acb1fcac680fe355eb2/fcda8/SequenceDiagrams-Diagrams.net.drawio.png 590w,
+/static/a845e90783de0acb1fcac680fe355eb2/31aff/SequenceDiagrams-Diagrams.net.drawio.png 823w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My First AWS Blog]]></title><description><![CDATA[Posts on this blog have been fewer lately, but today my first official AWS Blog post was published:  Partitioning and Isolating Multi-Tenant…]]></description><link>https://kevinhakanson.com/2022-06-14-my-first-aws-blog</link><guid isPermaLink="false">https://kevinhakanson.com/2022-06-14-my-first-aws-blog</guid><pubDate>Tue, 14 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Posts on this blog have been fewer lately, but today my first official AWS Blog post was published:  &lt;a href=&quot;https://aws.amazon.com/blogs/apn/partitioning-and-isolating-multi-tenant-saas-data-with-amazon-s3/&quot;&gt;Partitioning and Isolating Multi-Tenant SaaS Data with Amazon S3&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[aws-icons-for-plantuml v13.0 Released]]></title><description><![CDATA[Last year with Adding AWS Icons to PlantUML Sequence Diagrams I started making my diagrams look a bit better.  However, the native sprite…]]></description><link>https://kevinhakanson.com/2022-06-06-aws-icons-for-plantuml-v130-released</link><guid isPermaLink="false">https://kevinhakanson.com/2022-06-06-aws-icons-for-plantuml-v130-released</guid><pubDate>Mon, 06 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last year with &lt;a href=&quot;/2021-08-12-adding-aws-icons-to-plantuml-sequence-diagrams&quot;&gt;Adding AWS Icons to PlantUML Sequence Diagrams&lt;/a&gt; I started making my diagrams look a bit better.  However, the native sprite format looked somewhat washed out to me.&lt;/p&gt;
 &lt;p&gt;My investigations resulted in some Python coding and deeper understanding of the &lt;a href=&quot;https://plantuml.com/sequence-diagram&quot;&gt;PlantUML syntax&lt;/a&gt;, which resulted in using PNG icons with full color fidelity.  This was included in &lt;a href=&quot;https://github.com/awslabs/aws-icons-for-plantuml/releases/tag/v13.0&quot;&gt;Release 13.0&lt;/a&gt; and now I’m a maintainer on another open-source project.&lt;/p&gt;
 &lt;p&gt;Here is an example of what they look like:&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -70,7 +189,41 @@
 
     s3 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; boto3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;client&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;s3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
     file_to_process &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; s3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_object&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Bucket&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;bucket&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;file_key&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[aws-jwt-verify v3.0.0 Released]]></title><description><![CDATA[What started as pull request #60, escalated to becoming a maintainer on aws-jwt-verify and releasing v3.0.0. AWS JWT Verify is a JavaScript…]]></description><link>https://kevinhakanson.com/2022-03-29-aws-jwt-verify-v300-released</link><guid isPermaLink="false">https://kevinhakanson.com/2022-03-29-aws-jwt-verify-v300-released</guid><pubDate>Tue, 29 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;What started as &lt;a href=&quot;https://github.com/awslabs/aws-jwt-verify/pull/60&quot;&gt;pull request #60&lt;/a&gt;, escalated to becoming a maintainer on &lt;a href=&quot;https://github.com/awslabs/aws-jwt-verify&quot;&gt;aws-jwt-verify&lt;/a&gt; and releasing &lt;a href=&quot;https://github.com/awslabs/aws-jwt-verify/releases/tag/v3.0.0&quot;&gt;v3.0.0&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;AWS JWT Verify is a JavaScript library for verifying JWTs signed by Amazon Cognito, and any OIDC-compatible IDP that signs JWTs with RS256 / RS384 / RS512.  I wanted to add web browser compatibility for a project I was working on.  It was a nice return to using the Web Cryptography API as I had done in various &lt;a href=&quot;/presentations&quot;&gt;presentations&lt;/a&gt; over the years.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The #1 Search Result on Google]]></title><description><![CDATA[After I received my “Your December Search performance for kevinhakanson.com” email, I took a look at Search Console Insights.  I have a #…]]></description><link>https://kevinhakanson.com/2021-12-07-the-1-search-result-on-google</link><guid isPermaLink="false">https://kevinhakanson.com/2021-12-07-the-1-search-result-on-google</guid><pubDate>Tue, 07 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After I received my “Your December Search performance for kevinhakanson.com” email, I took a look at Search Console Insights.  I have a #1 position search result on Google for my &lt;a href=&quot;/2017-08-08-the-frozen-caveman-antipattern&quot;&gt;The Frozen Caveman Antipattern&lt;/a&gt; blog.&lt;/p&gt;
+&lt;p&gt;AWS JWT Verify is a JavaScript library for verifying JWTs signed by Amazon Cognito, and any OIDC-compatible IDP that signs JWTs with RS256 / RS384 / RS512.  I wanted to add web browser compatibility for a project I was working on.  It was a nice return to using the Web Cryptography API as I had done in various &lt;a href=&quot;/presentations&quot;&gt;presentations&lt;/a&gt; over the years.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fun with Emoji ZWJ Sequences]]></title><description><![CDATA[Today I learned about Emoji ZWJ Sequences and what it takes to create the “man technologist: light skin tone” emoji I often set in my slack…]]></description><link>https://kevinhakanson.com/2022-02-09-fun-with-emoji-zwj-sequences</link><guid isPermaLink="false">https://kevinhakanson.com/2022-02-09-fun-with-emoji-zwj-sequences</guid><pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today I learned about &lt;a href=&quot;https://unicode.org/emoji/charts/emoji-zwj-sequences.html&quot;&gt;Emoji ZWJ Sequences&lt;/a&gt; and what it takes to create the “man technologist: light skin tone” emoji I often set in my slack status.  This is actually multiple unicode characters “smashed” together using a Zero Width Joiner (ZWJ) sequence.&lt;/p&gt;
+&lt;p&gt;Since I am authoring this post on Windows, I used that emoji keyboard by typing Windows logo key + . (period) and selecting the emoji.  I then used the JavaScript &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax&quot;&gt;Spread syntax (…)&lt;/a&gt; to expand the characters involved.   Hopefully the JavaScript snippet below renders the character.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;👨🏻‍💻&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To make sure all these characters are visible, I took a screenshot on the Firefox developer tools console.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 520px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b9047adbb31770aba4c6426f2da7a343/69902/firefox-console.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.2972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAABVElEQVQoz42Sy2pUQRRF+0MU7q33+77bjiGQFhtt0YkRh4If4P8Pl1R1hyAkksHmVA1q1T77nF1KI+O44n2m6zT3p88s+wPORoS06KuEMBjtm+pZSYcUFimvUq7VXYwDOY8M84Fy8wm/HpnXW+pHvVn4dhd4+FB489bz43zm4fwF0TumsBBsZigzQ5xwcUXpwE5KgzYJG5dW0/7IFBK/v0aiK0ipscailEdVt9qhrm5q1dpf7spfHAqhUSbi8tZs27wxhoE/v36SXKHrNUJcWn6NnoBpbb/48R3ZDuzHA0Kap4xeqX+ANQNf9theU2LB60zf6xcfV0cvAm1a6YUhbcem+eYj2jmUsw1a1XWq1cf2noNegDoShgPeRcbtjven72y3J6ZlZVzWFnydes4TziVCKP9zaFp2Ls14n4ghkUIip8I87RvEmEBdr1JmHtesTvY54F9NYgru1x66PwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Firefox dev tools console&quot;
+        title=&quot;Firefox dev tools console&quot;
+        src=&quot;/static/b9047adbb31770aba4c6426f2da7a343/69902/firefox-console.png&quot;
+        srcset=&quot;/static/b9047adbb31770aba4c6426f2da7a343/12f09/firefox-console.png 148w,
+/static/b9047adbb31770aba4c6426f2da7a343/e4a3f/firefox-console.png 295w,
+/static/b9047adbb31770aba4c6426f2da7a343/69902/firefox-console.png 520w&quot;
+        sizes=&quot;(max-width: 520px) 100vw, 520px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I didn’t research all the technical details on how these ZWJ sequences work, but I’m sure someone has blogged about it.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The #1 Search Result on Google]]></title><description><![CDATA[After I received my “Your December Search performance for kevinhakanson.com” email, I took a look at Search Console Insights.  I have a #…]]></description><link>https://kevinhakanson.com/2021-12-07-the-1-search-result-on-google</link><guid isPermaLink="false">https://kevinhakanson.com/2021-12-07-the-1-search-result-on-google</guid><pubDate>Tue, 07 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After I received my “Your December Search performance for kevinhakanson.com” email, I took a look at Search Console Insights.  I have a #1 position search result on Google for my &lt;a href=&quot;/2017-08-08-the-frozen-caveman-antipattern&quot;&gt;The Frozen Caveman Antipattern&lt;/a&gt; blog.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;

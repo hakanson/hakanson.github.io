@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-js",
-    "path": "/tags/css/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2018-06-02-side-channel-attacking-browsers-through-css3-features"},"frontmatter":{"title":"Side-channel attacking browsers through CSS3 features","date":"June 02, 2018","tags":["webdev","css","security"]}}}]}},"pageContext":{"tag":"css"}},
-    "staticQueryHashes": ["2589769190","97908498"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/css/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2018-06-02-side-channel-attacking-browsers-through-css3-features"},"frontmatter":{"title":"Side-channel attacking browsers through CSS3 features","date":"June 2, 2018","tags":["webdev","css","security"]}}}]}},"pageContext":{"tag":"css"}},"staticQueryHashes":["2589769190","97908498"]}

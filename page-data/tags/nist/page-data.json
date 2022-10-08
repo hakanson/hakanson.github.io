@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-js",
-    "path": "/tags/nist/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2020-06-26-introduction-to-the-nist-cybersecurity-framework"},"frontmatter":{"title":"Introduction to the NIST Cybersecurity Framework","date":"June 26, 2020","tags":["cloud","security","nist"]}}}]}},"pageContext":{"tag":"nist"}},
-    "staticQueryHashes": ["2589769190","97908498"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/nist/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2020-06-26-introduction-to-the-nist-cybersecurity-framework"},"frontmatter":{"title":"Introduction to the NIST Cybersecurity Framework","date":"June 26, 2020","tags":["cloud","security","nist"]}}}]}},"pageContext":{"tag":"nist"}},"staticQueryHashes":["2589769190","97908498"]}

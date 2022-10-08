@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-js",
-    "path": "/tags/nosql/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401"},"frontmatter":{"title":"Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)","date":"December 04, 2018","tags":["aws","dynamodb","nosql","database"]}}}]}},"pageContext":{"tag":"nosql"}},
-    "staticQueryHashes": ["2589769190","97908498"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/nosql/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2018-12-04-amazon-dynamodb-deep-dive-advanced-design-patterns-for-dynamodb-dat401"},"frontmatter":{"title":"Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)","date":"December 4, 2018","tags":["aws","dynamodb","nosql","database"]}}}]}},"pageContext":{"tag":"nosql"}},"staticQueryHashes":["2589769190","97908498"]}

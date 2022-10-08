@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-js",
-    "path": "/tags/cis/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2020-06-11-understanding-cis-controls-and-benchmarks"},"frontmatter":{"title":"Understanding CIS Controls and Benchmarks","date":"June 11, 2020","tags":["cloud","security","cis"]}}}]}},"pageContext":{"tag":"cis"}},
-    "staticQueryHashes": ["2589769190","97908498"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/cis/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2020-06-11-understanding-cis-controls-and-benchmarks"},"frontmatter":{"title":"Understanding CIS Controls and Benchmarks","date":"June 11, 2020","tags":["cloud","security","cis"]}}}]}},"pageContext":{"tag":"cis"}},"staticQueryHashes":["2589769190","97908498"]}

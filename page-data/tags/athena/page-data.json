@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-js",
-    "path": "/tags/athena/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2017-10-02-searching-cloudtrail-using-amazon-athena-sql"},"frontmatter":{"title":"Searching CloudTrail using Amazon Athena SQL","date":"October 02, 2017","tags":["aws","cloudtrail","athena","sql"]}}}]}},"pageContext":{"tag":"athena"}},
-    "staticQueryHashes": ["2589769190","97908498"]}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/athena/","result":{"data":{"site":{"siteMetadata":{"title":"kevinhakanson.com"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2017-10-02-searching-cloudtrail-using-amazon-athena-sql"},"frontmatter":{"title":"Searching CloudTrail using Amazon Athena SQL","date":"October 2, 2017","tags":["aws","cloudtrail","athena","sql"]}}}]}},"pageContext":{"tag":"athena"}},"staticQueryHashes":["2589769190","97908498"]}

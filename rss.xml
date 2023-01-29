@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hakanson's Blog RSS Feed]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Jan 2023 21:14:52 GMT</lastBuildDate><item><title><![CDATA[Resilience on AWS at CodeFreeze 2023]]></title><description><![CDATA[I had a great time talking about Resilience on AWS at Code Freeze 2023 and wanted to share some links to related content. Some definitions…]]></description><link>https://kevinhakanson.com/2023-01-12-resilience-on-aws-at-codefreeze-2023</link><guid isPermaLink="false">https://kevinhakanson.com/2023-01-12-resilience-on-aws-at-codefreeze-2023</guid><pubDate>Thu, 12 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I had a great time talking about &lt;a href=&quot;https://cse.umn.edu/umsec/cf23/kevin-hakanson&quot;&gt;Resilience on AWS&lt;/a&gt; at Code Freeze 2023 and wanted to share some links to related content.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hakanson's Blog RSS Feed]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Jan 2023 21:20:51 GMT</lastBuildDate><item><title><![CDATA[Resilience on AWS at CodeFreeze 2023]]></title><description><![CDATA[I had a great time talking about Resilience on AWS at Code Freeze 2023 and wanted to share some links to related content. Some definitions…]]></description><link>https://kevinhakanson.com/2023-01-12-resilience-on-aws-at-codefreeze-2023</link><guid isPermaLink="false">https://kevinhakanson.com/2023-01-12-resilience-on-aws-at-codefreeze-2023</guid><pubDate>Thu, 12 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I had a great time talking about &lt;a href=&quot;https://cse.umn.edu/umsec/cf23/kevin-hakanson&quot;&gt;Resilience on AWS&lt;/a&gt; at Code Freeze 2023 and wanted to share some links to related content.&lt;/p&gt;
 &lt;p&gt;Some &lt;a href=&quot;https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/definitions.html&quot;&gt;definitions&lt;/a&gt; from the AWS Well Architected Framework reliability pillar:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Resilience&lt;/strong&gt; - The ability of a &lt;em&gt;workload&lt;/em&gt; to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions, such as misconfigurations or transient network issues&lt;/li&gt;
@@ -17,7 +17,37 @@
 &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/builders-library/&quot;&gt;The Amazon Builders’ Library&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/abstract-and-introduction.html&quot;&gt;AWS Fault Isolation Boundaries&lt;/a&gt; AWS Whitepaper (Publication date: November 16, 2022)&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Diagrams-as-Code Episode on Twitch]]></title><description><![CDATA[So much fun on the Build On AWS weekly - Code me some diagrams Twitch stream today talking diagrams-as-code with Darko, and surprising him…]]></description><link>https://kevinhakanson.com/2022-12-15-diagrams-as-code-episode-on-twitch</link><guid isPermaLink="false">https://kevinhakanson.com/2022-12-15-diagrams-as-code-episode-on-twitch</guid><pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;So much fun on the &lt;a href=&quot;https://www.twitch.tv/videos/1679798127&quot;&gt;Build On AWS weekly - Code me some diagrams&lt;/a&gt; Twitch stream today talking diagrams-as-code with Darko, and surprising him with this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;images/darko.png&quot; alt=&quot;Darko on AWS&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3fa9b443f67932ccf3fd5d3df0c666e2/1b853/Darko.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.10810810810811%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByElEQVQoz3WSz2tTQRDH38m/x5NXj/4Hnr0KvVhQEBW86EEPQg+eegoYWixqxNZKqqDWiEnUFtSXPCmk2Dxf04pN3r6d3XkzO7JvG/xBHJZlYfcz853vbCSzgohE5OHj9cvXb41GB2maZllmjLHThdYWSkUzYeeciHyOk3a7+/NwNBzu7e9n/7xBxNmwL17xi53hQmsoIqp0EyiRmJ2wEycCxv4X9vXRNHvZRnJgkQ9zBOQgqmR04ozFiJmYiJmngn/LBoCyaj7cNr807r64OYYfgMoQgJ0lm11gPWyQqlwe/jB4u9F7NiZbOrYBfrm+VLt9ofn0USD30u/bn+LB7jcR0VXltedHd2rj7aT06brL8GSOk/tGGIyJblyZP3v61FK9FuTF/Z1XrXb7/ZaITPI8V+rStd7JM/3l1TGL7C6eT+dP6LU56w0z0eabzr1642uyI+KUUnHcf9BY3Wy9AwClCg2wsjK4ePVjdytn4dHrRn/hnOrUMcBEpAvFTKHJfDKxBnRRaK2NsViSVHPxXaAyXB4hWccF5r7nYM6xRX8HACCRn2o125IJCdn5nRyb4PafpJuGL6V1oTUYo73vx7+zOlljrSrUL85vnZ0jiCanAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Darko on AWS&quot;
+        title=&quot;Darko on AWS&quot;
+        src=&quot;/static/3fa9b443f67932ccf3fd5d3df0c666e2/fcda8/Darko.png&quot;
+        srcset=&quot;/static/3fa9b443f67932ccf3fd5d3df0c666e2/12f09/Darko.png 148w,
+/static/3fa9b443f67932ccf3fd5d3df0c666e2/e4a3f/Darko.png 295w,
+/static/3fa9b443f67932ccf3fd5d3df0c666e2/fcda8/Darko.png 590w,
+/static/3fa9b443f67932ccf3fd5d3df0c666e2/1b853/Darko.png 592w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The PlantUML source code (except for the full base64 PNG).&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;@startuml Darko
 

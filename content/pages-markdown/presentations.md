@@ -11,6 +11,24 @@ Descriptions and links to various presentations from Kevin Hakanson.
 [Kevin Hakanson][17] ([@hakanson][1]) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.
 
 ---
+### Resilience on AWS
+
+Resilience refers to the ability for workloads to respond and quickly recover from failures. Workloads deployed to the AWS cloud follow the Shared Responsibility Model separating resilience “of” the cloud from workloads running “in” the cloud. Part of a workload’s responsibility is to think about resilience threat modeling, the scenarios where things could go wrong, and the cost, business, or mission impact. This session will review strategies and design considerations around resilience, and reference how some AWS Public Sector customers are building resilience into their mission-focused workloads.
+
+* Code Freeze 2023 (12 January 2023)
+
+### Build On AWS weekly - Code me some diagrams
+
+This episode reviewed diagram types, when teams should create architecture diagrams, when to choose diagrams-as-code instead of presentation software or drawing tools, and sprinkled in a bit of fun.
+
+* AWS Twitch Channel (15 December 2022) ( [video][46] )
+
+### Run your Go applications on the cloud (BOA104)
+
+Start building deployment pipelines for your Go applications on the cloud. You’ve been running Go applications on your machine, but how do you run these in the cloud? In this chalk talk, discuss an easy-to-deploy pipeline for the development, testing, building, and deployment of applications written in Go. Although this example is tailored to Go, it can be easily modified to deploy applications written in other languages too. Join this chalk talk to learn how to deploy your application as containers from GitHub to the cloud with AWS CodePipeline, AWS CodeBuild, AWS CDK, and AWS CodeDeploy.
+
+* AWS re:Invent 2022 (28 November 2022 - 2 December 2022) ( [code][45] )
+
 ### Sharpen your "Architecture Documentation" Saw: Architectural Decision Records (ADR) and Diagrams-as-Code
 
 All solutions implicitly have an architecture, ideally one which is both intentional and documented. The Architectural Decision Records (ADR) process distributes architectural decision-making across team members. Accelerate the time consuming process of hand drawing diagrams by rendering from a text-based source. Communicate effectively by committing both your markdown-based ADRs and text-based diagrams into your source code repository. This talk will review these techniques, provide actionable steps to adoption, and even live-code some examples.
@@ -216,3 +234,5 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [42]: https://www.slideshare.net/kevinhakanson/whos-in-your-cloud-cloud-state-monitoring
 [43]: https://youtu.be/a4CNQsaRPts
 [44]: https://www.youtube.com/watch?v=fryghbOuIFE
+[45]: https://github.com/aws-samples/hello-go-cdk
+[46]: https://www.twitch.tv/videos/1679798127

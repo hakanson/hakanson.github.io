@@ -21,19 +21,20 @@ Resilience refers to the ability for workloads to respond and quickly recover fr
 
 This episode reviewed diagram types, when teams should create architecture diagrams, when to choose diagrams-as-code instead of presentation software or drawing tools, and sprinkled in a bit of fun.
 
-* AWS Twitch Channel (15 December 2022) ( [video][46] )
+* AWS Twitch Channel (15 December 2022) ( [video][47] )
 
 ### Run your Go applications on the cloud (BOA104)
 
 Start building deployment pipelines for your Go applications on the cloud. You’ve been running Go applications on your machine, but how do you run these in the cloud? In this chalk talk, discuss an easy-to-deploy pipeline for the development, testing, building, and deployment of applications written in Go. Although this example is tailored to Go, it can be easily modified to deploy applications written in other languages too. Join this chalk talk to learn how to deploy your application as containers from GitHub to the cloud with AWS CodePipeline, AWS CodeBuild, AWS CDK, and AWS CodeDeploy.
 
-* AWS re:Invent 2022 (28 November 2022 - 2 December 2022) ( [code][45] )
+* AWS re:Invent 2022 (28 November 2022 - 2 December 2022) ( [presentation][45], [code][46] )
 
 ### Sharpen your "Architecture Documentation" Saw: Architectural Decision Records (ADR) and Diagrams-as-Code
 
 All solutions implicitly have an architecture, ideally one which is both intentional and documented. The Architectural Decision Records (ADR) process distributes architectural decision-making across team members. Accelerate the time consuming process of hand drawing diagrams by rendering from a text-based source. Communicate effectively by committing both your markdown-based ADRs and text-based diagrams into your source code repository. This talk will review these techniques, provide actionable steps to adoption, and even live-code some examples.
 
 * AWS WWPS SLG/EDU xTech Solutions Architect offsite (23-24 August 2022)
+* Open Source North (24 May 2023)
 
 ### Building SaaS on AWS - Multi-Tenant Data on S3
 
@@ -234,5 +235,6 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [42]: https://www.slideshare.net/kevinhakanson/whos-in-your-cloud-cloud-state-monitoring
 [43]: https://youtu.be/a4CNQsaRPts
 [44]: https://www.youtube.com/watch?v=fryghbOuIFE
-[45]: https://github.com/aws-samples/hello-go-cdk
-[46]: https://www.twitch.tv/videos/1679798127
+[45]: https://d1.awsstatic.com/events/Summits/reinvent2022/BOA104_Run-your-Go-applications-on-the-cloud.pdf
+[46]: https://github.com/aws-samples/hello-go-cdk
+[47]: https://www.twitch.tv/videos/1679798127

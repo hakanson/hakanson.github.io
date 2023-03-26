@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Hashtags from "../components/hashtags"
 import { rhythm, scale } from "../utils/typography"
 
@@ -16,7 +16,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All Posts" />
+        <Seo title="All Posts" />
         <nav>
           <ul
             style={{
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: {frontmatter: {date: DESC}}
       filter: {fields: {sourceName: {eq: "blog"}}}
     ) {
       edges {

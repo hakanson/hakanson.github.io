@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 // Components
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Hashtags from "../components/hashtags"
 import Bio from "../components/bio"
 import { Link, graphql } from "gatsby"
@@ -20,7 +20,7 @@ const TagsPage = ({
   },
 }) => (
     <Layout location="/tags" title={title}>
-        <SEO title="All Tags" />
+        <Seo title="All Tags" />
         <nav>
           <ul
             style={{
@@ -88,7 +88,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: {frontmatter: {tags: SELECT}}) {
         fieldValue
         totalCount
       }

@@ -77,9 +77,9 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `UA-46763107-2`,
+        trackingIds: [ `UA-46763107-2` ],
       },
     },
     // `gatsby-plugin-feed`,
@@ -115,7 +115,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] }
+                  sort: {frontmatter: {date: DESC}}
                   filter: {fields: {sourceName: {eq: "blog"}}}
                 ) {
                   edges {
@@ -180,7 +180,7 @@ module.exports = {
         icon: `content/assets/profile-pic.jpg`,
       },
     },
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,  // comment out when: gatsby serve
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
@@ -192,7 +192,9 @@ module.exports = {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
         siteUrl: `https://kevinhakanson.com`,
+        noTrailingSlash: true,
       },
     },
   ],
+  trailingSlash: `never`,
 }

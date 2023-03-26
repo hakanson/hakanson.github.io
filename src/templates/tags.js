@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Hashtags from "../components/hashtags"
 import Bio from "../components/bio"
 import { rhythm } from "../utils/typography"
@@ -19,7 +19,7 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <Layout location={`/tags/${tag}`} title={title}>
-    <SEO title={`#${tag}`} />
+    <Seo title={`#${tag}`} />
     <nav>
       <ul
         style={{
@@ -110,7 +110,7 @@ export const pageQuery = graphql`
       }
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: {frontmatter: {date: DESC}}
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount

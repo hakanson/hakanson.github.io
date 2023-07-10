@@ -11,6 +11,12 @@ Descriptions and links to various presentations from Kevin Hakanson.
 [Kevin Hakanson][17] ([@hakanson][1]) is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.
 
 ---
+### Cedar policy language in action
+
+Cedar is a language for defining permissions as policies that describe who should have access to what. Amazon Verified Permissions and AWS Verified Access use Cedar to define fine-grained permissions for applications and end users. In this builders’ session, come learn by building Cedar policies for access control.
+
+* AWS re:Inforce 2023 (13 June 2023 - 14 June 2023) ( [workshop][50], [code][51]  )
+
 ### Build On AWS weekly - Go Apps on AWS - CDK 💜 Go
 
 This episode reviewed different options for deploying Go based services on AWS, starting with a code-based service using AWS App Runner, then container-based using CDK (also written in Go) to deploy to both Amazon Elastic Container Service (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS).
@@ -40,7 +46,7 @@ Start building deployment pipelines for your Go applications on the cloud. You�
 All solutions implicitly have an architecture, ideally one which is both intentional and documented. The Architectural Decision Records (ADR) process distributes architectural decision-making across team members. Accelerate the time consuming process of hand drawing diagrams by rendering from a text-based source. Communicate effectively by committing both your markdown-based ADRs and text-based diagrams into your source code repository. This talk will review these techniques, provide actionable steps to adoption, and even live-code some examples.
 
 * AWS WWPS SLG/EDU xTech Solutions Architect offsite (23-24 August 2022)
-* Open Source North (24 May 2023)
+* Open Source North (24 May 2023) ( [presentation][49])
 
 ### Building SaaS on AWS - Multi-Tenant Data on S3
 
@@ -245,3 +251,6 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [46]: https://github.com/aws-samples/hello-go-cdk
 [47]: https://www.twitch.tv/videos/1679798127
 [48]: https://www.twitch.tv/videos/1773342293
+[49]: https://www.slideshare.net/kevinhakanson/sharpen-your-architectural-documentation-saw
+[50]: https://catalog.workshops.aws/cedar-policy-language-in-action
+[51]: https://github.com/cedar-policy/cedar-examples/tree/main/cedar-policy-language-in-action

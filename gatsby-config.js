@@ -61,7 +61,54 @@ module.exports = {
               aliases: { console: "bash" },
               showLineNumbers: false,
               noInlineHighlight: false,
-              languageExtensions: [],
+              languageExtensions: [
+                {
+                  language: "cedar",
+                  definition: {
+                    comment: {
+                      pattern: /(^|[^\\:])\/\/.*/,
+                      lookbehind: true,
+                      greedy: true,
+                    },
+                    string: {
+                      pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
+                      greedy: true,
+                    },
+                    keyword: /\b(?:permit|forbid|when|unless)\b/,
+                    boolean: /\b(?:false|true)\b/,
+                    variable: /\b(?:principal|action|resource|context)\b/,
+                    number: /0|\-?[1-9](_?[0-9])*/,
+                    operator: [
+                      {
+                        pattern: /(?:&&|\|\||==|!=|>=|<=|>|<|\+|-|\*)/,
+                      },
+                      {
+                        pattern: /\b(?:in|like|has|if|then|else)\b/,
+                      },
+                    ],
+                    //"builtin": /\b(?:ip|decimal)\b/,
+                    function: [
+                      {
+                        // methods
+                        pattern: /(?=.)(contains|containsAll|containsAny)(?=\()/,
+                      },
+                      {
+                        // extensions (TODO: should these be "builtin" ?)
+                        pattern: /\b(?:ip|decimal)\b/,
+                      },
+                      {
+                        // decimal methods
+                        pattern:
+                          /(?=.)(lessThan|lessThanOrEqual|greaterThan|greaterThanOrEqual)(?=\()/,
+                      },
+                      {
+                        // ip methods
+                        pattern: /(?=.)(isIpV4|isIpV6|isLoopback|isMulticast|isInRange)(?=\()/,
+                      },
+                    ],
+                  }
+                }
+              ],
               prompt: {
                 user: "root",
                 host: "localhost",

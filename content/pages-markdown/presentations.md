@@ -13,9 +13,10 @@ Descriptions and links to various presentations from Kevin Hakanson.
 ---
 ### Cedar policy language in action
 
-Cedar is a language for defining permissions as policies that describe who should have access to what. Amazon Verified Permissions and AWS Verified Access use Cedar to define fine-grained permissions for applications and end users. In this builders’ session, come learn by building Cedar policies for access control.
+Cedar is a language for defining permissions as policies that describe who should have access to what. Amazon Verified Permissions and AWS Verified Access use Cedar to define fine-grained permissions for applications and end users. In this builders’ session, first learn how to write Cedar policies. Then, take on a challenge problem building the set of policies representing a full application. This session uses open source Cedar and the free online playground, so there is no need to install anything or have an AWS account. You must bring your laptop to participate.
 
 * AWS re:Inforce 2023 (13 June 2023 - 14 June 2023) ( [workshop][50], [code][51]  )
+* AWS re:Invent 2023 (27 November 2023 - 1 December 2023)
 
 ### Build On AWS weekly - Go Apps on AWS - CDK 💜 Go
 
@@ -47,6 +48,7 @@ All solutions implicitly have an architecture, ideally one which is both intenti
 
 * AWS WWPS SLG/EDU xTech Solutions Architect offsite (23-24 August 2022)
 * Open Source North (24 May 2023) ( [presentation][49])
+* Minnesota Developers Conference 2023 (3 October 2023)
 
 ### Building SaaS on AWS - Multi-Tenant Data on S3
 

@@ -48,7 +48,7 @@ All solutions implicitly have an architecture, ideally one which is both intenti
 
 * AWS WWPS SLG/EDU xTech Solutions Architect offsite (23-24 August 2022)
 * Open Source North (24 May 2023) ( [presentation][49])
-* Minnesota Developers Conference 2023 (3 October 2023)
+* Minnesota Developers Conference 2023 (3 October 2023) ( [presentation][52], [code][53] )
 
 ### Building SaaS on AWS - Multi-Tenant Data on S3
 
@@ -256,3 +256,5 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [49]: https://www.slideshare.net/kevinhakanson/sharpen-your-architectural-documentation-saw
 [50]: https://catalog.workshops.aws/cedar-policy-language-in-action
 [51]: https://github.com/cedar-policy/cedar-examples/tree/main/cedar-policy-language-in-action
+[52]: https://github.com/hakanson/mdc2023/blob/main/Sharpen%20your%20%22Architectural%20Documentation%22%20Saw.pdf
+[53]: https://github.com/hakanson/mdc2023]

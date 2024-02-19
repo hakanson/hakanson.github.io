@@ -71,30 +71,40 @@ module.exports = {
                       greedy: true,
                     },
                     string: {
-                      pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
+                      pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+                      lookbehind: true,
                       greedy: true,
                     },
-                    keyword: /\b(?:permit|forbid|when|unless)\b/,
+                    keyword: /\b(?<!\.)(?:permit|forbid|when|unless)\b/,
+                    // don't worry about excluding . before boolean reserved identifiers
                     boolean: /\b(?:false|true)\b/,
-                    variable: /\b(?:principal|action|resource|context)\b/,
-                    number: /0|\-?[1-9](_?[0-9])*/,
+                    symbol: /\?(?:principal|resource)\b/,
+                    variable: /\b(?<![\.\?])(?:principal|action|resource|context)\b/,
+                    number: /\b0|\-?[1-9](_?[0-9])*/,
                     operator: [
                       {
                         pattern: /(?:&&|\|\||==|!=|>=|<=|>|<|\+|-|\*)/,
                       },
                       {
-                        pattern: /\b(?:in|like|has|if|then|else)\b/,
+                        // don't worry about excluding . before operator reserved identifiers
+                        pattern: /\b(?:in|like|has|if|then|else|is)\b/,
                       },
                     ],
-                    //"builtin": /\b(?:ip|decimal)\b/,
+                    'class-name': [
+                      {
+                        pattern: /\b(?:([_a-zA-Z][_a-zA-Z0-9]*::)*[_a-zA-Z][_a-zA-Z0-9]*)(?=::)/, // (?=::")
+                      },
+                      {
+                        pattern: /(\s+is\s+)([_a-zA-Z][_a-zA-Z0-9]*::)*[_a-zA-Z][_a-zA-Z0-9]*/,
+                        greedy: true, // since "is" is defined above as operator
+                        lookbehind: true,
+                      },
+                    ],
+                    builtin: /\b(?:ip|decimal)(?=\()/,
                     function: [
                       {
                         // methods
                         pattern: /(?=.)(contains|containsAll|containsAny)(?=\()/,
-                      },
-                      {
-                        // extensions (TODO: should these be "builtin" ?)
-                        pattern: /\b(?:ip|decimal)\b/,
                       },
                       {
                         // decimal methods
@@ -103,7 +113,8 @@ module.exports = {
                       },
                       {
                         // ip methods
-                        pattern: /(?=.)(isIpV4|isIpV6|isLoopback|isMulticast|isInRange)(?=\()/,
+                        pattern: /(?=.)(isIpv4|isIpv6|isLoopback|isMulticast|isInRange)(?=\()/,
+                        greedy: true,
                       },
                     ],
                   }

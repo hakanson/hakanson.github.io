@@ -1,20 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hakanson's Blog RSS Feed]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Oct 2024 02:56:01 GMT</lastBuildDate><item><title><![CDATA[Asking Claude Haiku to redefine A/B testing]]></title><description><![CDATA[During a call with customer, they mentioned that “friends and family” testing of features often gives positive feedback.  I thought this…]]></description><link>https://kevinhakanson.com/2024-10-04-asking-claude-haiku-to-redefine-ab-testing/</link><guid isPermaLink="false">https://kevinhakanson.com/2024-10-04-asking-claude-haiku-to-redefine-ab-testing/</guid><pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;During a call with customer, they mentioned that “friends and family” testing of features often gives positive feedback.  I thought this would be a fun use of generative AI so I asked Claude Haiku for some help “redefining” A/B testing:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;The software development terminology of A/B testing allows a team to experiment on two different strategies.  Suggest what words &quot;A&quot; and &quot;B&quot; should represent based on the following rules:
-- One term should begin with the letter A and the other with the letter B
-- The first term should represent a group of people that are friendly or have a favorable opinion of what is being tested
-- The second term should represent a group that is hostile to changes and has unfavorable opinions of what is being tested&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Based on the rules provided, the terms &quot;A&quot; and &quot;B&quot; could represent the following:
-
-A: Advocates
-B: Bureaucrats
-
-Explanation:
-
-1. The first term, &quot;A,&quot; should begin with the letter A, and it should represent a group of people that are friendly or have a favorable opinion of what is being tested. In this case, &quot;Advocates&quot; would be a suitable term, as advocates are typically supportive and in favor of the changes or initiatives being tested.
-
-2. The second term, &quot;B,&quot; should begin with the letter B, and it should represent a group that is hostile to changes and has unfavorable opinions of what is being tested. &quot;Bureaucrats&quot; would be a suitable term in this case, as bureaucrats are often resistant to change and may have a more conservative or unfavorable stance towards new initiatives or ideas.
-
-In the context of A/B testing, the &quot;Advocates&quot; group (A) would represent the users or stakeholders who are more likely to respond positively to the changes or new features being tested, while the &quot;Bureaucrats&quot; group (B) would represent those who may be more hesitant or resistant to the changes.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[RDS IAM authentication and MySQL ERROR 1045]]></title><description><![CDATA[Are you trying to connect to your MySQL DB instance using IAM authentication using the AWS CLI and mysql client and getting this error…]]></description><link>https://kevinhakanson.com/2024-05-03-rds-iam-authentication-and-mysql-error-1045/</link><guid isPermaLink="false">https://kevinhakanson.com/2024-05-03-rds-iam-authentication-and-mysql-error-1045/</guid><pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Are you trying to &lt;a href=&quot;https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.AWSCLI.html&quot;&gt;connect to your MySQL DB instance using IAM authentication using the AWS CLI and mysql client&lt;/a&gt; and getting this error?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Hakanson's Blog RSS Feed]]></title><description><![CDATA[Kevin Hakanson's Blog]]></description><link>https://kevinhakanson.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Oct 2024 03:03:15 GMT</lastBuildDate><item><title><![CDATA[Asking Claude Haiku to redefine A/B testing]]></title><description><![CDATA[During a call with customer, they mentioned that “friends and family” testing of features often gives positive feedback.  I thought this…]]></description><link>https://kevinhakanson.com/2024-10-04-asking-claude-haiku-to-redefine-ab-testing/</link><guid isPermaLink="false">https://kevinhakanson.com/2024-10-04-asking-claude-haiku-to-redefine-ab-testing/</guid><pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;During a call with customer, they mentioned that “friends and family” testing of features often gives positive feedback.  I thought this would be a fun use of generative AI so I asked Claude Haiku for some help “redefining” A/B testing:&lt;/p&gt;
+&lt;p&gt;The software development terminology of A/B testing allows a team to experiment on two different strategies.  Suggest what words “A” and “B” should represent based on the following rules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One term should begin with the letter A and the other with the letter B&lt;/li&gt;
+&lt;li&gt;The first term should represent a group of people that are friendly or have a favorable opinion of what is being tested&lt;/li&gt;
+&lt;li&gt;The second term should represent a group that is hostile to changes and has unfavorable opinions of what is being tested&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Based on the rules provided, the terms “A” and “B” could represent the following:&lt;/p&gt;
+&lt;p&gt;A: Advocates&lt;br&gt;
+B: Bureaucrats&lt;/p&gt;
+&lt;p&gt;Explanation:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The first term, “A,” should begin with the letter A, and it should represent a group of people that are friendly or have a favorable opinion of what is being tested. In this case, “Advocates” would be a suitable term, as advocates are typically supportive and in favor of the changes or initiatives being tested.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The second term, “B,” should begin with the letter B, and it should represent a group that is hostile to changes and has unfavorable opinions of what is being tested. “Bureaucrats” would be a suitable term in this case, as bureaucrats are often resistant to change and may have a more conservative or unfavorable stance towards new initiatives or ideas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the context of A/B testing, the “Advocates” group (A) would represent the users or stakeholders who are more likely to respond positively to the changes or new features being tested, while the “Bureaucrats” group (B) would represent those who may be more hesitant or resistant to the changes.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[RDS IAM authentication and MySQL ERROR 1045]]></title><description><![CDATA[Are you trying to connect to your MySQL DB instance using IAM authentication using the AWS CLI and mysql client and getting this error…]]></description><link>https://kevinhakanson.com/2024-05-03-rds-iam-authentication-and-mysql-error-1045/</link><guid isPermaLink="false">https://kevinhakanson.com/2024-05-03-rds-iam-authentication-and-mysql-error-1045/</guid><pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Are you trying to &lt;a href=&quot;https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.AWSCLI.html&quot;&gt;connect to your MySQL DB instance using IAM authentication using the AWS CLI and mysql client&lt;/a&gt; and getting this error?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ERROR 1045 (28000): Access denied for user ‘user1’@‘172.31.9.140’ (using password: YES)&lt;/p&gt;
 &lt;/blockquote&gt;

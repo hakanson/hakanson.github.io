@@ -55,12 +55,16 @@ const Bio = () => {
         {` `}
         Multi-Cloud Certified Architect | DevSecOps | AppSec | Web Platform | Speaker | Learner | Builder
         <br></br>
-        <a href={`https://twitter.com/${social.twitter}`}>
-          Twitter
-        </a>
-        {` | `}
         <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
           LinkedIn
+        </a>
+        {` | `}
+        <a href={`https://bsky.app/profile/hakanson.bsky.social`}>
+          Bluesky
+        </a>
+        {` | `}
+        <a href={`https://x.com/${social.twitter}`}>
+          X
         </a>
         {` | `}
         <a href={`https://github.com/${social.github}`}>

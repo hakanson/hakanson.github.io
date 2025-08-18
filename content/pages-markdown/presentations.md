@@ -11,11 +11,29 @@ Descriptions and links to various presentations from Kevin Hakanson.
 Kevin Hakanson is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.
 
 ---
+### Architecture diagrams with generative AI: Leveraging AI agents (ARC306)
+
+Master the use of generative AI-powered software agents for creating and analyzing architecture diagrams and technical documentation. Learn to work with various diagram formats, from images to diagram-as-code representations. Explore chat-based workflows that leverage Model Context Protocol (MCP) servers for enhanced capabilities. Practice integrating custom context rules, example diagrams, and enterprise knowledge sources. Gain hands-on experience building effective architect profiles for AI-powered documentation workflows.
+
+* AWS re:Invent 2025 (1 December 2025 - 5 December 2025)
+
 ### Securing GenAI apps: Fine-grained access control for Bedrock Agents (IAM451)
 
 Want to secure generative AI applications accessing your organizational data? Learn how to implement intelligent access controls for Amazon Bedrock-powered applications accessing your organizational data. In this builders' session, you'll build a defense-in-depth approach that combines authentication using Amazon Cognito and fine-grained authorization with Amazon Verified Permissions to secure access for Bedrock AI agents. Implement layered permissions that protect sensitive data without limiting your GenAI capabilities. You must bring your laptop to participate.
 
 * AWS re:Inforce 2025 (16 June 2025 - 18 June 2025)
+
+### Designing complex authorization systems with Cedar (SEC402)
+
+Imagine delegating access to your data to multiple devices or individuals, who might do the same to you. Scary? Improbable? It’s real for industries like healthcare, where data access extends beyond humans to devices and third parties. Managing authorization becomes complex, making expression, evaluation, and governance tedious. This chalk talk explores how Cedar, an open source language, helps shape models allowing all-party access to sensitive data through impersonation or delegation, with limit of time, and consent to align with privacy-by-design principles. By exploring examples in this talk, developers and architects gain knowledge to build secure, compliant, and trusted authorization systems.
+
+* AWS Summit Washington, DC (10 June 2025 - 11 June 2025)
+
+### Containers or serverless functions: A path for cloud-native success (SVS201)
+
+In this session, explore the fundamental differences between containers and serverless functions. Investigate real-world scenarios to gain insights into choosing the right approach based on workload requirements, deployment scenarios, and operations. Understand the architectural, scalability, and operational contrasts between these pivotal cloud technologies. Finally, discover synergies in combining them to leverage their collective strengths. Leave with a clear understanding of when to use containers, serverless functions, or a hybrid model for your application needs.
+
+* AWS Summit Washington, DC (10 June 2025 - 11 June 2025) (with Pranusha Manchala)
 
 ### A Conversation with your Architecture
 

@@ -1,0 +1,6 @@
+{
+  "name": "gatsby-remark-source-name",
+  "version": "1.0.1",
+  "description": "Local patch: adds sourceName field to MarkdownRemark nodes (Gatsby 5 compatible)",
+  "main": "gatsby-node.js"
+}

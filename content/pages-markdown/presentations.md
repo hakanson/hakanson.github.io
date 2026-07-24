@@ -11,11 +11,30 @@ Descriptions and links to various presentations from Kevin Hakanson.
 Kevin Hakanson is an experienced Software Architect focused on highly scalable web applications, especially the JavaScript and security aspects. His background includes both .NET and Java, but he is most nostalgic about Lotus Notes. He has been developing professionally since 1994 and holds a Master’s degree in Software Engineering. When not staring at a computer screen, he is probably staring at another screen, either watching TV or playing video games with his family.
 
 ---
-### Architecture diagrams with generative AI: Leveraging AI agents (ARC306)
+### Productivity as code: Using Kiro beyond development (DVT314)
+
+Kiro is more than a coding assistant. It's a personal productivity workspace that keeps your tools, notes, and daily workflows in one place. This code talk explores practical patterns for using Kiro beyond development. Learn how MCP servers bring external tools and data directly into your workflow. See how steering files reduce repetitive prompt setup, hooks automate routine tasks, and powers add packaged capabilities on demand. Through collaborative discussion, discover how to optimize your personal workflows outside of just coding.
+
+* AWS Summit Washington, DC (30 June 2026 - 1 July 2026)
+
+### Design authentication, authorization, and logging logic in Agentic AI apps
+
+This hands-on workshop addresses the critical challenge of managing identities and permissions for generative AI agents. Learn to implement user and machine authentication, along with fine-grained authorization mechanisms, tailored for AI agents, tools, and LLMs. Explore consent management and permission delegation in AI contexts. Participants will gain practical experience using AWS's latest services, including Strands SDK, Amazon Bedrock AgentCore Identity, Amazon Cognito for identity management, and Amazon Verified Permissions for authorization decisions. By the end, you'll have the skills to enhance security and compliance in your AI operations using AWS's cutting-edge identity and access management solutions. You must bring your laptop to participate.
+
+* AWS Summit Washington, DC (30 June 2026 - 1 July 2026)
+
+### Secure and build apps in minutes with Amazon Verified Permissions (SEC312)
+
+Learn how to implement robust API authorization in applications within minutes using the new Amazon Verified Permissions Express Toolkit. Move beyond complex, embedded authorization logic that becomes unmanageable over time. In this hands-on session, you'll build a secure API layer using policy-based authorization, separating security concerns from business logic. By the end of this session, you'll understand how to define fine-grained permissions using Cedar policies, integrate with identity providers, and enforce consistent authorization across your express.js application — all while writing minimal code.
+
+* AWS re:Invent 2025 (1 December 2025 - 5 December 2025) ( [workshop][58] )
+
+### Architecture diagrams with generative AI: Leveraging AI agents
 
 Master the use of generative AI-powered software agents for creating and analyzing architecture diagrams and technical documentation. Learn to work with various diagram formats, from images to diagram-as-code representations. Explore chat-based workflows that leverage Model Context Protocol (MCP) servers for enhanced capabilities. Practice integrating custom context rules, example diagrams, and enterprise knowledge sources. Gain hands-on experience building effective architect profiles for AI-powered documentation workflows.
 
-* AWS re:Invent 2025 (1 December 2025 - 5 December 2025)
+* AWS re:Invent 2025 (1 December 2025 - 5 December 2025) ( [workshop][57] )
+* AWS Summit Washington, DC (30 June 2026 - 1 July 2026)
 
 ### Securing GenAI apps: Fine-grained access control for Bedrock Agents (IAM451)
 
@@ -313,3 +332,5 @@ In this session, you will learn the ins-and-outs of building an eCommerce site w
 [54]: https://github.com/hakanson/that2024/blob/main/Fine-Grained%20Authorization%20in%20Modern%20Software%20Applications.pdf
 [55]: https://github.com/hakanson/that2024
 [56]: https://catalog.workshops.aws/generative-ai-architecture-diagrams
+[57]: https://catalog.workshops.aws/architecture-diagrams-ai-agents
+[58]: https://catalog.us-east-1.prod.workshops.aws/workshops/1d87b77a-c6cd-4024-bd56-a8e4517f3d2d

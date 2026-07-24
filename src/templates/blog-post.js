@@ -15,12 +15,6 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Seo
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-          canonical={post.frontmatter.canonical}
-        />
-
         <nav>
           <ul
             style={{
@@ -89,9 +83,23 @@ class BlogPostTemplate extends React.Component {
 
 export default BlogPostTemplate
 
+export const Head = ({ data, location }) => {
+  const post = data.markdownRemark
+  return (
+    <Seo
+      title={post.frontmatter.title}
+      description={post.frontmatter.description || post.excerpt}
+      canonical={post.frontmatter.canonical}
+      pathname={location.pathname}
+      siteMetadata={data.site.siteMetadata}
+    />
+  )
+}
+
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
+      ...SeoSiteMetadata
       siteMetadata {
         title
         author

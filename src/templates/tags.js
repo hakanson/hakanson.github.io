@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 // Components
 import { Link, graphql } from "gatsby"
@@ -19,7 +18,6 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <Layout location={`/tags/${tag}`} title={title}>
-    <Seo title={`#${tag}`} />
     <nav>
       <ul
         style={{
@@ -70,40 +68,20 @@ const Tags = ({ pageContext, data }) => {
   )
 }
 
-Tags.propTypes = {
-    pageContext: PropTypes.shape({
-        tag: PropTypes.string.isRequired,
-    }),
-    data: PropTypes.shape({
-        allMarkdownRemark: PropTypes.shape({
-            totalCount: PropTypes.number.isRequired,
-            edges: PropTypes.arrayOf(
-                PropTypes.shape({
-                    node: PropTypes.shape({
-                        frontmatter: PropTypes.shape({
-                            title: PropTypes.string.isRequired,
-                            date: PropTypes.string.isRequired,
-                        }),
-                        fields: PropTypes.shape({
-                            slug: PropTypes.string.isRequired,
-                        }),
-                    }),
-                }).isRequired
-            ),
-        }),
-        site: PropTypes.shape({
-            siteMetadata: PropTypes.shape({
-                title: PropTypes.string.isRequired,
-            }),
-        }),
-    }),
-}
-
 export default Tags
+
+export const Head = ({ pageContext, data, location }) => (
+  <Seo
+    title={`#${pageContext.tag}`}
+    pathname={location.pathname}
+    siteMetadata={data.site.siteMetadata}
+  />
+)
 
 export const pageQuery = graphql`
   query($tag: String) {
     site {
+        ...SeoSiteMetadata
         siteMetadata {
           title
         }

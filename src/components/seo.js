@@ -1,97 +1,54 @@
 /**
- * Seo component that queries for data with
- *  Gatsby's useStaticQuery React hook
+ * Seo component for use inside a page's `Head` export.
  *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
+ * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
+ *
+ * The Head API cannot use `useStaticQuery`, so site metadata has to arrive via
+ * the page's own GraphQL query. Spread the `SeoSiteMetadata` fragment below
+ * into each page query and hand `data.site.siteMetadata` to this component.
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import * as React from "react"
+import { graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title, canonical }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-            social {
-              twitter
-            }
-          }
-        }
-      }
-    `
-  )
+const Seo = ({ title, description, canonical, pathname, siteMetadata }) => {
+  const metaDescription = description || siteMetadata.description
+  const twitter = siteMetadata.social.twitter
 
-  const metaDescription = description || site.siteMetadata.description
+  // Replaces gatsby-plugin-react-helmet-canonical-urls: default the canonical
+  // URL to this page's own absolute URL, but let a page override it (used by
+  // posts that were originally published elsewhere).
+  const siteUrl = siteMetadata.siteUrl.replace(/\/$/, ``)
+  const canonicalUrl = canonical || (pathname ? `${siteUrl}${pathname}` : null)
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      link={
-       canonical
-        ? [{ rel: 'canonical', key: canonical, href: canonical }]
-        : []
-      }
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: "@" + site.siteMetadata.social.twitter,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+    <>
+      <html lang="en" />
+      <title>{`${title} | ${siteMetadata.title}`}</title>
+      <meta name="description" content={metaDescription} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:creator" content={`@${twitter}`} />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={metaDescription} />
+      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    </>
   )
-}
-
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-  canonical: PropTypes.string
 }
 
 export default Seo
+
+export const query = graphql`
+  fragment SeoSiteMetadata on Site {
+    siteMetadata {
+      title
+      description
+      siteUrl
+      social {
+        twitter
+      }
+    }
+  }
+`

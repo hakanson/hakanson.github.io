@@ -241,18 +241,10 @@ module.exports = {
     },
     // `gatsby-plugin-offline`,  // comment out when: gatsby serve
     `gatsby-plugin-remove-serviceworker`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-      options: {
-        siteUrl: `https://kevinhakanson.com`,
-        //noTrailingSlash: true,
       },
     },
   ],

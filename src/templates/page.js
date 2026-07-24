@@ -14,10 +14,6 @@ class PageTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Seo
-          title={page.frontmatter.title}
-        />
-
         <nav>
           <ul
             style={{
@@ -76,9 +72,18 @@ class PageTemplate extends React.Component {
 
 export default PageTemplate
 
+export const Head = ({ data, location }) => (
+  <Seo
+    title={data.markdownRemark.frontmatter.title}
+    pathname={location.pathname}
+    siteMetadata={data.site.siteMetadata}
+  />
+)
+
 export const pageQuery = graphql`
   query PageBySlug($slug: String!) {
     site {
+      ...SeoSiteMetadata
       siteMetadata {
         title
         author

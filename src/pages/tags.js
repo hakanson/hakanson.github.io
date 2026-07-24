@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 // Components
 import Layout from "../components/layout"
@@ -20,7 +19,6 @@ const TagsPage = ({
   },
 }) => (
     <Layout location="/tags" title={title}>
-        <Seo title="All Tags" />
         <nav>
           <ul
             style={{
@@ -60,29 +58,20 @@ const TagsPage = ({
     </Layout>
 )
 
-TagsPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      group: PropTypes.arrayOf(
-        PropTypes.shape({
-          fieldValue: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
-        }).isRequired
-      ),
-    }),
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }),
-    }),
-  }),
-}
-
 export default TagsPage
+
+export const Head = ({ data, location }) => (
+  <Seo
+    title="All Tags"
+    pathname={location.pathname}
+    siteMetadata={data.site.siteMetadata}
+  />
+)
 
 export const pageQuery = graphql`
   query {
     site {
+      ...SeoSiteMetadata
       siteMetadata {
         title
       }

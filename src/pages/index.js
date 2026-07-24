@@ -16,7 +16,6 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Seo title="All Posts" />
         <nav>
           <ul
             style={{
@@ -93,9 +92,18 @@ class BlogIndex extends React.Component {
 
 export default BlogIndex
 
+export const Head = ({ data, location }) => (
+  <Seo
+    title="All Posts"
+    pathname={location.pathname}
+    siteMetadata={data.site.siteMetadata}
+  />
+)
+
 export const pageQuery = graphql`
   query {
     site {
+      ...SeoSiteMetadata
       siteMetadata {
         title
       }
